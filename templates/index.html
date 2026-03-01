@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Xorazm shevasi tarjimoni</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="logo">
+      <span class="logo-text">Xorazm shevasi tarjimoni</span>
+    </div>
+    <div class="dict-badge">Lug'at: {{ dict_size }} ta so'z</div>
+  </header>
+
+  <main class="main">
+    <div class="translator-card">
+
+      <!-- Til sarlavhalari -->
+      <div class="lang-bar">
+        <div class="lang-label">
+          <span class="lang-dot dot-source"></span>
+          Xorazm shevasi
+        </div>
+        <div class="lang-arrow">→</div>
+        <div class="lang-label">
+          <span class="lang-dot dot-target"></span>
+          O'zbek adabiy tili
+        </div>
+      </div>
+
+      <!-- Tarjima panellari -->
+      <div class="panels">
+        <!-- Kirish paneli -->
+        <div class="panel panel-source">
+          <textarea
+            id="source-text"
+            class="text-area"
+            placeholder="Xorazm shevasida matn kiriting..."
+            autofocus
+            spellcheck="false"
+          ></textarea>
+          <div class="panel-footer">
+            <span id="char-count" class="char-count">0 belgi</span>
+            <button id="clear-btn" class="btn btn-ghost" title="Tozalash">
+              ✕ Tozalash
+            </button>
+          </div>
+        </div>
+
+        <!-- Chiqish paneli -->
+        <div class="panel panel-target">
+          <div id="target-text" class="text-area text-area-output" aria-live="polite">
+            <span class="placeholder-hint">Tarjima shu yerda chiqadi...</span>
+          </div>
+          <div class="panel-footer">
+            <span id="stats-text" class="stats-text"></span>
+            <button id="copy-btn" class="btn btn-ghost" title="Nusxalash" disabled>
+              📋 Nusxalash
+            </button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Qo'shimcha ma'lumot -->
+    <p class="info-text">
+      Tarjimon so'zma-so'z almashtirish usulidan foydalanadi.
+      Lug'atda topilmagan so'zlar o'zgartirilmay qoladi.
+    </p>
+  </main>
+
+  <footer class="footer">
+    <span>Diplom loyiha </span>
+  </footer>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
