@@ -85,7 +85,7 @@ body {
 
 .translator-card {
   width: 100%;
-  max-width: 960px;
+  max-width: 1360px;
   background: var(--surface);
   border-radius: var(--radius);
   box-shadow: var(--shadow);
@@ -178,7 +178,8 @@ body {
   user-select: text;
 }
 
-.placeholder-hint {
+#target-text:empty::before {
+  content: 'Tarjima shu yerda chiqadi...';
   color: var(--text-secondary);
   font-style: italic;
 }

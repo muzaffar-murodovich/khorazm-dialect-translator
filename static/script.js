@@ -60,7 +60,7 @@ async function doTranslate() {
 }
 
 function showPlaceholder() {
-  targetText.innerHTML = '<span class="placeholder-hint">Tarjima shu yerda chiqadi...</span>';
+  targetText.textContent = "";
 }
 
 // --- Debounce: 350ms kutgandan so'ng so'rov yuboriladi ---
