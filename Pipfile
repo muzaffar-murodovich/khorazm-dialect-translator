@@ -6,8 +6,12 @@ name = "pypi"
 [packages]
 beautifulsoup4 = "*"
 flask = "*"
+numpy = "*"
+pandas = "*"
+openpyxl = "*"
 
 [dev-packages]
+ipykernel = "*"
 
 [requires]
 python_version = "3.14"
