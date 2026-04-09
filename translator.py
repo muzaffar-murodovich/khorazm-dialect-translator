@@ -91,14 +91,11 @@ _VERB_SUFFIXES_SORTED = sorted(VERB_SUFFIX_MAP.keys(), key=len, reverse=True)
 
 
 # 3b. Sheva fe'l ildizlari → adabiy fe'l ildizlari
-# fromexcel.csv dan avtomatik chiqarilgan + qo'lda to'ldirilgan
 VERB_ROOT_MAP: dict[str, str] = {
     # Asosiy harakat fe'llari (qo'lda)
     "gal":      "kel",       # galaman → kelmoqman
     "gat":      "ket",       # gataman → ketmoqman
     "bar":      "bor",       # barmaq → bormoq
-
-    # fromexcel.csv dan avtomatik
     "ayr":      "ayir",      # ayirmaq → ayirmoq
     "arala":    "yarash",    # aralamaq → yarashtirmoq
     "art":      "tozala",    # aritmoq → tozalamoq
