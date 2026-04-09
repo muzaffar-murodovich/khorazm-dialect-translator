@@ -3,7 +3,7 @@
 __pycache__/
 venv/
 *.pyc
-server-info.md
-gunicorn-translator.service
-translator.nginx
-server-setup.sh
+deploy/server-info.md
+deploy/server-setup.sh
+deploy/gunicorn-translator.service
+deploy/translator.nginx
