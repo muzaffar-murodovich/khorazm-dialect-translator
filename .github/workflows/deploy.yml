@@ -18,7 +18,6 @@ jobs:
           host: ${{ secrets.SERVER_IP }}
           username: ${{ secrets.SERVER_USER }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
-          fingerprint: SHA256:O1WPykb6uWKQyg7iYw1Q/7Ry2Jpk0jfLMkXi89h+0DI
           script: |
             cd ~/translator
             git restore .
