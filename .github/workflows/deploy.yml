@@ -20,6 +20,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           script: |
             cd ~/translator
+            git restore .
             git pull origin master
             source venv/bin/activate
             pip install -r requirements.txt --quiet
