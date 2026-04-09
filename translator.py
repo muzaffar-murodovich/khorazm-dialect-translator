@@ -2,52 +2,33 @@ import csv
 import re
 import os
 
-# --- Kirill → Lotin lug'ati (scraper.py dan olingan) ---
+# ---------------------------------------------------------------------------
+# 1. Kirill → Lotin transliteratsiya
+# ---------------------------------------------------------------------------
 translit_map = {
-    "А": "A", "а": "a",
-    "Б": "B", "б": "b",
-    "В": "V", "в": "v",
-    "Г": "G", "г": "g",
-    "Д": "D", "д": "d",
-    "Е": "E", "е": "e",
-    "Ё": "Yo", "ё": "yo",
-    "Ж": "J", "ж": "j",
-    "З": "Z", "з": "z",
-    "И": "I", "и": "i",
-    "Й": "Y", "й": "y",
-    "К": "K", "к": "k",
-    "Л": "L", "л": "l",
-    "М": "M", "м": "m",
-    "Н": "N", "н": "n",
-    "О": "O", "о": "o",
-    "П": "P", "п": "p",
-    "Р": "R", "р": "r",
-    "С": "S", "с": "s",
-    "Т": "T", "т": "t",
-    "У": "U", "у": "u",
-    "Ф": "F", "ф": "f",
-    "Х": "X", "х": "x",
-    "Ц": "Ts", "ц": "ts",
-    "Ч": "Ch", "ч": "ch",
-    "Ш": "Sh", "ш": "sh",
-    "Щ": "Sh", "щ": "sh",
-    "Ъ": "", "ъ": "",
-    "Ь": "", "ь": "",
-    "Э": "E", "э": "e",
-    "Ю": "Yu", "ю": "yu",
-    "Я": "Ya", "я": "ya",
-    "Ў": "Oʻ", "ў": "oʻ",
-    "Қ": "Q", "қ": "q",
-    "Ғ": "Gʻ", "ғ": "gʻ",
-    "Ҳ": "H", "ҳ": "h",
+    "А": "A", "а": "a", "Б": "B", "б": "b", "В": "V", "в": "v",
+    "Г": "G", "г": "g", "Д": "D", "д": "d", "Е": "E", "е": "e",
+    "Ё": "Yo", "ё": "yo", "Ж": "J", "ж": "j", "З": "Z", "з": "z",
+    "И": "I", "и": "i", "Й": "Y", "й": "y", "К": "K", "к": "k",
+    "Л": "L", "л": "l", "М": "M", "м": "m", "Н": "N", "н": "n",
+    "О": "O", "о": "o", "П": "P", "п": "p", "Р": "R", "р": "r",
+    "С": "S", "с": "s", "Т": "T", "т": "t", "У": "U", "у": "u",
+    "Ф": "F", "ф": "f", "Х": "X", "х": "x", "Ц": "Ts", "ц": "ts",
+    "Ч": "Ch", "ч": "ch", "Ш": "Sh", "ш": "sh", "Щ": "Sh", "щ": "sh",
+    "Ъ": "", "ъ": "", "Ь": "", "ь": "", "Э": "E", "э": "e",
+    "Ю": "Yu", "ю": "yu", "Я": "Ya", "я": "ya",
+    "Ў": "Oʻ", "ў": "oʻ", "Қ": "Q", "қ": "q",
+    "Ғ": "Gʻ", "ғ": "gʻ", "Ҳ": "H", "ҳ": "h",
 }
 
 
-def transliterate(text):
-    return "".join(translit_map.get(char, char) for char in text)
+def transliterate(text: str) -> str:
+    return "".join(translit_map.get(ch, ch) for ch in text)
 
 
-# O'zbek tili qo'shimchalari (uzundan qisqaga — avval uzunini tekshirish)
+# ---------------------------------------------------------------------------
+# 2. Umumiy nom suffikslari (kelishik, ko'plik)
+# ---------------------------------------------------------------------------
 SUFFIXES = [
     "larning", "lardan", "larga", "larni", "larda",
     "ning", "dan", "dagi", "dek", "day", "ga", "da", "ni",
@@ -55,14 +36,208 @@ SUFFIXES = [
     "lar", "ing", "im",
 ]
 
+# ---------------------------------------------------------------------------
+# 3. Fe'l morfologiyasi
+# ---------------------------------------------------------------------------
+
+# 3a. Sheva fe'l suffikslari → adabiy fe'l suffikslari
+# Uzundan qisqaga tartibda (avval uzunini sinab ko'rish)
+VERB_SUFFIX_MAP: dict[str, str] = {
+    # Ko'plik shaxs shakllari
+    "moqdalar": "moqdalar",
+    "dilar":    "dilar",
+    # Hozirgi-kelasi zamon
+    "avdir":    "yotir",     # kelayotir (davomiy)
+    "adir":     "yotir",
+    "aman":     "moqman",    # 1-shaxs birlik
+    "asan":     "moqsan",    # 2-shaxs birlik
+    "amiz":     "moqmiz",    # 1-shaxs ko'plik
+    "asiz":     "moqsiz",    # 2-shaxs ko'plik
+    "alar":     "moqdalar",  # 3-shaxs ko'plik
+    "adi":      "moqda",     # 3-shaxs birlik
+    # O'tgan zamon
+    "dilar":    "dilar",
+    "ding":     "ding",
+    "dik":      "dik",
+    "diz":      "diz",
+    "dim":      "dim",
+    "di":       "di",
+    # Buyruq mayli
+    "gʼin":    "gin",
+    "gin":      "gin",
+    # Shart mayli
+    "sagina":   "sangchi",
+    "sang":     "sang",
+    "sam":      "sam",
+    "sa":       "sa",
+    # Sifatdosh / ravishdosh
+    "gʼan":    "gan",
+    "magan":    "magan",
+    "gan":      "gan",
+    "may":      "may",
+    "ib":       "ib",
+    # Inkor
+    "ma":       "ma",
+    # Infinitiv
+    "maq":      "moq",
+    "mak":      "moq",
+    "mәk":      "moq",
+    # Qisqa ravishdosh
+    "b":        "b",
+}
+
+# Suffikslarni uzunlikka qarab tartiblash (noto'g'ri o'qilishni oldini olish)
+_VERB_SUFFIXES_SORTED = sorted(VERB_SUFFIX_MAP.keys(), key=len, reverse=True)
+
+
+# 3b. Sheva fe'l ildizlari → adabiy fe'l ildizlari
+# fromexcel.csv dan avtomatik chiqarilgan + qo'lda to'ldirilgan
+VERB_ROOT_MAP: dict[str, str] = {
+    # Asosiy harakat fe'llari (qo'lda)
+    "gal":      "kel",       # galaman → kelmoqman
+    "gat":      "ket",       # gataman → ketmoqman
+    "bar":      "bor",       # barmaq → bormoq
+
+    # fromexcel.csv dan avtomatik
+    "ayr":      "ayir",      # ayirmaq → ayirmoq
+    "arala":    "yarash",    # aralamaq → yarashtirmoq
+    "art":      "tozala",    # aritmoq → tozalamoq
+    "basr":     "bosir",     # basirmaq → bostirmoq
+    "dag":      "tarqa",     # dagilmaq → tarqalmoq
+    "dad":      "tati",      # dadimaq → tatimoq
+    "dar":      "komakla",   # darimaq → ko'maklashmoq
+    "dasla":    "qir",       # daslamaq → qirmoq
+    "daya":     "suya",      # dayamaq → suyamoq
+    "dayn":     "siypan",    # dayinmoq → siypanmoq
+    "dog":      "tug",       # dogmaq → tug'moq
+    "doq":      "sovqot",    # doqmaq → sovqotmoq
+    "dun":      "tin",       # dunmaq → tinmoq
+    "dunt":     "tinit",     # duntmaq → tinitmoq
+    "dura":     "urchi",     # duramaq → urchimoq
+    "dushiq":   "duch kel",  # dushiqmaq → duch kelmoq
+    "dөn":      "ayni",      # donmak → aynimoq
+    "dөrәt":    "yarat",     # doratmak → yaratmoq
+    "dөv":      "tuy",       # dovmak → tuymoq
+    "gүdүrlә":  "guldira",   # gudurlamak → guldiramoq
+    "gүlisha":  "kulish",    # gulishamak → kulishmoq
+    "gөy":      "kuy",       # goymak → kuymoq
+    "kәp":      "quri",      # kapmak → qurimoq
+    "kәvi":     "qaqra",     # kavimak → qaqramoq
+    "saga":     "sogay",     # sagalmaq → sog'aymoq
+    "sal":      "chayqa",    # sallanmaq → chayqalmoq
+    "salbra":   "shalvira",  # salbiramaq → shalviramoq
+    "sandra":   "valdira",   # sandramaq → valdiramoq
+    "sap":      "ula",       # sapmaq → ulamoq
+    "sara":     "sargay",    # saralmoq → sarg'aymoq
+    "sav":      "sov",       # savmaq → sovmoq
+    "say":      "sava",      # saymaq → savamoq
+    "saz":      "oz",        # sazmaq → ozmoq
+    "suvar":    "sugor",     # suvarmaq → sug'ormoq
+    "sүmür":    "shimir",    # sumurмак → shimirmoq
+    "sүndik":   "kokil",     # sundikmak → ko'kilmoq
+    "sүrrә":    "sudra",     # surramak → sudramoq
+    "sүy":      "sev",       # suymak → sevmoq
+    "sүyrә":    "sudra",     # suyrамак → sudramoq
+    "sөv":      "sev",       # sovmak → sevmoq
+    "sөvүn":    "suyun",     # sovunmak → suyunmoq
+    "sөylә":    "sozla",     # soylamas → sozlamoq
+    "yagla":    "yigla",     # yaglamaq → yig'lamoq
+    "yagna":    "yig",       # yagnamaq → yig'moq
+    "yallqa":   "komakla",   # yalliqamaq → ko'maklashmoq
+    "yalpash":  "agna",      # yalpashmaq → ag'namoq
+    "yantash":  "yondash",   # yantashmaq → yondashmoq
+    "yaq":      "yangli",    # yaqilmaq → yanglishmoq
+    "yar":      "yolchi",    # yarimaq → yolchimoq
+    "yatr":     "yotqiz",    # yatirmaq → yotqizmoq
+    "yayna":    "yayra",     # yaynamaq → yayramoq
+    "yaz":      "yoz",       # yazmaq → yozmoq
+    "yazdr":    "boshat",    # yazdirmaq → bo'shatmoq
+    "yeg":      "hayda",     # yegmak → haydamoq
+    "yegla":    "yigla",     # yeglamaq → yig'lamoq
+    "yejәsh":   "ochakish",  # yejashmak → o'chakishmoq
+    "yench":    "yanch",     # yenchmak → yanchmoq
+    "yeqna":    "yig",       # yeqnamaq → yig'moq
+    "yesh":     "esh",       # yeshmak → eshmoq
+    "yet":      "yetakla",   # yetmak → yetaklamoq
+    "yetir":    "yetkaz",    # yetirmak → yetkazmoq
+    "yetәsh":   "yetak",     # yetashmak → yetaklashmoq
+    "yey":      "eg",        # yeymak → egmoq
+    "yeyi":     "yoz",       # yeyilmak → yozilmoq
+    "yeyәr":    "ergash",    # yeyermak → ergashmoq
+    "ygir":     "burish",    # ygirmaq → burishtirmoq
+    "yigna":    "yeng",      # yignamaq → yengmoq
+    "yili":     "jil",       # yilimak → jilmoq
+    "yiq":      "yiqit",     # yiqmaq → yiqitmoq
+    "yuvan":    "yupan",     # yuvanmaq → yupanmoq
+    "yүqlә":    "rivojlan",  # yuqlamas → rivojlanmoq
+    "yүri":     "yur",       # yurimas → yurmoq
+    "yүyir":    "yugur",     # yuyirmas → yugurmoq
+    "yүzikish": "uchrash",   # yuzikishmak → uchrashmoq
+}
+
+
+def _normalize(word: str) -> str:
+    """
+    Sheva yozuvida uchraydigan variant belgilarni standartlashtiradi.
+    Masalan: ø → ө, ü → ү, va hokazo.
+    """
+    table = str.maketrans({
+        "ø": "ө", "ö": "ө",
+        "ü": "ү", "ú": "ү",
+        "ʼ": "", "ʻ": "", "'": "",
+        "\u02BC": "",
+    })
+    return word.translate(table)
+
+
+def strip_verb_suffix(word: str) -> tuple[str, str] | tuple[None, None]:
+    """
+    So'zdan sheva fe'l suffiksini ajratadi.
+    Qaytaradi: (ildiz, suffix) yoki (None, None)
+    """
+    w = _normalize(word.lower())
+    for suf in _VERB_SUFFIXES_SORTED:
+        if w.endswith(suf) and len(w) > len(suf) + 1:
+            root = w[: -len(suf)]
+            if len(root) >= 2:
+                return root, suf
+    return None, None
+
+
+def translate_verb(word: str) -> str | None:
+    """
+    Sheva fe'lini morfologik tahlil qilib adabiy shaklga o'tkazadi.
+    1. Suffiksni ajratadi
+    2. Sheva ildizini adabiy ildizga almashtiradi
+    3. Sheva suffiksini adabiy suffiksga almashtiradi
+    4. Birlashtiradi
+    Agar tarjima topilmasa None qaytaradi.
+    """
+    normalized = _normalize(word.lower())
+    root, sheva_suf = strip_verb_suffix(normalized)
+    if root is None:
+        # Suffikssiz — to'liq so'zni ildiz sifatida qidirish
+        adabiy_root = VERB_ROOT_MAP.get(normalized)
+        return adabiy_root if adabiy_root else None
+
+    adabiy_root = VERB_ROOT_MAP.get(root)
+    if adabiy_root is None:
+        return None
+
+    adabiy_suf = VERB_SUFFIX_MAP.get(sheva_suf, sheva_suf)
+    return adabiy_root + adabiy_suf
+
+
+# ---------------------------------------------------------------------------
+# 4. Lug'at yuklash
+# ---------------------------------------------------------------------------
 
 def _extract_short_meaning(meaning_latin: str) -> str | None:
     """
     Meaning matnidan tarjimaga yaraqli qisqa alternativni ajratib oladi.
     - <= 6 so'z bo'lsa, to'liq ishlatiladi
-    - Uzun bo'lsa, vergul yoki nuqtagacha bo'lgan birinchi qism tekshiriladi
-    - Agar birinchi qism <= 3 so'z bo'lsa, uni qaytaradi
-    - Aks holda None qaytaradi (tarjimada ishlatilmaydi)
+    - Uzun bo'lsa, vergul/nuqtagacha bo'lgan birinchi qism tekshiriladi (<=3 so'z)
+    - Aks holda None qaytaradi
     """
     meaning = meaning_latin.strip()
     if not meaning or meaning.lower() == "nan":
@@ -72,7 +247,6 @@ def _extract_short_meaning(meaning_latin: str) -> str | None:
     if len(words) <= 6:
         return meaning
 
-    # Vergul yoki nuqtaga qadar bo'lgan birinchi qismni olish
     for sep in [",", "."]:
         idx = meaning.find(sep)
         if idx != -1:
@@ -85,9 +259,8 @@ def _extract_short_meaning(meaning_latin: str) -> str | None:
 
 def load_dictionary(csv_path: str) -> tuple[dict, dict]:
     """
-    CSV faylni yuklaydi va ikkita lug'at qaytaradi:
-    - single_dict: {lowercase_word: translation}
-    - phrase_dict: {lowercase_phrase: translation}  (ko'p so'zli iboralar)
+    CSV faylni yuklaydi.
+    Qaytaradi: (single_dict, phrase_dict)
     """
     single_dict: dict[str, str] = {}
     phrase_dict: dict[str, str] = {}
@@ -108,12 +281,9 @@ def load_dictionary(csv_path: str) -> tuple[dict, dict]:
             if not short:
                 continue
 
-            key = title_lat.lower().strip()
+            key = re.sub(r"\(.*?\)", "", title_lat.lower().strip()).strip()
             if not key:
                 continue
-
-            # Qavslarni tozalash: "Azib ichar (variant)" → "azib ichar"
-            key = re.sub(r"\(.*?\)", "", key).strip()
 
             if " " in key:
                 phrase_dict[key] = short
@@ -123,8 +293,14 @@ def load_dictionary(csv_path: str) -> tuple[dict, dict]:
     return single_dict, phrase_dict
 
 
+# ---------------------------------------------------------------------------
+# 5. Yordamchi funksiyalar
+# ---------------------------------------------------------------------------
+
 def _match_case(original: str, replacement: str) -> str:
     """Asl so'z registrini tarjimaga ko'chiradi."""
+    if not replacement:
+        return replacement
     if original.isupper():
         return replacement.upper()
     if original[0].isupper():
@@ -132,8 +308,11 @@ def _match_case(original: str, replacement: str) -> str:
     return replacement
 
 
-def _strip_suffix(word: str) -> list[str]:
-    """So'zdan qo'shimchalarni qirqib, mumkin bo'lgan ildizlarni qaytaradi."""
+def _strip_suffix(word: str) -> list[tuple[str, str]]:
+    """
+    Nom va boshqa so'z turkumlari uchun qo'shimcha qirqish.
+    Qaytaradi: [(ildiz, qo'shimcha), ...]
+    """
     candidates = []
     lower = word.lower()
     for suffix in SUFFIXES:
@@ -143,7 +322,9 @@ def _strip_suffix(word: str) -> list[str]:
     return candidates
 
 
-# --- Tokenizatsiya: so'zlar va tinish belgilarini alohida saqlash ---
+# ---------------------------------------------------------------------------
+# 6. Tokenizatsiya
+# ---------------------------------------------------------------------------
 _TOKEN_RE = re.compile(r"([\w'ʻʼ\u02BC]+|[^\w'ʻʼ\u02BC]+)", re.UNICODE)
 
 
@@ -151,10 +332,26 @@ def tokenize(text: str) -> list[str]:
     return _TOKEN_RE.findall(text)
 
 
-def translate(text: str, single_dict: dict, phrase_dict: dict) -> tuple[str, int, int]:
+# ---------------------------------------------------------------------------
+# 7. Asosiy tarjima funksiyasi
+# ---------------------------------------------------------------------------
+
+def translate(
+    text: str,
+    single_dict: dict,
+    phrase_dict: dict,
+) -> tuple[str, int, int]:
     """
     Matnni tarjima qiladi.
-    Qaytaradi: (translated_text, translated_count, total_word_count)
+
+    Tarjima tartibi:
+      1. Ko'p so'zli iboralar (phrase_dict, 3 so'zgacha)
+      2. Aniq so'z (single_dict)
+      3. Fe'l morfologik tahlil (VERB_ROOT_MAP + VERB_SUFFIX_MAP)
+      4. Nom suffiksi qirqib ildizni qidirish
+      5. O'zgartirilmay qoldiriladi
+
+    Qaytaradi: (tarjima_matni, tarjima_qilingan_soni, jami_so'zlar)
     """
     tokens = tokenize(text)
     result = []
@@ -165,7 +362,7 @@ def translate(text: str, single_dict: dict, phrase_dict: dict) -> tuple[str, int
     while i < len(tokens):
         token = tokens[i]
 
-        # Tinish belgisi yoki bo'sh joy — o'zgartirmay qo'shish
+        # Tinish belgisi yoki bo'sh joy
         if not token.strip() or not re.search(r"\w", token):
             result.append(token)
             i += 1
@@ -174,18 +371,17 @@ def translate(text: str, single_dict: dict, phrase_dict: dict) -> tuple[str, int
         total_words += 1
         token_lower = token.lower()
 
-        # 1. Ko'p so'zli iboralarni tekshirish (3 so'zgacha)
+        # --- 1. Ko'p so'zli iboralar (3 va 2 so'z) ---
         found_phrase = False
         for phrase_len in (3, 2):
-            if i + (phrase_len * 2 - 1) <= len(tokens):
-                # phrase_len ta so'zni olib, oradagi bo'shliqlarni ham hisobga olish
-                phrase_tokens = tokens[i : i + phrase_len * 2 - 1]
+            end_idx = i + phrase_len * 2 - 1
+            if end_idx <= len(tokens):
+                phrase_tokens = tokens[i:end_idx]
                 phrase_words = [t for t in phrase_tokens if re.search(r"\w", t)]
                 if len(phrase_words) == phrase_len:
                     phrase_key = " ".join(w.lower() for w in phrase_words)
                     if phrase_key in phrase_dict:
-                        replacement = phrase_dict[phrase_key]
-                        replacement = _match_case(phrase_words[0], replacement)
+                        replacement = _match_case(phrase_words[0], phrase_dict[phrase_key])
                         result.append(replacement)
                         translated_count += 1
                         i += phrase_len * 2 - 1
@@ -195,22 +391,36 @@ def translate(text: str, single_dict: dict, phrase_dict: dict) -> tuple[str, int
         if found_phrase:
             continue
 
-        # 2. Alohida so'zni tekshirish
+        # --- 2. Aniq so'z mosligini tekshirish ---
         if token_lower in single_dict:
-            replacement = _match_case(token, single_dict[token_lower])
-            result.append(replacement)
+            result.append(_match_case(token, single_dict[token_lower]))
             translated_count += 1
             i += 1
             continue
 
-        # 3. Qo'shimchani qirqib ildizni qidirish
+        # --- 3. Fe'l morfologik tahlil ---
+        verb_translation = translate_verb(token_lower)
+        if verb_translation:
+            result.append(_match_case(token, verb_translation))
+            translated_count += 1
+            i += 1
+            continue
+
+        # --- 4. Nom suffiksi qirqib ildizni qidirish ---
         suffix_found = False
         for root, suffix in _strip_suffix(token):
             if root in single_dict:
-                base_translation = single_dict[root]
-                # Ildiz tarjima qilinadi, qo'shimcha o'zgartirilmay qo'shiladi
-                replacement = _match_case(token, base_translation) + suffix
-                result.append(replacement)
+                base = single_dict[root]
+                # Adabiy ildiz + original sheva suffiksi
+                # (kelishik suffikslari o'zbek tilida ham bir xil)
+                result.append(_match_case(token, base) + suffix)
+                translated_count += 1
+                suffix_found = True
+                break
+            # Fe'l ildizini ham tekshirib ko'rish
+            verb_root_trans = VERB_ROOT_MAP.get(root)
+            if verb_root_trans:
+                result.append(_match_case(token, verb_root_trans) + suffix)
                 translated_count += 1
                 suffix_found = True
                 break
@@ -219,14 +429,16 @@ def translate(text: str, single_dict: dict, phrase_dict: dict) -> tuple[str, int
             i += 1
             continue
 
-        # 4. Topilmadi — o'zgartirilmay qoldiriladi
+        # --- 5. Topilmadi ---
         result.append(token)
         i += 1
 
     return "".join(result), translated_count, total_words
 
 
-# --- Lug'atni bir marta yuklash ---
+# ---------------------------------------------------------------------------
+# 8. Lug'atni bir marta yuklash
+# ---------------------------------------------------------------------------
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 _CSV_PATH = os.path.join(_BASE_DIR, "output.csv")
 
