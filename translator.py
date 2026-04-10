@@ -91,14 +91,12 @@ _VERB_SUFFIXES_SORTED = sorted(VERB_SUFFIX_MAP.keys(), key=len, reverse=True)
 
 
 # 3b. Sheva fe'l ildizlari → adabiy fe'l ildizlari
-# fromexcel.csv dan avtomatik chiqarilgan + qo'lda to'ldirilgan
 VERB_ROOT_MAP: dict[str, str] = {
     # Asosiy harakat fe'llari (qo'lda)
     "gal":      "kel",       # galaman → kelmoqman
     "gat":      "ket",       # gataman → ketmoqman
     "bar":      "bor",       # barmaq → bormoq
 
-    # fromexcel.csv dan avtomatik
     "ayr":      "ayir",      # ayirmaq → ayirmoq
     "arala":    "yarash",    # aralamaq → yarashtirmoq
     "art":      "tozala",    # aritmoq → tozalamoq
@@ -492,16 +490,8 @@ def translate(
 # ---------------------------------------------------------------------------
 # 8. Lug'atni bir marta yuklash
 # ---------------------------------------------------------------------------
-_BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
-_CSV_PATH       = os.path.join(_BASE_DIR, "output.csv")
-_EXCEL_CSV_PATH = os.path.join(_BASE_DIR, "data & manipulating", "fromexcel.csv")
+_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+_CSV_PATH = os.path.join(_BASE_DIR, "data", "output.csv")
 
-# Asosiy lug'at (output.csv)
 single_dict, phrase_dict = load_dictionary(_CSV_PATH)
-
-# fromexcel.csv dan qo'shimcha so'zlar (agar fayl mavjud bo'lsa)
-_excel_added = 0
-if os.path.exists(_EXCEL_CSV_PATH):
-    _excel_added = load_fromexcel(_EXCEL_CSV_PATH, single_dict, phrase_dict)
-
 DICT_SIZE = len(single_dict) + len(phrase_dict)
