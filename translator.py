@@ -91,11 +91,14 @@ _VERB_SUFFIXES_SORTED = sorted(VERB_SUFFIX_MAP.keys(), key=len, reverse=True)
 
 
 # 3b. Sheva fe'l ildizlari → adabiy fe'l ildizlari
+# fromexcel.csv dan avtomatik chiqarilgan + qo'lda to'ldirilgan
 VERB_ROOT_MAP: dict[str, str] = {
     # Asosiy harakat fe'llari (qo'lda)
     "gal":      "kel",       # galaman → kelmoqman
     "gat":      "ket",       # gataman → ketmoqman
     "bar":      "bor",       # barmaq → bormoq
+
+    # fromexcel.csv dan avtomatik
     "ayr":      "ayir",      # ayirmaq → ayirmoq
     "arala":    "yarash",    # aralamaq → yarashtirmoq
     "art":      "tozala",    # aritmoq → tozalamoq
@@ -242,9 +245,16 @@ def _extract_short_meaning(meaning_latin: str) -> str | None:
 
     words = meaning.split()
     if len(words) <= 6:
+        # Ko'p ma'noli bo'lsa birinchi qismni ol: "so'z1; so'z2" → "so'z1"
+        for sep in [";", ","]:
+            idx = meaning.find(sep)
+            if idx != -1:
+                first = meaning[:idx].strip()
+                if first:
+                    return first
         return meaning
 
-    for sep in [",", "."]:
+    for sep in [";", ",", "."]:
         idx = meaning.find(sep)
         if idx != -1:
             first_part = meaning[:idx].strip()
@@ -254,9 +264,29 @@ def _extract_short_meaning(meaning_latin: str) -> str | None:
     return None
 
 
+def _insert_into_dicts(
+    key: str,
+    short_meaning: str,
+    single_dict: dict,
+    phrase_dict: dict,
+) -> None:
+    """
+    Kalitni to'g'ri lug'atga qo'shadi (agar mavjud bo'lmasa).
+    Ma'no doimo kichik harfda saqlanadi — _match_case keyin
+    original so'z registriga qarab bosh harf qo'yadi.
+    """
+    key = re.sub(r"\(.*?\)", "", key).strip()
+    if not key:
+        return
+    target = phrase_dict if " " in key else single_dict
+    if key not in target:
+        target[key] = short_meaning.lower()
+
+
 def load_dictionary(csv_path: str) -> tuple[dict, dict]:
     """
-    CSV faylni yuklaydi.
+    output.csv faylni yuklaydi (Title, Meaning ustunlari).
+    Kirill yozuvlari avtomatik transliteratsiya qilinadi.
     Qaytaradi: (single_dict, phrase_dict)
     """
     single_dict: dict[str, str] = {}
@@ -265,29 +295,55 @@ def load_dictionary(csv_path: str) -> tuple[dict, dict]:
     with open(csv_path, encoding="utf-8") as f:
         reader = csv.DictReader(f)
         for row in reader:
-            raw_title = row.get("Title", "").strip()
+            raw_title   = row.get("Title", "").strip()
             raw_meaning = row.get("Meaning", "").strip()
 
             if not raw_title or not raw_meaning:
                 continue
 
-            title_lat = transliterate(raw_title)
+            title_lat   = transliterate(raw_title)
             meaning_lat = transliterate(raw_meaning)
 
             short = _extract_short_meaning(meaning_lat)
             if not short:
                 continue
 
-            key = re.sub(r"\(.*?\)", "", title_lat.lower().strip()).strip()
-            if not key:
-                continue
-
-            if " " in key:
-                phrase_dict[key] = short
-            else:
-                single_dict[key] = short
+            key = title_lat.lower().strip()
+            _insert_into_dicts(key, short, single_dict, phrase_dict)
 
     return single_dict, phrase_dict
+
+
+def load_fromexcel(csv_path: str, single_dict: dict, phrase_dict: dict) -> int:
+    """
+    fromexcel.csv dan yangi so'zlarni mavjud lug'atga qo'shadi.
+    (dialect, literary ustunlari, Lotin yozuvi)
+
+    output.csv dagi yozuvlar USTUVOR — faqat yangi kalit qo'shiladi.
+    Qaytaradi: qo'shilgan yangi yozuvlar soni.
+    """
+    added = 0
+
+    with open(csv_path, encoding="utf-8") as f:
+        reader = csv.DictReader(f)
+        for row in reader:
+            dialect  = row.get("dialect", "").strip()
+            literary = row.get("literary", "").strip()
+
+            if not dialect or not literary:
+                continue
+            if literary.lower() in ("nan", "mavjud emas", "not attested"):
+                continue
+
+            short = _extract_short_meaning(literary)
+            if not short:
+                continue
+
+            key = re.sub(r"\s+", " ", dialect.lower().strip())
+            _insert_into_dicts(key, short, single_dict, phrase_dict)
+            added += 1
+
+    return added
 
 
 # ---------------------------------------------------------------------------
@@ -436,8 +492,16 @@ def translate(
 # ---------------------------------------------------------------------------
 # 8. Lug'atni bir marta yuklash
 # ---------------------------------------------------------------------------
-_BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-_CSV_PATH = os.path.join(_BASE_DIR, "data", "output.csv")
+_BASE_DIR       = os.path.dirname(os.path.abspath(__file__))
+_CSV_PATH       = os.path.join(_BASE_DIR, "output.csv")
+_EXCEL_CSV_PATH = os.path.join(_BASE_DIR, "data & manipulating", "fromexcel.csv")
 
+# Asosiy lug'at (output.csv)
 single_dict, phrase_dict = load_dictionary(_CSV_PATH)
+
+# fromexcel.csv dan qo'shimcha so'zlar (agar fayl mavjud bo'lsa)
+_excel_added = 0
+if os.path.exists(_EXCEL_CSV_PATH):
+    _excel_added = load_fromexcel(_EXCEL_CSV_PATH, single_dict, phrase_dict)
+
 DICT_SIZE = len(single_dict) + len(phrase_dict)
