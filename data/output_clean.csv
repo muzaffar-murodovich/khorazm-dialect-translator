@@ -192,6 +192,8 @@ buyurgun,indin
 buyurmogʻon,keraksiz
 buyurmogʻon,yomon narsa
 buziq,hulqi yomon
+
+bashqa, boshqa
 chak,tort
 chakar,xoda
 chakida,chakki
@@ -632,6 +634,7 @@ hoʻsh,xayr
 hoʻshroʻy,chiroyli
 hoʻviz,hovuz
 hurkak,qoʻrqoq
+hormo, horma
 ibi,hov
 ibiyay,hov-hov
 ich,qorin
@@ -932,6 +935,8 @@ nazarlamak,nishonga olmoq
 nera,qayerga
 nichik,qalay
 nichik,qanday
+nichiksiz, qandaysiz
+nichiksan, qandaysan
 nigirik devor,sinch devor
 nimkolo,toʻkis emas
 nishatin,nima qilay
@@ -2567,3 +2572,5 @@ engilmoq,egilmoq
 eyilmoq,egilmoq
 engsadan deyish,asabga tegish
 engshashmak,gap talashmoq
+nagap, nima gap
+nagaplar, nima gaplar

@@ -30,9 +30,18 @@ def transliterate(text: str) -> str:
 # 2. Umumiy nom suffikslari (kelishik, koʻplik)
 # ---------------------------------------------------------------------------
 SUFFIXES = [
+    # Mavjudlar (uzun)
     "larning", "lardan", "larga", "larni", "larda",
+    # Yangi (uzun birinchi)
+    "sizlik", "lilik", "chilik",
+    "likdan", "likka", "likni", "likda",
+    # Mavjudlar (o'rta)
     "ning", "dan", "dagi", "dek", "day", "ga", "da", "ni",
     "ingiz", "imiz", "lari", "gina",
+    # Yangi (o'rta)
+    "lik", "chi", "siz", "li",
+    "roq",
+    # Mavjudlar (qisqa)
     "lar", "ing", "im",
 ]
 
