@@ -5,7 +5,7 @@
 # Mavjud ochiqkurs loyihasi bilan birga ishlaydi
 # ============================================================
 # Ishlatish:
-#   1. Loyiha fayllarini serverga ko'chiring (pastda ko'rsatilgan)
+#   1. Loyiha fayllarini serverga koʻchiring (pastda koʻrsatilgan)
 #   2. SSH orqali serverga kiring: ssh deploy@46.62.145.27
 #   3. chmod +x ~/translator/deploy.sh && ~/translator/deploy.sh
 # ============================================================

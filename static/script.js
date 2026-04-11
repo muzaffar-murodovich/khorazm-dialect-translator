@@ -15,7 +15,7 @@ function updateCharCount() {
   charCount.textContent = len === 0 ? "0 belgi" : `${len} belgi`;
 }
 
-// --- Tarjima so'rovi ---
+// --- Tarjima soʻrovi ---
 async function doTranslate() {
   const text = sourceText.value.trim();
 
@@ -46,7 +46,7 @@ async function doTranslate() {
     if (data.total_words > 0) {
       const pct = Math.round((data.translated_count / data.total_words) * 100);
       statsText.textContent =
-        `${data.translated_count} / ${data.total_words} so'z tarjima qilindi (${pct}%)`;
+        `${data.translated_count} / ${data.total_words} soʻz tarjima qilindi (${pct}%)`;
     } else {
       statsText.textContent = "";
     }
@@ -63,7 +63,7 @@ function showPlaceholder() {
   targetText.textContent = "";
 }
 
-// --- Debounce: 350ms kutgandan so'ng so'rov yuboriladi ---
+// --- Debounce: 350ms kutgandan soʻng soʻrov yuboriladi ---
 function scheduleTranslate() {
   clearTimeout(debounceTimer);
   debounceTimer = setTimeout(doTranslate, 350);

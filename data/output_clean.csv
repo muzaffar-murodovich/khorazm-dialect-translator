@@ -1,9 +1,11 @@
 Title,Meaning
 Abdol,"Shaydo, tentak"
 Avvalaman,Bolalar oʻyini
-Avusarang,"Ovsar, parishonxotir"
+Avusarang,Ovsar
+Avusarang,parishonxotir"
 Agizak,Egizak
-Aglanmak (eylanmak),Kech qolmoq
+Aglanmak,Kech qolmoq
+eylanmak,kech qolmoq
 Adan,Chiqindi suv ketadigan chuqurcha
 Adik,Etik
 Adil,Odil
@@ -13,677 +15,538 @@ Ajiz,Zaif
 Ajina,Jin
 Ajir,Azob
 Ajoyibxona,Muzey
-Azib qoʻy,Kirni suvga solib qoʻy
 Azik,Ezilgan
-Azilgan,Bu odam ezilib ketgan
-"Aydi, eydi (sigir)",Iydi (sigir)
-Aylanib oʻvrilib,Bir gapni qayta-qayta takrorlayverish
+Azilgan,Ezilgan
 Aka,Ota
 Akdi,Ekdi
-Akish boshlandi,Masalan chigit ekish boshlandi
-Akkaldila,Olib keldilar
-Aklamoq,"Devor, daraxtlarni ohak bilan boʻyash"
-"Akmagan joyda goʻkarib chiqadi (belbogʻa galadi,
-oʻroqa galadi)","Bemavrid soʻzlaydi,"
+Akmoq, ekmoq
+Akkalmoq,Olib kelmoq
+Aklamoq,Oqlamoq
 Aks,Oʻjar
 Aksilmak,Kamsitilmoq
 Al,Qoʻl
-Ala,Elakdan oʻtkaz
-Alam,Qabristonlarga tikiladigan alam roʻmol
-Alamimni ola- man,"Oʻch olaman, alamzadaman"
+Ala,Elakla
 Alashtirmang,Aybga buyurmang
-Aljirama,Boʻlmagʻir gaplarni gapirma
-Alima qoʻndi (qush),Qoʻlimga qoʻndi (qush)
 Alli,Ellik
-Alpatak- elpatak,Birdan shoshib qolish
+Alpatak-elpatak,Birdan shoshib qolish
 Ambiyatchilik,Toʻkin-sochinlik
-Amdomli,"Juda yaxshi, qulay."
 Amjak,Emchak
 Ana,Buvi
 Anaka,Enaga
-Ananga toʻylik galdimi,Onangga toʻylik keldimi
 Angak,Iyak
 Angilmak,Egilmoq
 Angqildoq,Anqov
 Angsa,Ensa
-Angsa atib qoʻydim,Qarzdor qilib qoʻydim
-Angsalashmak,"Bir biridan arazlashmoq, bir-birini mensimaslik"
 Angshirmoq,Fahmlamoq
 Andarmon,Mashgʻul boʻlmoq
 Andin soʻng,Undan keyin
 Andratop,Ajoyib
 Anjomxona,Omborxona
-Anoyi,"Bu boshqacha odam, har narsani biladigan, chaqqon"
 Apika,Opa
-Apir,"Oʻta mugʻombir, olchoq odam"
+Apir,mugʻombir
 Apkin,Engil shabada
 Aplama,Sifatsiz
-Aprik,"Quyuq, ammo yopishqoq boʻlmagan suyuqlik"
 Apsiz,Epsiz
 Aptik,"Apteka, dorixona"
 Ar,Er
 Ar-xotin,Er-xotin
-Aravlamak,Oyoq ostida chuvalashmoq. Hamma ishga aralashaverish.
-Arganak (Aryanak),"Panjara, temirdan yoki taxtadan qilingan toʻsiq"
+Aravlamak,chuvalashmoq
+Arganak,Panjara
 Arzoyil,Azroyil
 Arik,Oʻrik
 Arka bola,Erkatoy
 Arkak,Erkak
 Arkalik,Erkalanish
 Armak,Ermak
-Armisoqdan qolgʻon,"Ota-bobolardan qolgan, eski davrlardan qolgan, qachondan beri borligi nomalum"
 Arpovoydon,Arpabodiyon
 Asa,Unday boʻlsa
 Asankirash,Esankirash
-Asar,Eshitganimdan hech narsa qolmadi (hech narsa)
-Asvak suvi,"Sugʻorish turi, barcha suv belgilangan joyga etib kelishi uchun pastdagi joʻyaklarning bekitilib, yuqorida joylashgan dalalarga suv berish usuli."
-Asdi (shamol),Esdi (shamol)
-Asirma,"Katta ketma, magʻrurlanma, toltayma"
-Astanroq yuri,"Sekinroq, shoshilmasdan yurgin"
+Asdi,Esdi
+Asirma,Katta ketma
 Atak,Kiyim etagi
-Atoyi mulk,"Erli mulk, umrlik berilgan er maydoni, meros qilib qoldirish huquqi bilan"
-Aftoda,"Ust-boshi kir, yirtiq.yuz-qoʻli yuvilmagan"
-Axr manda na gunox,Men gunohsizman-ku
-Ahamiyatchilik- da,Fursat boʻlganda
 Ak,Ohak
 Bavak,Chaqaloq
 Bagʻrima bosdim,Quchogʻimga oldim
 Badastur ishlash,Tartibli tarzda ishlash
 Badlanib qaramoq,Yomon koʻz bilan qaramoq
-Badroʻy,"Badbashara, koʻrimsiz"
+Badroʻy,Badbashara
+Badroʻy,Koʻrimsiz
 Bayot,Davlatli
 Baziryon,Savdogar
-Bak,"Bek, mahkam, yopiq"
-Bakdurdi,"Bekturdi, mahkam tursin, deb qoʻyilgan nom, Tursun ismi kabi"
-"Bakjon, Bakchon","Bekjon, bola ismi, yakka-yolgʻiz oʻgʻil bola tugʻilganda jonim mahkam toʻxtasin deb nom qoʻyilgan (jonim bolam degani)"
-Bakla,"Yop, bekit"
+Bak,Bek
+Bak,Mahkam
+Bak,Yopiq
+Bakla,Yop
+Bakla,Bekit
 Bakra,Osyotr baligʻi
-Baqqa,Sut (bola tilidan)
-Balli,"Aniq, belgilangan."
-Bandi,"Zindonga kishanlab tashlangan, zindonband"
+Baqqa,Sut
+Bandi,Zindonband
 Barak,Chuchvara
 Bari gal,Bu yoqqa kel
-Bas,Baxs
-Bezuvon,"Yuvosh, moʻmin-qobil odam"
+Bas,Bahs
+Bezuvon,Yuvosh
+Bezuvon,Moʻmin-qobil
 Beyi,Behi
 Beyik,Baland
 Beyish,Behisht
 Bekdali,Hurmatli
 Bel,Belkurak
 Bera oʻtir,Bu yoqqa oʻtir
-Berda,Bu erda
-Besoʻnaqay,"Epsiz, ish bajarishda nimadan boshlashni bilmaydigan, qayerga borsa urilib, turtilib yuradigan odam. Dasturxon atrofida oʻtirganida, albatta biron narsani turtib yiqadi yoki choynakni agʻdarib yuboradi"
-Beshdan-beshdan,"Oʻyin turi, beshta kichik toshlarni erga qoʻyib, bitta toshni yuqoriga irgʻitib, u tushguncha pastdagi toshdan birini olib, tepadan tushganni ham ushlab qoladi."
+Berda,Bu yerda
 Beshikchi,Beshik yasaydigan usta
-Beshtirnoq,"Grablya –bogʻu-rogʻlarda, dalalarda xazonlarni yigʻishtirishda ishlatiladigan asbob."
-Biyora,"Qovun, tarvuz palagi"
 Biiz,Bigiz
 Biyi,Yanga
-Bilagoʻra,"Bilib turib qilish, ataylab qilish"
+Bilagoʻra,Ataylab
 Bilmabman,Bilmay qolibman
-Bilmin atdim,Bilmasdan qilib qoʻydim
-"Bir toshimon, oʻlasan","Bir uraman, oʻlasan."
-Bir oʻyli joʻvit,"Qovogʻini osib, hech kim bilan gaplashmay oʻtiradigan odamga nisbatan ishlatiladi"
-Bir chayim suv,Ogʻiz chayishga etadigan suv miqdori.
-Bir yutum suv,Bir qultum suv.
-Birgʻi,"Buraydigan asbob, otvertka, buraydigan kalitlar."
+Bir chayim suv,Ogʻiz chayishga yetadigan suv
+Bir yutum suv,Bir qultum suv
 Birzamon,Birpas
-Birmak,"Bezori, yosh bola"
-Bitir,"Bitkaz, tamomla"
+Birmak,Bezori
+Bitir,Bitkaz
+Bitir,Tamomla
 Bichilgan,Axta qilingan
 Bichqi,Arra
-Bichmoq,"Uy hayvon, masalan, qoʻchqorni axta qilish"
-Bishshiq,Ezilib ketgan konfet
+Bishshiq,Ezilib ketgan
 Blashtirma,Iflos qilma
 Blomiq,Atala
 Bloshiq,Ifloslangan
 Bo,Bor
 Bodirak,Varrak
-Bodli,"Kuchli, quvvatli"
+Bodli,Kuchli
+Bodli,Quvvatli
 Bodom barmoq,Koʻrsatgich barmoq
 Boyoqi,Haligi
-Bojoq,Ayollar oltin taqinchogʻi.
-Boy-boʻy,Bay-bay
 Boyimjon,Baqlajon
-"Boyqamak
-(Xonqa tumani.)","Hurmat, etibor koʻrsatmoq. Masalan:U boyqogʻonni boyqiydi."
 Boyli,Bogʻlangan
 Boyliq,Boylik
-Bolagʻina,"Bechora manosida, yosh bolalarga nisbatan ishlatiladi"
-Bolango   mulk atib bardingmi,"Bolangni uyli-joyli qildingmi, otaning vazifasi bolasini uyli-joyli qilib ayrim chiqarish."
-Bolani isitmasi bor,Bolani issigʻi chiqgan
+Bolagʻina,Bechora
 Boldiz,Qayinsingil
 Boldoq,Dasta
-Boliqni oʻs,"Baliqni pishirishga tayyorla, tozalab maydala"
-"Bolqi tut, oq tut",Balxi tut
-Boloq,"Shimni pastki, oyoq oʻtadigan qismi"
+Boloq,Shimning pastki qismi
 Bolori,Asalari
-Bolchingirik,Shakarqamish
 Bomi,Bormi
-"Bona ga, bona gal.","Beri kel, bu yoqqa kel"
-"Bona.
-(Qachonnan bona sani
-qidiraman.)",Beri. (Qachondan beri seni izlayman.)
-Boono topmo,Bahona qilma ([O] choʻzib aytiladi)
-Bora (sanga nichcha bora,Senga necha marta aytdim
-Borvadim,Borgan edim
+Boono topmo,Bahona qilma
 Borimman,Bormayman
 Borina shukir,Boriga shukur
 Borlomoq,Yoʻqlamoq
-Borlosh,"Yoʻqlama qilish, aniqlash, hisobga olish."
-Bormasa goʻra borsin,Bormasa mozoristonga borsin (kesatiq)
-Bormin-galmin hafa atib qoʻydi,Oʻylamay-netmay hafa qilib qoʻydi
-Boromakan?,Borarkanmi?
+Borlosh,Yoʻqlama qilish
 Bogʻdosh qurib oʻtirdi,Chordona qurib oʻtirdi
 Bogʻir,Jigar
 Bogʻlamman,Bogʻlamayman
 Boqinmoq,Tobe boʻlmoq
-Boqir,Qogʻoz pulning oʻrnini bosuvchi temir tanga
-Boqirib gapla sh,Qattiq ovoz chiqarib gapirish
+Boqir,Tanga
 Boqqi,Boʻrdoqi
 Bosa-bos,Toʻpolon
 Bosinqiradi,Tushida alahsiradi
-Bosirniqish,Uyqudan qoʻrqib uygʻonishdagi holat
-"Botirib ol, botr","Suvga anal iv, suvga bos"
-Botis,Yupqa yaltiroq mato
+Botis,Yupqa mato
 Botmon,Oʻlchov birligi
 Boxmol,Duxoba
 Boxno,Qaram
-Boxtiqaro,"Ishi yurishmaydigan, nochor odam"
-Boshpotroq,Boshi-oyogʻi yoʻq ish yoki manosiz gap
+Boxtiqaro,Nochor
+Boshpotroq,Manosiz gap
 Bra,Burga
-Boʻbi (“Oʻ”ga urgʻu berib aytiladi),“It” soʻzining bola tilidan aytilishi
-"Boʻbi galdi, yot","Bolalarni qoʻrqitish turi, nomalum mahluq bilan qoʻrqitish orqali uxlashga undash."
 Bugʻoz xotin,Homilador xotin
 Budoq,Butoq
 Boʻyon,Qizilmiya
-Buz buzoloq,Oʻyin turi
-Buziq,Hulqi yomon inson
-Buzoqvoshshi,"Buzgʻuvchi, koʻpchilik boʻlib yaxshi ish bajarayotganlarni birligini buzadigan odam"
-Buzuqchi,"Siniq suyaklarni soluvchi, joy-joyiga qoʻyib davolovchi tabib."
-Buzxona,"Muz saqlanadigan joy, Xivada shu nomda qishloq ham mavjud, shaharga yaqin qishloqdagi koʻllardan qishda muzlarni kesib olib yozda foydalanish uchun koʻmib qoʻyilgan."
-"Buyin, Bugin",Bugun-bu kun
+Buziq,Hulqi yomon
+Buyin,Bugun
+Bugin,Bugun
 Boʻyinda bo,Homilador
 Bukilib dur,Engashib tur
 Bukin,Buklangan joy
-Buklam,"Oq mato, chit"
+Buklam,Oq mato
 Boʻkchi,Sakra
 Boʻkchimoq,Sakramoq
 Buqabichim odam,Yoʻgʻon gavdali odam
 Boʻlaqoʻy,Boʻlaqol
-Boʻldomli,"Gavdali, yirik."
-Boʻlmidoʻvin,"Boʻlmaydigan, bajarilmaydigan."
-Buloma (gapni bloma),Qorishtirma (gapni qorishtirma)
-Bulomiq,"Suyuq loy, ovqat turi"
+Boʻldomli,Gavdali
+Boʻldomli,Yirik
+Boʻlmidoʻvin,Boʻlmaydigan
+Buloma,Qorishtirma
+Bulomiq,Suyuq loy
 Bulomon,Musiqa asbobi
-Boʻltak,"Soqov, tilida ishkal bor"
+Boʻltak,Soqov
 Bur,Simni bura
-Burnoyin galib getdi,Kechadan oldingi kuni kelib ketdi
 Boʻrsoq,Boʻgʻirsoq
 Burt,Moʻylov
-Burungi zamon,"Qadimgi, oʻtgan zamon"
-Burungʻi gun,Kechagi kundan oldingisi
+Burungi zamon,Qadimgi zamon
 Burunch,Guruch
 Burch,Qalampir
-Burchoq yogʻyotir,Muz yogʻayapti.
 Butun,Tamomila
 Boʻsha gap,Boʻlmagʻir gap
 Boʻshogʻ,Yaylov
 Boʻshochi,Bekorchi
-Buyurgun (Buyuryun),Indin
-Buyurmogʻon,"Keraksiz, yomon narsa"
-Vaj,"Narsa, buyum"
-Valatizino,Otasi nomalum
-Vano borgʻonda bilamiz,U yoqqa borganda bilamiz
-"Vi ([i] tovushi deyarli
-eshitilmaydi)",U
-Vi durmin getdi,U toʻxtamay ketdi
-Vovoq,Xivada nomi chiqqan raqqosning laqabi
+Buyurgun,Indin
+Buyurmogʻon,Keraksiz
+Buyurmogʻon,Yomon narsa
+Vaj,Narsa
+Vaj,Buyum
+Valatizino,Otasi nomaʼlum
+Vi,U
 Vogʻlomo,Moʻl-koʻlchilik
-Vogʻlomo shoʻrva,Faqat piyozdan pishiriladigan shoʻrva
+Vogʻlomo shoʻrva,Piyozli shoʻrva
 Vojjillama,Ezmalama
-Vozziq,"Qalin, yumshoq yostiq"
-Voqqilloma,"Ovozingni oʻchir, gapiraverma."
+Vozziq,Qalin yostiq
+Vozziq,Yumshoq yostiq
+Voqqilloma,Ovozingni oʻchir
+Voqqilloma,Gapiraverma
 Vono-bono,U yoq bu yoqqa
-Vorsoqi gap,"Bekorchi, boʻlmagʻur gap."
-Vos-vos,"Ezma, bekor gaplarni qayta-qayta gapirib, gapni chaynab oʻtiruvchi."
-Voxtinda galmading,Vaqtida kelmading.
+Vorsoqi gap,Bekorchi gap
+Vorsoqi gap,Boʻlmagʻur gap
+Vos-vos,Ezma
+Voxtinda galmading,Vaqtida kelmading
 Voxtixoʻsh,Hursand
-"Ga, gal",Kel
+Ga,Kel
+Gal,Kel
 Gavadi,Kelgan edi
 Gavar,Gavhar
-Gazarman,Kezib yurib nom chiqargan
 Gazzik,Navbat
 Galavar,Kelaver
 Galay-galay,Kel-kelaqol
-Galamakan?,U ham keladimi?
-Galvadim,"Keldim, kelgandim"
-Galdi-galmadi,Boʻlsa-boʻlmasa
-Galdi-galmadi odam,Malum fikri yoʻq odam.
 Galdim,Keldim
 Galin,Kelin
-Galin barmoq,Uzumning chiroyli kelin barmogʻiga oʻxshash navi
 Galincha,Kelguncha
-Galma (gama),Kelma
-Galmali- getmali odam,Parishonxotir odam
-Galmiman (galimman),Kelmayman
-Galmin-galmin bir galibsiz,Kelmay-kelmay bir kelibsiz
+Galma,Kelma
+Galmiman,Kelmayman
 Galsam,Kelsam
-Gamiraman sani,Sani eb tashiman deb bolani siylash
 Gamtik,Kemtik
 Gamshik,Tishsiz
-"Gap kor atmaslik
-(Sanga nichcha","Gap uqmaslik, gap tasir qilmaslik ( Senga qancha gapirsam ham gap tasir qilmaydi)"
-Gaplaganni choʻqib oladi,"Choʻqib olmoq, oxirigacha eshitmay gapingga gap qaytaradi"
 Gapni kamit,Gapni qisqa qil
-Gapni kas,"Jim boʻl, toʻxta, gapirma."
-Gapchi,Gap tashib yuradigan kishi
+Gapni kas,Jim boʻl
+Gapni kas,Toʻxta
+Gapni kas,Gapirma
+Gapchi,Gap tashuvchi
 Garak,Kerak
-"Garakmas, garaksiz","Kerakmas, keraksiz."
-Gardish,"Falakni gardishi, taqdir"
-Garishib yop,"Qoʻlingni orqaga choʻzib, qattiq ur."
-Garishmak,"Mushaklarni yozib, qisqartirib charchoqni yozish."
+Garakmas,Kerakmas
+Garaksiz,Keraksiz
 Gashir,Sabzi
 Gama,Kema
 Gejak,Jingalak
 Getjak,Ketmoqchi
 Gech boʻldi,Kech boʻldi
-Gech qoldim,"Kech qoldim, kechikdim"
+Gech qoldim,Kech qoldim
+Gech qoldim,Kechikdim
 Gechi,Echki
-Gechmak,Suvni kechib oʻtish
+Gechmak,Suvdan oʻtmoq
 Gizla,Yashir
-Gizlamak,"Bekitmoq, yashirmok"
+Gizlamak,Bekitmoq
+Gizlamak,Yashirmoq
 Gizlan,Yashirin
 Gizlanmajak,Bekinmachoq
 Giyim,Kiyim
 Giyla,Gina
-Girmola,Devor suvoqiga pardoz beruvchi asbob
+Girmola,Suvoq asbobi
 Gooda,Gohida
-"Gopora, (yopora) odamlar",Ayrim odamlar
-Guburdi,"Shovqin-suron, maqtanib gapiruvchi odam."
+Guburdi,Shovqin-suron
 Guvva,Shiddat bilan
-Goʻvik,Suyakni chaynab boʻladigan qismi
-Gujum,Narvon daraxti. Xorazmda hovuz boʻylariga ekiladi.
-Goʻz dikmak,Hasad qilmoq
+Gujum,Daraxt
 Guzak,Kuz oyi
-Goʻzallab ot,Yaxshilab nishonga olib ot
+Goʻz dikmak,Hasad qilmoq
 Goʻzzim,Koʻzim
 Goʻzikmasin,Koʻz tegmasin
-Goʻzli odam,Bir qarashda maqsadingni bilib oladigan odam
 Goʻydirgi,Azob beruvchi
-Goʻydirgi bola,Ota-onani qiynab yuradigan tartibsiz bola
-Goʻyik,Nonning kuygan qismi
-Goʻynakimni giyiz,Koʻylagimni kiygiz
+Goʻyik,Kuygan non qismi
 Goʻk,Koʻk
-Goʻk barak,Koʻk barak
-Goʻk darak,Koʻk terak
-"Goʻkarib chiqdi, qoʻlim goʻkardi.",Chimchilagan joying koʻkarib chiqdi
 Guldirmomo,Momoqaldiroq
-Gullikchi,Kunlik mardikor
-Goʻlloxda,"Goʻrda, mozorda, yiroqda, manosini anglatib, biror narsa yoki odamning yoʻqolib qolishiga kesatik qilib aytiladi."
+Gullikchi,Mardikor
 Gulobi,Qovun navi
 Goʻmib tasha,Koʻmib tashla
-Gun oʻtib boryotir,"Hayot, umr oʻtib bormoqda"
-Goʻnaldim,Yolchidim
 Gunda,Har kun
 Guning qursin,Hayoting qursin
 Gunoyim,Aybim
 Gunorta,Peshin
-Goʻnchi,Mol terisiga ishlov beruvchi
-Gup atib yiqildi,Turgan joyida tikkasiga yiqildi
-Gupir-pasir,Sharta yiqib tashlangan
-Guppi,Paxtalik fufayka
+Goʻnchi,Teri ishlovchi
+Gup atib yiqildi,Tikkasiga yiqildi
+Guppi,Fufayka
 Goʻr,Mozor
-Goʻrashda yogʻirni erga tegmagan,Kuragi erga tegmagan polvon.
-Goʻrda,"Yiroqda, nomalum joyda"
 Goʻrdiksiz,Ochkoʻz
-Gurji it,"Gavdasi kichik, yirik boʻlmagan zotdor yoki zoti aynigan it."
 Guring,Suhbat
-Goʻyanda,"Baxshi, ashulachi."
+Goʻyanda,Ashulachi
 Gʻadir-gʻudir,Notekis
 Gʻalat,Yolgʻon
-Gʻaliz,Bemaza odam
-Gʻijirdi,Gʻijirlagan ovoz chiqdi
-Gʻilchiq,"Ezilgan, yopishqoq loy"
-Gʻirch-gʻirch,Gʻirchillab ovoz.
-Gʻirch-parch,"Koʻp, toʻlib-toshgan darajada, ombor toʻla."
-Gʻirchillama,Etiklarni gʻirchillab ovoz beradigan qilib tikilgani
-Gʻovush,Makkajoʻxori yoki oq joʻxori poyasi
-Gʻojir-gʻujir,Tezlik bilan boʻldi
-Gʻojirdama,"Yaxshi pishgan tarvuz, baquvvat odam."
-Gʻozovot,"Gʻozi obod kanali, Abulgʻozixon tomonidan qayta tiklangan"
+Gʻaliz,Bemaza
+Gʻijirdi,Gʻijir ovoz
+Gʻilchiq,Yopishqoq loy
+Gʻirch-gʻirch,Gʻirchillagan ovoz
+Gʻirch-parch,Koʻp
+Gʻirch-parch,Toʻla
+Gʻirchillama,Gʻirchillab ovoz beradigan
+Gʻovush,Joʻxori poyasi
+Gʻojir-gʻujir,Tez
+Gʻojirdama,Yaxshi pishgan
+Gʻojirdama,Baquvvat
 Gʻoyir,Oʻjar
-Gʻolvir,Ilma-teshik
+Gʻolvir,Teshik-teshik
 Gʻoli,Gilam
 Gʻoliz,Bemaza
 Gʻollo-gʻosh,Ovorachilik
 Gʻolting,Oʻnqir-choʻnqir
 Gʻor,Fohisha
-Gʻor-gʻoro,Tomoqni chayish.
+Gʻor-gʻoro,Tomoq chayish
 Gʻoroz,Gʻaraz
-Gʻorozgoʻy,"Kek saqlaydigan, niyati yomon inson."
-Gʻorso,"Tez, darhol."
-Gʻorchli amrikon kalish,Eskida eng yaxshi kalish hisoblangan
+Gʻorozgoʻy,Kek saqlaydigan
+Gʻorso,Tez
+Gʻorso,Darhol
 Gʻosur-gʻusur,Darrov
-"Gʻoʻv, gʻoʻ",Yaxshi
-Gʻoʻdoloq,Semiz va pakana odam
+Gʻoʻv,Yaxshi
+Gʻoʻdoloq,Semiz
+Gʻoʻdoloq,Pakana
 Gʻoʻz,Yongʻoq
-Gʻoʻlangir,Tomning ustiga olingan somonsiz loy qoplama.
 Gʻoʻr,Xom
 Gʻurpa,Semiz oʻt
-Gʻoʻch yigit,"Abjir, baquvvat yigit"
-Gʻoʻcha poya,Paxtaning poyasi
-Davarak,Tevarak boʻlib oʻtirish (aylana olib)
-Davat,Siyoxdon
-Dayov,Barzanggi odam
-Dak yuri,"Tinch yuri, janjal qilma"
-Dakki,"Toʻsqinlik qilish, biron ish qilmoqchi boʻlsang boʻlmagʻur bahonalar bilan ishga toʻsqinlik qilish."
-Daklikda (daklikda galmidi),Shubhasiz (kelmasligi shubhasiz)
-Dali,"Qoʻli, koʻngli ochiq inson"
+Gʻoʻch yigit,Abjir
+Gʻoʻch yigit,Baquvvat
+Davarak,Tevarak boʻlib oʻtirish
+Davat,Siyohdon
+Dayov,Barzangi
+Dak yuri,Tinch yuri
+Dak yuri,Janjal qilma
 Daliz,Dahliz
 Dalingan,Jinni
 Dalladim,Terladim
-dallatdi,charchatdi
+Dallatdi,Charchatdi
 Daltak,Choʻqmor
-Dam   ol,Nafas ol
-Dam soldi,Tabiblar tomonidan bemorlarni davolash usuli.
-"Daming ichinga tushdimi, gapir","Tildan qoldingmi, gapir"
+Dam ol,Nafas ol
 Damir yoʻl,Temir yoʻl
 Damratki,Temiratki
-Dana,"Don, urugʻ"
+Dana,Don
+Dana,Urugʻ
 Dandirab getdi,Tentirab ketdi
-Danjik,"Tartibsiz, har narsaga xarxasha qiladigan bola."
-Dap,Tepib yubor
-Dapa,"Balandlik, tepalik."
-Dapagurung,Bekorchilikda gap sotish.
-Dapak,Tepagʻon.
-dapalashma,bir necha kishilarning uzaro mushtlashishi
-Dapsinma,"Tepsinma, oʻz bilganingni qilaman, deb chiranma."
+Danjik,Tartibsiz bola
+Dap,Tep
+Dapa,Tepalik
 Darak,Terak
-Darakli,"Tegishli, kimgadir suyanib ish qiladigan, falonchiga qarindosh."
-Daryo,"Childirma, doira."
+Darakli,Tegishli
+Daryo,Doira
 Daryokash,Doirachi
-Daryoni chirt,Doirani (childirmani) chal.
 Darpanish,Qimirlash
-Darra,"Qizlarning roʻmolidan eshilgan qamchi, oʻyin turi"
+Darra,Qamchi
 Dars,Mol goʻngi
-Dasmoya,Ustaning asbob uskunalari
-Dastur,"Odat, qoʻllanma."
+Dasmoya,Asbob-uskunalar
+Dastur,Odat
 Deyib getdi,Tegib ketdi
-Deyishma,Hazil (ot)
+Deyishma,Hazil
 Deyma,Tegma
-Deravarsin,Rahmatlik manosini anglatadi
 Desh-davarak,Chor-atrof
-Deshon qala,Qaladan tashqari hudud.
-Deshon qala devori,Tashqari qala devori.
-Deshon qalada,Ichkari qaladan tashqarida.
-Digirjak (diljak),Gʻildirak
-Digʻiriq,Tor koʻcha (tupik)
-Didi yoʻq,"Didsiz, oʻziga yarashmaydigan kiyim kiyadi"
-Didina mos,"Koʻngliga mos kelgan, oʻylagan narsani topgan"
+Digirjak,Gʻildirak
+Digʻiriq,Tor koʻcha
+Didi yoʻq,Didsiz
+Didina mos,Koʻngliga mos
 Diz,Tizza
-"Diyma, duyma.",Tugma
+Diyma,Tugma
+Duyma,Tugma
 Dik,Tik
-Dik oʻlasan,"Aniq, muqarrar oʻlasan.Bir uraman aniq oʻlasan."
-Dikkayib oʻl,"Ishi yurishib, gerdayib, boshqalarni pisand qilmagan odamga monand"
-Dikma,"Gerdayib yuradigan, hech kim bilan hisoblashmaydigan odam."
-Diq,Teshikni biron narsa bilan bekit.
-Diladim,Tiladim.
+Diq,Bekit
+Diladim,Tiladim
 Dilay,Tilak
-Dilay dila,Tilak tila
-Dildan qolgʻoyson,Gapirolmay qolgaysan (Soʻkish turi).
 Dilik,Qovun tilimi
-Dilkor,Suvoqchi usta
-Dillashmak,"Til biriktirish, kelishib olish, gapni bir joydan chiqarish."
+Dilkor,Suvoqchi
+Dillashmak,Kelishmoq
 Dilmoch,Tarjimon
 Dilovor,Gapga chechan
 Dim,Juda
 Dim sara,Juda yaxshi
-Dimiqdim,Havo etishmay qoldi
-Din,"Jim boʻl, ogʻzingni yum, yigʻlayverma."
-Ding,"Ustun, kungura."
-Dingngisiz,Tinib tinchimas
-Diniq,Tiniq (shaffof) suv.
+Dimiqdim,Havo yetishmadi
+Din,Jim boʻl
+Ding,Ustun
+Dingngisiz,Tinimsiz
+Diniq,Tiniq
 Dinor,Tanga
 Dirab qoʻy,Tirab qoʻy
 Diram,Pul
 Dirdin,Ozgina
 Diri,Tirik
-Dirnoq,Fundament-poydevor
-Disliq. Disliq sochoq.,Kir boʻlib ketgan. Kir sochiq.
+Dirnoq,Poydevor
+Disliq,Kir
 Dish,Tish
 Dish choʻp,Tishkovlagich
 Dishak,Tishsiz
 Diya,Tuya
-Dodimidi,Tarqatganda hammaga etmaydigan darajada oz.
-Dodimoq,Etarli boʻlmoq
-Dodingni beraman,Dabdala qilaman
-Dodlama,"Baqir-chaqir qilma, sasingni oʻchir"
+Dodimoq,Yetarli boʻlmoq
+Dodlama,Baqirma
+Dodlama,Sasingni oʻchir
 Dodov,Oyoqqa turish
-"Doygʻoq, doyinjoq",Sirpanchiq
+Doygʻoq,Sirpanchiq
+Doyinjoq,Sirpanchiq
 Doyi,Togʻa
 Doyib getdi,Sirpanib ketdi
-Doyinmojoq,Muz ustida oʻynaladigan oʻyin turi
-Doyirdoma,Kekkayaverma
-Doymoq,Aytgan gapidan yoki lafzidan kaytmoq.
+Doymoq,Qaytmoq
 Doloshmoq,Talashmoq
-Domoq (emak),Ovqat
-Domoq yogʻi,"Ochofat, ovqatdan boshqa narsani oʻylamaydigan odam"
-Domoqsoʻv,Koʻp ovqat eydigan odam
+Domoq,Ovqat
+Domoq yogʻi,Ochofat
+Domoqsoʻv,Koʻp yeydigan
 Domor,Tomir
 Domchi,Tomchi
 Domchilab suvorish,Tomchilab sugʻorish
-Dondingmi?,Vadangdan qaytdingmi?
 Donilgʻan odam,Dongdor odam
-Donilgʻon,Obroʻ-etiborli
-Donish (ot),Tanish odam
+Donilgʻon,Obroʻli
+Donilgʻon,Etiborli
+Donish,Tanish odam
 Dogʻi,Va boshqa
-Dogʻla,Yogʻni dogʻlash
-Doqmo,"Taqmoq, oʻz masuliyatini birovga yuklovchi odam."
-Donish (fel),Tanishib ol.
-Donishim,Tanishim.
+Dogʻla,Yogʻni qizdir
+Doqmo,Taqmoq
+Donish,Tanishib ol
+Donishim,Tanishim
 Dori,Tariq
-Dorima,Bundan buyon koʻzimga koʻrinma
-Dorimoq,Bir koʻrinish bermoq
+Dorimoq,Koʻrinish bermoq
 Dorongʻi,Toʻrongʻil
-Dosmol,Qozon yuvadigan sochiq
-Dotmoq,Tatib koʻrish
+Dosmol,Qozon sochiq
+Dotmoq,Tatib koʻrmoq
 Dosh-damir,Juda qattiq
-Dosha goʻkaradi,"Gap tasir qilmaydigan, oʻz soʻzidan qaytmaydigan odam."
-Doshyoq,"Tosh tomon, shahardan chetdagi juda qattiq tuproqli hudud."
-Doshnom,"Seni u qilaman, bu qilaman deb oʻzini kuchliroq ekanini bildirib qoʻyish."
-Doshoyoq,"Ariqning oxiri, oyoqi (chegarasi) toshli erga boradi."
-Doshoʻviz,Doshhovuz –Turkmanistondagi viloyat
 Dubulgʻa,Temir qalpoq
 Doʻv,Dev
-"Doʻv, dap",Tep
-Duvak,Bolaning beshikdagi tuvagi.
+Duvak,Beshik tuvagi
 Duvalang,Kuchli shamol
-Doʻvish,"Maydalash, sholi yanchib guruch qilish."
-Duvoq,Qozon qopqogʻi.
-Doʻvcha,Oʻrikni ilk etishmagan mevasi.
-Doʻgʻdi,Koʻzi yoridi.
-Doʻgʻma,Birinchi oʻgʻil bola
-Doʻgʻra,Goʻshtni toʻgʻra
+Doʻvish,Maydalash
+Duvoq,Qozon qopqogʻi
+Doʻvcha,Xom oʻrik
+Doʻgʻdi,Koʻzi yoridi
+Doʻgʻma,Birinchi oʻgʻil
+Doʻgʻra,Toʻgʻra
 Doʻgʻri,Toʻgʻri
-Doʻgʻromo,Maydalab pishirilgan goʻsht
+Doʻgʻromo,Maydalangan goʻsht
 Dud,Tutun
-Doʻddi,Fahm-farosatsiz
+Doʻddi,Fahmsiz
 Doʻdoq,Lab
-Dudola,Nima qilishini bilmay xayol surish xolati
-Dudut,Mashina (bola tilidan)
+Dudut,Mashina
 Duz,Tuz
 Duzi kamis,Tuzi kam
-Duzik,"Tuzik, yaxshi"
-Duy,"Tug, mahkam bogʻla."
-Duydirib qoʻy,Kimligimni sekin bildirib qoʻy.
-Duyilmak,Ovqatga tiqilib qolmoq
-Duyinjik,"Tugun, boʻxchama."
+Duzik,Yaxshi
+Duy,Bogʻla
+Duyilmak,Tiqilib qolmoq
+Duyinjik,Tugun
 Duymoq,Sezmoq
 Duynak,Xom qovun
 Doʻk,Toʻk
-Dukort (Gurlan tumani),Qaychi
+Dukort,Qaychi
 Dul,Beva
 Doʻla,Chayla
-Doʻladoʻq,Toʻladan kelgan odam
 Doʻldirib quy,Toʻlatib quy
-Doʻli,Juda kichkina idish
-Doʻlishmoq,"Etilmoq, semira boshlagan"
-Dulli dushdan,Chor tarafdan
-Dum oʻtishtirding,Juda oshirib yubording
+Doʻli,Kichkina idish
+Doʻlishmoq,Semira boshlamoq
+Dum oʻtishtirding,Oshirib yubording
 Doʻmboʻyin,Ishyoqmas
-Dumon,Dud.
+Dumon,Tutun
 Doʻn,Toʻn
-Doʻnak,Bir soʻzda turmaydigan odam.
+Doʻnak,Beqaror odam
 Doʻngdim,Sovuq qotdim
-Doʻngiz,"Toʻngʻiz, choʻchqa."
+Doʻngiz,Choʻchqa
 Doʻngmoq,Sovuq qotmoq
-Doʻndirma,"Bolalar oʻyini, tanga yoki forfor idish sinigʻini yana bittasi bilan urib toʻntarish"
-Dunib oʻtiribdi,Oʻz xayoli bilan band boʻlib oʻtiribdi.
-Doʻnmas,"Gapda engib boʻlmas, baquvvat, bir soʻzda turuvchi"
-Dunuk,"Darcha, tuynik"
+Doʻnmas,Baquvvat
+Dunuk,Darcha
 Dur,Toʻxta
-"Doʻramak. San nerdan
-doʻragansan.","Yaralmoq, tugʻilmoq.San nega bunday yaralgansan, tugʻilgansan."
-Durvadik,Gaplashib turgandik
-Durdivoy (ism),Turdiboy (ism)
-Durishino qoro.,Turishini koʻr.
-Durishta,"Xashak bilan kunjara, kepak aralashtirib tayyorlangan mol emi."
-Durma berda,Bu erda turma
+Durvadik,Gaplashib turdik
+Durdivoy,Turdiboy
+Durishta,Mol emi
+Durma berda,Bu yerda turma
 Durmoq,Toʻxtamoq
 Durtib yuvar,Turtib qoʻy
 Durtki,Turtki
-Doʻsoq,Hurmatga loyiq koʻrilmaydigan tanish- bilish.
 Doʻxtir,Doktor
-Dush,"Tomon, taraf."
-Doʻsh,"Qush koʻkragi, toʻshi."
-Dush tomona,Xohlagan tomona
-Doʻsha,Yoz. Polga gilam yoz.
-"Doʻshay, doʻshama","Polga, erga toʻshaladigan gilam, poyondoz, kigiz va boshqa"
-Doʻshalavarma,Oʻzingni oyoq osti qilma
-Doʻshalmak,"Yalinmoq, birovni oldida oʻzini oyoq osti qilmoq, kamsitilishga rozi boʻlmoq."
-Dushgaldi,"Oldimdan chiqib qoldi, uchratib qoldim"
-Doʻshib chiqsin,Teshib chiqsin (soʻkish)
+Dush,Tomon
+Doʻsh,Koʻkrak
+Dush tomona,Xohlagan tomonga
+Doʻsha,Yoz
+Doʻshay,Gilam
+Doʻshama,Poyondoz
+Doʻshalavarma,Oʻzingni past qilma
+Doʻshalmak,Yalinmoq
+Dushgaldi,Uchrashib qoldi
 Doʻshik,Teshik
-Dushinda Oʻyni dushinda.,Roʻparasida. Uyning roʻparasida
-Duyun,Biror bir yuzada turtib chiqqan joy
-Doʻgʻgʻanim,"Qadrdonim, birga tugʻishganim, yaqin odamim."
-Doʻqima,"Bekor gap, toʻqima gap."
+Duyun,Turtib chiqqan joy
+Doʻgʻgʻanim,Qadrdonim
+Doʻqima,Toʻqima gap
 Doʻqima gap,Oʻylab topilgan gap
-Doʻqima gappingni qoʻy,"Gapni opqochma, gapnam ham juda oshirib yuborasan"
-Eddi goʻrimingni goʻrgaysan,"Etti kafaningni koʻrgaysan, deb soʻkishni bir turi"
-"Ezda
-(Hazoraspda ishlatiladi)","Kuyov, pochcha"
-Eyilib yozilgan oila,"Oʻziga toʻq, serfarzand, piru badavlat, mahallada ibratli oila"
-Eyma,"Asosan, bolani oʻrash yoki koʻrpa-toʻshakni yopib qoʻyish uchun ishlatiladigan yupqa koʻrpa."
-Ekan,Yakan – koʻllarda oʻsadigan oʻsimlik.
+Ezda,Kuyov
+Ezda,Pochcha
 Elvirash,Hilpirash
 Enga,Kelinoyi
-Er qiri,"Juda koʻp, moʻl."
+Er qiri,Juda koʻp
+Er qiri,Moʻl
 Er tuti,Qulupnay
-Etar-etmas (oila),Kambagʻal (oila)
+Etar-etmas,Kambagʻal
 Yo,Yoki
-Yo vonli yo bonli,U yoqli yo bu yoqli.
-Yovliq,Ettinchi avlod zurriyod
-Yovloq,"Tinch kenglik, dala."
-Yovo,Panshaha
+Yo vonli yo bonli,U yoqli
+Yo vonli yo bonli,Bu yoqli
+Yovliq,Yettinchi avlod
+Yovloq,Dala
 Yovon,Qishloq
 Yovonli,Qishloqi
 Yogʻi,Dushman
 Yogʻirni,Yagʻrin
-"Yogʻish, yogʻmur, yomgʻur",Yomgʻir
-Yogʻlov,"Yogʻ kuydiradigan qozon, tovon."
-Yodima sol,Eslatib qoʻy
+Yogʻish,Yomgʻir
+Yogʻmur,Yomgʻir
+Yomgʻur,Yomgʻir
+Yodima sol,Eslat
 Yozgʻit,Taqdir
 Yozdir,Ech
-Yozin boʻyi,Yoz faslining oxirigacha
-Yozliq,Erta pishar bugʻdoy
 Yozmak,Yoymoq
-"Yoq (Gurlan va Yangibozor
-tumanlarida)",Yoʻq
-Yoqmos,Odati past
-Yoqolomoq,Biror nima boʻylab (ariq qirgʻogʻidan) yurish
+Yoq,Yoʻq
+Yoqmos,Yomon odatli
 Yoqolosh,Janjal
 Yoqoloshish,Urishmoq
 Yoqti,Yorugʻ
-Yoqti dunyoga chiqdimi?,"Farzand sogʻ-omon tugʻildimi, onasi yaxshimi? deb soʻralgani."
-Yola galgan,"Sigir, it yoki boshqa bir urgʻochi hayvonning kuyga kelishi"
-Yolaza,"Shamol esib turadigan hudud, maydon"
-Yoling,Olov tafti
-Yolmonboy,Juda uddaburon
+Yolmonboy,Uddaburon
 Yolmontaka,Ochkoʻz
-Yoloq,Itga ovqat beriladigan idish
-Yolpillab getibsiz.,"Yuzi toʻlishib, yaltirab ketibdi, qizlarga nisbatan aytiladigan maqtov."
-Yolposhgʻon,"Ezilib ketgan, buklanib qolgan."
-Yom,"Choh, chuqurcha"
+Yoloq,It idishi
+Yolposhgʻon,Ezilgan
+Yom,Chuqurcha
 Yomoq,Yamoq
-Yomon bola,"Gohida hazillashib, toʻgʻri soʻzli, aqlli bolalarga baho beriladigan soʻz"
-Yompiq,Biror bir qiyshaygan yuza.
+Yompiq,Qiyshiq
 Yongaziq,Eshik romi
-Yongoshqadan,"Qaytadan, boshdan"
+Yongoshqadan,Qaytadan
+Yongoshqadan,Boshdan
 Yonqi,Boyagi
 Yop,Kanal
-Yopdingmi,Tandirda non yopib qoʻydingmi
-Yopishtir,Urib tashla
-Yor,Arra bilan kes
-Yorgʻi,Ikki kishi ishlatadigan ikki dastali arra
-"Yorqach (Gurlan,
-Yangibozor
-tumanlarida), yorchiq (Xivada)",Yogʻochning tikondan katta boʻlagi.
+Yopishtir,Ur
+Yor,Kes
+Yorgʻi,Ikki dastali arra
 Yorogʻ,Qurol
 Yot,Begona
 Yotiring,Yotqizing
-Yotliq,"Shajarada oltinchi avlod, yot boʻlib ketar ekan, birinchi avlodlarni koʻp hollarda tanimaydi"
-Yotoq toʻppi,Tunda kiyib yotiladigan doʻppi
-Yoshardi,"Inson koʻngli koʻtarilganda, hursandchi-likdan yuz-koʻzi yorishib, yasharib ketganga oʻxshaydi"
+Yotliq,Oltinchi avlod
+Yotoq toʻppi,Tungi doʻppi
+Yoshardi,Yasharib ketdi
 Jayxun,Amudaryo
-Jammob,Ipak mato toʻquvchi
+Jammob,Ipak toʻquvchi
 Janazak,Jonsiz
-Janazak bola,Quvvati yoʻq bola
-Jangli,Ovoz chiqarib uchadigan varrak
+Janazak bola,Quvvatsiz bola
+Jangli,Varrak
 Jez,Mis
-Jibiq,"Koʻzi kasal, yoshlanib yuradigan kishi."
-"Jigʻ atdi, yuragi jigʻladi",Yoqtirib qoldi
-Jigʻa,Qizlarning bosh kiyimi bezagi (tovus pati)
+Jibiq,Koʻzi kasal
+Jigʻ atdi,Yoqtirib qoldi
+Jigʻa,Bezak
 Jizziq,Jizza
-Jizziqinga deydimi?,Nafsoniyatingga tegdimi?
-Jik,"Boladan yashirinib, u topaolmasa jik deb koʻrinish beriladi"
-"Jiq, jiyq.",Paxta tolasini chigitdan ajratuvchi uskuna.
+Jik,Yashirinib koʻrinish berish
+Jiq,Uskuna
 Jiqqa,Xoʻl
-Jil,Yupqa qilib yoyilgan xamir
-Jilam-jilam,Yirtilib-soʻkilib aftodasi chiqib qolgan kiyim
+Jil,Yupqa xamir
+Jilam-jilam,Yirtiq
 Jilli,Jinni
-Jiloshi,"Xamir ovqat, xamirni lagʻmonga oʻxshatib tayyorlab pishiriladigan suyuq osh (unoshi)"
-Jimsi,"Har narsadan shubhalanuvchi, mayda gap, ezma odam."
-Jing-jing,Jonga tegadigan past ovozli kishi
-Jinqirama,Bezovta boʻlaverma
+Jiloshi,Xamir ovqat
+Jimsi,Ezma
+Jing-jing,Past ovoz
+Jinqirama,Bezovta boʻlma
 Jinnaqdin,Ozgina
 Jir,Mojoro
 Jirviq,Odobsiz
-Jirqi,Etikning gʻirchillashi
-Jirpildomoq,"Erkalanish, yoki bir joyda turolmay oʻzini koʻrsatishga harakat qilish"
+Jirqi,Gʻirchillash
+Jirpildomoq,Erkalanmoq
 Jirchi,Janjalkash
-Joy sol,Yotadigan joyni tayyorla
-Jollimisan,Joning bormi degan manoni anglatadi
-Jom,Mis kosa
-Joni ichina sigʻmidi,"Achchigʻi chiqqan, jahli tushmayotgan kishi"
-Joni soʻvil,Mashaqqatlarga bardoshli odam
-Joniqish.,"Nimagadir, qayergadir qattiq shoshilmoq."
-Joniqmoq,Qattiq shoshilmoq
+Joy sol,Yotadigan joy tayyorla
+Jom,Kosa
+Joni soʻvil,Bardoshli
+Joniqmoq,Shoshilmoq
 Jonimni yoqmo,Achchigʻimni chiqarma
 Jonli,Zoʻr
 Jonsiz,Zaif
-Jonuzoqi,"Kasalmand odam, shu holda uzoqqa bormaydi"
-Jor solmoq garakmidi,"Ish bitmay turib, ishni natijasi haqida hammaga elon qilish kerakmas."
-Jubba,Yosh bolalar paxtali koʻylagi
+Jonuzoqi,Kasalmand
+Jubba,Bolalar koʻylagi
 Joʻvirta,Atayin
-Joʻvirta galdim,Ataylab sizni koʻrish uchun keldim
+
 Juvoyi,Jufti
 Jugur,Uchli tosh
-Joʻjiq,"Yosh bolani zoʻr bolasan, deb suyadilar."
-Joʻyi,"Ayyor, loʻli, aldoqchi."
 Joʻqqi,Maqtanchoq
-Jumalak,"Qizlarni tor-tor qilib eshilgan sochi, qokilchasi"
 Jumyoz,Jumaniyoz
 Jundik,Bolalar labi
 Jupla,Bopla
@@ -692,53 +555,51 @@ Juplamak,Chuv tushirmoq
 Joʻrop,Paypoq
 Jurra,Oʻsmay qolgan odam
 Jurrik,Pishmagan qovun
-Jurshik (jurtik),Juda mayda
-"Joʻsh (fel
-buyruq mayli)",Mehmon qil.
-Joʻshmachi,"Qoʻli ochiq, sahiy"
+Jurshik,Juda mayda
+Jurtik,Juda mayda
+Joʻsh,Mehmon qil
+Joʻshmachi,Qoʻli ochiq
+Joʻshmachi,Sahiy
 Juyan,Oq joʻhori
-Zabirdovuq,"Chaqqon, tez yuradigan."
-Zavol boʻlmasin,Hech kim bevaqt oʻtib ketmasin
-Zaqirdat,"Tezlat, chaqqonlashtir"
-Zaqqum,"Zahar, oʻta achchiq."
+Zabirdovuq,Chaqqon
+Zabirdovuq,Tez yuradigan
+Zaqirdat,Tezlat
+Zaqirdat,Chaqqonlashtir
+Zaqqum,Zahar
+Zaqqum,Oʻta achchiq
 Zambar,Zambil
 Zamoriq,Qoʻziqorin
 Zang qot,Jim tur
 Zangi,Narvon
 Zar,Zahar
-Zarang,"Qattiq, muzdek qotib qolgan"
+Zarang,Qattiq
+Zarang,Muzdek
 Zarli ilon,Zaharli ilon
-Zatarak atdi,Qiynab yubordi
 Zaxak,Mugʻombir
-Zahmat,"Mehnat, azob chekish."
+Zahmat,Mehnat
+Zahmat,Azob chekish
 Zeysuv,Er osti suvi
 Zigirik,Mol dumgʻazasi
-Ziyoga chiqadi,Zoye ketadi
 Zil,Ogʻir
 Zing,Uloqtir
 Zingillamoq,Xirgoyi qilmoq
 Zinglovuq,Sariq rangli ari
 Zingngit,Uloqtir
-Zinqildamoq,"Bolaning injiqlik qilib, toʻxtab toʻxtab yigʻlashi."
 Zipla,Koʻrinmay qoch
 Ziptirim,Yopishqoq modda
 Zir-zir,Ich ketishi
-Zirriq,"Najas, mol chiqindisi"
+Zirriq,Najas
+Zirriq,Mol chiqindisi
 Zirtiq,Vazelin
 Zihna,Ziqna
 Zovolo,Zuvala
-"Zogʻ (Paxta zogʻ boʻlib
-ochilibdi)",Loʻpi-loʻppi. Masalan: Paxta barq urib ochilibdi.
-Zogʻora,Oq joʻxori unidan qilingan bulka-non
+Zogʻora,Bulka-non
 Zomcha,Handalak
 Zondi,Avlodi
-Zondingni ayt,"Kimlardan boʻlasan, sulolangni gapirib ber (ota –onang, bobolaring kimlar, deb surishtiriladi)"
-Zort,Inson tanasidan qattiq el chiqishi
-Zuvlab getdi,Tezlashib ketdi (yugurib ketdi)
+Zort,El chiqishi
 Zoʻqoq,Baland boʻyli
-Zumakon,"Zimiston, oʻta qorongʻi joy."
-Zoʻrdan galdim,"Yoʻllar yomon ekan zoʻrgʻa etib keldim,"
-Zoʻrdan oʻtdim,"Zoʻrgʻa oʻtdim, tuynuk tor ekan"
+Zumakon,Zimiston
+Zumakon,Qorongʻi joy
 Zoʻrriq,Uzunchoq piyoz
 Ibi,Hov
 Ibiyay,Hov-hov
@@ -746,43 +607,34 @@ Iva,Hoʻl
 Ida,Jiyda
 Idagul,Jiyda guli
 Idilli,Risoladagidek
-Izgʻor,"Xoʻl, namlangan."
+Izgʻor,Xoʻl
+Izgʻor,Namlangan
 Iyi tutdi,Toʻlgʻoq tutdi
-Iyq,"Suv oqimi, ariqni sokin oqadigan joyi."
-Iyri,"Yirik, yoʻgʻon"
-"Il(fel buyruq
-mayli)",Qulfla
-Ilgak,"Kiyim osib qoʻyadigan moslama, veshalka"
-Ildila,Uyni kulfladilar
+Iyq,Suv oqimi
+Iyri,Yirik
+Iyri,Yoʻgʻon
+Il,Qulfla
+Ilgak,Kiyim osgich
+Ilgak,Veshalka
 Iqqilldoviq,Hiqichoq
 Ildir,Ilib qoʻy
-Ildirma,Koʻk goʻmma pishirganda
 Ilik,Qulflangan
 Ilimoq,Yon bosmoq
-"Ilki, uzumni ilki","Ilk, uzumni ilkini (endigina pishganini Shahrizoda eb ketdi)"
-Illat,Ofat (kasallikka oid)
-Ilma,Eshikni qulflama
-Iloyim,Battar boʻl
-Ilon yostiqi,Daraxtlarning ildizini eydigan zararkunanda hashorat
-Im-simda bajar,Hech kimga bildirmay bajar
-Imaklamoq,Emaklamoq
-Imiq joy,"Issiqqina, shamoldan pana joy."
-Imiq ziyofat,Oz kishilik ziyofat
-Imr dumon,"Toʻs toʻpolon, hamma yoq dam olib boʻlmas tutun boʻlib ketdi"
+Illat,Ofat
 Imsim,Bildirmasdan
 Ina,Mana
 Indi,Endi
-Indi soʻlla,Endi gapir
 Injitma,Hafa qilma
 Ini,Ogʻa ini
-Inna,"Nina, igna"
+Inna,Nina
+Inna,Igna
 Inobi,Manabu
 Inon,Ishon
 Inonchli,Ishonchli
 Intiqmoq,Intizor boʻlmoq
 Irgʻanavarma,Qimirlayverma
 Iring,Yiring
-Irkilibman,"Sal uyquga ketibman, uyquga ketganimni bilmay qolibman, juda qisqa muddatda uyquga ketgan. Koʻzim irkilgan ekan, kelganingni bilmay qolibman"
+Irkilibman,Sal uyquga ketibman
 Isvant,Isiriq
 Isirgʻa,Sirgʻa
 Isitma,Kasal turi
@@ -790,1363 +642,1047 @@ Iski pasod,Toʻs-toʻpolon
 Isqirt,Ziqna
 Isop,Qoyil qolmoq
 Ispiqilont,Chayqovchi
-Istamak,"Xohlamoq, sogʻinmoq"
-Istisqo,"Injiq, nozik odam."
-Italab yuvar (mashinni),Itarib yubor (mashinani)
-Itdirsak,"Govmichcha, govmijja, koʻz qovogʻiga chiqadigan yiringli chipqon."
-Itizgʻa,"Yaramas odam, qayerga borsa shu erda tinchlik buziladi."
-Itogʻiz,Ogʻzidan yaxshi gap chiqmaydigan odam
+Istamak,Xohlamoq
+Istamak,Sogʻinmoq
+Istisqo,Injiq
+Istisqo,Nozik odam
+Itarib yubor,Italab yuvar
+Itdirsak,Govmichcha
+Itdirsak,Chipqon
+Itizgʻa,Yaramas odam
+Itogʻiz,Yomon gapiradigan odam
 Itoshiqidin,Juda oriq odam
 Itchivin,Boʻka
-"Ixii, oyoq olishing boshqacha koʻrinadi","Exee, xatti–xarakating boshqacha koʻrinadi, mansabda koʻtarilib, kekkayib kelganga nisbat"
 Ich,Qorin
-Ich goʻynak,Yotishda kiyadigan kuylak
-Ichi oʻtibdi,Ich ketgan (diareya)
-Ichikib kulish,Ichak uziladigan darajada kulish
-Ichim oʻvishdi,Rahmim keldi
-Ichon,"Ichkari, ichki"
+Ich goʻynak,Yotishdagi kuylak
+Ichon,Ichkari
+Ichon,Ichki
 Ichon qala,Ichkari qala
-Ichonni qorob chiq,Ichkarini qarab koʻr
-Ish maktabi,"Mehnat maktabi, ishlab oʻqiydiganlar uchun maktab"
+Ish maktabi,Mehnat maktabi
 Ishvalak,Xushtak
 Ishqir,Ishton bogʻi
 Ishtay,Ishtaha
 Ishundat,Mana shunday qil
 Iya,Ega
-Yigʻirjiqlan- moq,"Istar istamaslik, noxush ahvoldagi xolat"
-Yiyman sani,"Seni eb qoʻyaman, deb bolani erkalash."
 Yilvoʻy,Yalpiz
 Yilgʻin,Yulgʻun
-Yildam,"Kuchli, tez oqadigan suv."
+Yildam,Kuchli oqadigan suv
 Yildirim,Chaqmoq
-Yilib ketdi (qoʻldan),Sirgʻanib tushib ketdi
 Yilimji,Laganbardor
 Yilimtiq,Bemaza
 Yilish,Suril
 Yilma,Silliq
-Yilmoviq,Juda tekislangan
-"Yilmola, girmola",Suvoqni silliqlaydigan asbob.
+Yilmoviq,Tekislangan
+Yilmola,Silliqlash asbobi
+Girmola,Silliqlash asbobi
 Yilpish,Tilyogʻlama
-"Yimolondim yimoq topdim, yimoqni ichindan taroq
-topdim.",Bolalar oʻyini turi.
 Yip,Nozik arqoncha
 Yip boʻl,Jim boʻl
-Yoʻgʻich,"Joʻva, xamirni yoyish uchun ishlatiladigan buyum."
+Yoʻgʻich,Joʻva
 Yoʻl usti,Yoʻl-yoʻlakay
 Yoʻlvors,Yoʻlbars
 Yoʻliqtirmoq,Uchratmoq
-Yoʻlliq,Safarga ketadiganlarga beriladigan pul
-yumirta barak,tuxumdan chuchvara
+Yoʻlliq,Safarga beriladigan pul
+Yumirta barak,Tuxumli chuchvara
 Yoʻngʻichqa,Quruq beda
-Yoʻnigʻchi,Duradgor usta
-Yoʻnqa,Juda mayda oʻtin
+Yoʻnigʻchi,Duradgor
+Yoʻnqa,Mayda oʻtin
 Yoʻrgʻa ot,Tekis yuradigan ot
 Yoʻrinja,Beda
 Kabza,Kurak suyagi
-Kavop boʻl,"Kabob boʻlgaysan, soʻkishni bir turi, kuyib oʻlgaysan degani"
 Kadi,Qovoq
 Kaj,Oʻjar
-Kayvoni,"Oqila, boshqalarga ibrat boʻladigan, hammaga soʻzi oʻtadigan obroʻli ayol."
-Kalavarang,Fikri joyda boʻlmagan odam
-Kalak,"Choʻntiq, sochi tekis oʻsmagan."
-Kalaki,Shoxsiz qoʻchqor.
-Kalantar,"Malum xududda, ayrim sohalarda muammolarni echimini topuvchi, maslaxatchi, toʻgʻri yoʻlga boshlovchi, etakchi. Katta bobomiz Madali jammob, tarixiy kitoblarda bayon qilinganiga qaraganda Xivadagi toʻquvchilarning kalantari boʻlib tanilgan."
+Kayvoni,Oqila ayol
+Kayvoni,Obroʻli ayol
+Kalavarang,Fikri tarqoq odam
+Kalak,Choʻntiq
+Kalaki,Shoxsiz qoʻchqor
+Kalantar,Maslahatchi
+Kalantar,Yetakchi
 Kalla boshoyoq,Kalla-pocha
-Kalla pishdimi?,Yaxshi uxladingmi?
-Kallaqand,Katta mushtdek oq qand
-Kallang qurgʻoy,Esing qursin.
-Kallang nerda,"Kallang joyidami, miyang bormi"
-"Kallanga
-singdirib ol",Miyanga quyib ol
-Kallanga quyib ol,Yaxshilab tushunib ol
-Kallasiz,"Miyasiz, aqlsiz"
-Kalo attim,Boqib tarbiyalab voyaga etkazdim
-Kalo boʻldi,Voyaga etdi
-Kalovzan,Besoʻnaqay
+Kallaqand,Oq qand
+Kallasiz,Miyasiz
 Kaltikalos,Kaltakesak
-Kalchik,Tili chuchuk odam
+Kalchik,Tili chuchuk
 Kamzul,Kostyum
-Kamis,"Kam mol, kami bor ish, kam-koʻstli"
+Kamis,Kami bor ish
 Kangshirik,Halqum
 Kant,Qishloq markazi
 Kapak,Un kepagi
-"Kapdi (Hazorasp
-tumani),   koʻvdi (Gurlan tumani)",Quridi
+Kapdi,Quridi
+Koʻvdi,Quridi
 Kapkir,Kapgir
-Kappon,A
 Karvuch,Gʻisht
-Karsan,Chuqur yogʻoch tovoq
-Kas,"Gapni kamaytir, gapni toʻxtat"
+Karsan,Yogʻoch tovoq
+Kas,Gapni toʻxtat
 Kasa,Koʻndalang
-Kasa chiqqinji,Koʻzda tutilmagan xarajat
-Kasa chiqma,Menga roʻbaro boʻlma
 Kasik,Kesilgan
 Kasma,Kesma
-Kat,"Shaharcha, qoʻrgʻon"
-Katyon,Koʻl-choʻllarda oʻsadigan tikanli oʻt
+Kat,Shaharcha
+Kat,Qoʻrgʻon
+Katyon,Tikanli oʻt
 Katman,Ketmon
 Katxudo,Obroʻli inson
 Kashshof,Pioner
-Keyinga bostir,Orqaga hayda
 Keyni,Oxiri
 Kilit,Kalit
-Kin saqlamaq,Gina-qudrat saqlamoq
-Kipr,Darvozabon (futbol oʻyinida)
+Kin saqlamaq,Gina saqlamoq
+Kipr,Darvozabon
 Kirish,Qovun tilimi
-Kirmoningni,Qaddi boʻyingni
 Kirpi,Tipratikon
 Kirpik,Kiprik
-Kisa,"Kissa, choʻntak."
+Kisa,Choʻntak
 Kichchi,Kichik
-Kishmish,Shibirgʻoni uzumdan qilinadigan mayiz
-Kisht,"Tovuq, qushlarni haydash, quvish."
-kltirik,ozgin
+Kishmish,Mayiz
+Kltirik,Ozgin
 Kon,Koʻp
 Kosa,Piyola
 Koʻvish,Elim kalish
 Koʻvlamoq,Kovlamoq
-Koʻvsan,"Hosildan qarindosh-urugʻ, qoʻshnilarga hadya sifatida beriladigan ulush."
-Kulanggi,Urushqoq xoʻroz zoti
-Koʻlik (Gurlan t.),Ulov
-Kulta,"Bogʻlam ( Beda, joʻxori, goʻzapoya bogʻlamlariga nisbatan ishlatiladi)"
-Koʻlcha,Erni sugʻorishda olinadigan kichik maydonchalar.
+Koʻvsan,Hadya ulush
+Kulanggi,Urushqoq xoʻroz
+Koʻlik,Ulov
+Kulta,Bogʻlam
+Koʻlcha,Kichik maydoncha
 Kuma,Er-toʻla
-Koʻnglim doʻq,Koʻnglim tinch
-"Koʻnglinga
-duyganing bomi?","Yigitga, qiz tanlashdan oldin beriladigan savol: koʻz ostingga olib qoʻyganing bormi?"
 Kunda,Omoch
-Koʻp vax boʻldi goʻrinmisan,Koʻpdan beri koʻrinmay qolding
-Koʻp vax boʻldi loyli suva tushmadik,Koʻpdan beri loyqa suvga choʻmilmadik
 Koʻpir,Koʻprik
-Koʻpisini bilmisan,Koʻp gaplardan habaring yoʻq
-Koʻpchin,Divan ustiga qoplangan prujinali toʻshama
+Koʻpchin,Toʻshama
 Koʻrak,Gʻoʻza koʻsagi
-Kuramoq,Qazimoq.
+Kuramoq,Qazimoq
 Kurvit,Gugurt
-Koʻrik,"Temirchini oʻt yoqadigan joyi, havo puflagichi"
+Koʻrik,Havo puflagich
 Kurmasichon,Kalamush
 Kurra,Xoʻtik
-Kurta,Yosh bolalar paxtalik koʻylagi
+Kurta,Bolalar koʻylagi
 Koʻs,Qiyshiq
 Koʻshayana,Goʻshangga
 Lablabi,Lavlagi
-Lavant,"Dangasa, ishyoqmas, landovur, qoʻlidan ish kelmaydigan odam"
+Lavant,Dangasa
+Lavant,Landovur
 Lavop kosa,Kosa
 Laylak,Tuturiqsiz odam
 Lakki,Kichik tovoqcha
-Lali,"Chuqur boʻlmagan katta tavoq, patnis"
-Langar,Darvoz muvozanat saqlash uchun ishlatadigan xoda
+Lali,Patnis
+Langar,Muvozanat xodasi
 Langngi,Lanka
-Lapa,"Xat joʻnatadigan, qogʻozdan qilingan xat joylashtirilib, yopib kleylanadigan yumoq, konvert"
+Lapa,Konvert
 Lappas,Tepsa tebranmas
-Lechak,Kapmirlar boshiga oʻraydigan uzun roʻmol
+Lechak,Uzun roʻmol
 Likuv,Likopcha
 Lovya,Loviya
-Loqirdomo (Fel buyruq m.),"Tinch oʻtir, bekorga gapirib oraga suqilma."
+Loqirdomo,Tinch oʻtir
 Loqqi,Mahmadona
 Lol boʻl,Ogʻzingni yum
-Lop urmo,Yolgʻonni oshirib yuborma.
-Lopi kaj boʻldi,Hafsalasi pir boʻldi
+Lop urmo,Yolgʻon gapirma
 Loplob yonadi,Gurlab yonadi
-Loplomo,Toʻq qizil alvon
-Loʻbbon,Yirik gavdali odam
+Loplomo,Toʻq qizil
+Loʻbbon,Yirik gavdali
 Loʻzina,Milliy shirinlik
-Luk,Palagʻda tovuq tuxumi
+Luk,Palagʻda tuxum
 Lukcha,Yaxlit
 Loʻqqi,Yirik
 Luqma,Ovqat
-Lunggi,Yogʻ artish uchun sochiq
+Lunggi,Sochiq
 Loʻngngir,Semiz
 Loʻnj,Lab
-Luplatib,Toʻldirib bir kosa suv ber
-Loʻtra,Suyuqlik solingan idishda qolgan choʻkma
+Loʻtra,Choʻkma
 Madrap,Hojatxona
-Mazzapsiz,Oʻz fikrida qatiy turmaydigan odam
-Mayda sitqadan oʻtir,Mayda teshikli choʻmichdan oʻtkaz
-Mama,"Emizikli bola tilidan onasining koʻksi, koʻkragi"
+Mazzapsiz,Irodasiz
+Mama,Koʻkrak
 Mamla,Muomala
 Manglay,Peshona
 Manglayi qora,Manglayi shoʻr
-Manjashmak,"Janjallashmoq, aytishmoq, bahslashmoq."
+Manjashmak,Janjallashmoq
+Manjashmak,Bahslashmoq
 Manot,Pul birligi
 Maska,Uzum navi
 Massi,Maxsi
 Massi koʻvish,Maxsi kalish
-Mattal atmak,Kimnidir muhtoj qilish
-Mattal boʻlish,Kimgadir muhtoj boʻlish
+Mattal boʻlish,Muhtoj boʻlish
 Mashinchi,Tikuvchi
 Mazi,Bekorga
 Mejana,Oʻrik danagi
 Meyin,Miya
 Meymon,Mehmon
-"Meyni
-chayilgan","Miyasi qoʻzgʻalgan, aynigan, miyasi buzuq"
-Meynimni chaqib ichdi,Koʻp gapirib miyani chalgʻitgan odamga nisbat
 Mehtar,Qoʻriqchi
 Mechit,Masjid
-Mijji,"Har narsaga gap topaveradigan odam, maydachi"
-Mijili bormoq,Kichkina beshinchi barmoq
+Mijji,Maydachi
+Mijji,Harsaxat
 Miylang,Boshi garang
 Milgʻayib tushdi,Shalpayib tushdi
 Minjik,Munchoq
-Mirgʻa,Yangi unib chiqqan oʻt
-Mirzavoshshi,"Suvda, yumshoq loyqa joylarda yashaydigan hashorat. Kechalari chir- chir sayrab turadi"
+Mirgʻa,Mayssa
 Mita,Kana
-Mitaram,Dugonalari chetlagan qiz
 Mishmoq,Gʻirromlik qilmoq
-Movarounnohr,Daryoni nariyogʻidagi mamlakat
-Movot,Hasham.
-Movot atmak,Maqtanish
-Movotchi,Hashamga oʻch odam
-Mogʻzovo,"Koʻp gapiradigan, bir gapni koʻp takrorlaydigan ezma odam"
+Movot,Hasham
+Movotchi,Hashamga oʻch
+Mogʻzovo,Ezma
 Mogʻoldoq otmoq,Oʻmboloq oshmoq
-Modormo,"Shijoatsiz, masuliyatdan qochadigan odam."
 Mojik,Kichik jonivor
-Mozorbosti,Safardan keltiriladigan sovgʻa
+Mozorbosti,Sovgʻa
 Moyip,Nogiron
 Molgʻom,Balgʻam
-Molinga mahkam boʻl,Mol-mulkingni extiyot qil
-Molni teyini qurila,Molni tagiga quruq qum yozib yubor
-Mongo qoro,Menga qara
 Morqo,Oppoq
-Mosliq,"Tozalanmagan, iflos."
+Mosliq,Iflos
 Motoq,Matyoqub
 Motsekil,Mototsikl
-Moshkichili,Moshdan qilingan quyuq osh
+Moshkichili,Moshxoʻrda
 Mrat,Manzirat
-Mujili barmoq,Qoʻlning kichik barmogʻi
-Mujmal javob,"Noaniq , tushunarsiz javob"
+Mujmal javob,Noaniq javob
 Moʻlat,Muhlat
-"Moʻldak (Gurlan
-t.)",Qoʻshimcha tomorqa eri
 Moʻmisoz,Ish quroli
 Mung,Qaygʻu
 Mundin,Bunday
-Mundin boʻladi,Bunday boʻladi
-Muning boʻlmidi,Bunisi boʻlmaydi
-Munkib,Aldab oʻzini kuchsiz koʻrsatish
+Munkib,Aldash
 Moʻncha,Hammom
-Murosaga galdik,"Kelishdik, yarashdik"
-Mut,"Tekin, bepul"
-Moʻt,"Baxna, birovni qoʻliga qarab qolgan"
+Mut,Tekin
+Mut,Bepul
+Moʻt,Baxna
 Muttik,Kurtak
-"Mush (doʻrtmush, uchmush)","Burchak (toʻrtburchak, uchburchak)"
-Na balo?,"Nima balo, munchalik, ofat boʻldimi?"
-Na vilin (bilin),"Bilmasam, bilmadim."
-Na dadim,"Nima debman, senga nima degandim."
-Na dading?,Nima deding?
-Na dasang divar,Nima desang deyaver
-Na disan?,Nima deysan?
-Navilo olish garak,Nimalar olish kerak
-Nazallab ot,Nishonga olib ot.
-Nazarlamak,Nishonga olmoq.
-Naloj atin,Nima qilay?
+Mush,Burchak
+Nazallab ot,Nishonga olib ot
+Nazarlamak,Nishonga olmoq
 Nax toʻlov,Naqd toʻlov
-Nallash,Koʻchat oʻtqazmoq
-"Nalcha, nal","Koʻchat, nihol."
-Nerda yuribsan?,Qayerda yuribsan?
+Nallash,Koʻchat oʻtqazish
+Nalcha,Koʻchat
+Nal,Nihol
 Nigirik devor,Sinch devor
-"Niish boʻlipti, (Xonqa tumani), nishatipti ?
-(Urganch).",Nima boʻlibdi?
 Nimkolo,Toʻkis emas
-Nichik?,Qalay?
-Nishatin?,Nima qilay?
-Novvi?,Nima?
-Novolon (nabalo),Namuncha
+Nichik,Qalay
+Novvi,Nima
 Nozvoy,Rayhon
-Noloj qoldim,Ilojsiz qoldim.
 Nox,Ip
-Nochor,Yolgʻiz (ersiz) qolgan ayollarga nisbatan aytiladi
+Nochor,Yolgʻiz
 Noʻmay,Moʻmay
-Noʻxarak (tezgazak),Suvarak
-Noʻxta,Otning yugani
-Noʻsh piyoz,Yangi koʻkargan koʻk piyoz
-"Obirji, ovirji.",Noaniq
+Noʻxarak,Suvarak
+Noʻxta,Yugan
+Noʻsh piyoz,Koʻk piyoz
 Obket,Olib ket
 Ova,Ha
 Ovich,Suqum
-Ovqatni qotiribsan,Ovqatni boplabsan
-"Od, oding kim","Nom, ism, isming kim"
-Odogʻli,Unashtirilgan yoki vada berilgan
+Od,Ism
+Odogʻli,Unashtirilgan
 Oyo,Kaft
-Oyoq,Suvning pastki oqimi
-Oyoq suv,Oʻz holicha oqib keladigan suv
+Oyoq,Quyi oqim
 Oyolvant,Koʻp bolali
-Oz,"Oriqla, qorningni yoʻqot"
+Oz,Oriqla
 Oziqdi,Yiringladi
 Ozonqi,Ertalabki
 Ozor,Azob
-Oybolta,"Suyak chopadigan, goʻsht maydalaydigan bolta"
-Oydin,"Yaxshi, oʻrtacha"
-"Oydin ([i] qisqa
-aytiladi)","Oqmaydigan suv havzasi, koʻl"
-Oyiq,Mast emas
-Oyildi,Mastlikdan xushiga keldi
-Oyilmoq,"Humordan chiqmoq, oʻziga kelmoq"
-Oymoq,"Adabini bermoq, xatosini tan oldirmoq."
-Oyniqsi. U oyniqsi odam,Ajabtovur. U ajabtovur odam
+Oybolta,Bolta
+Oydin,Yaxshi
+Oydin,Koʻl
+Oyiq,Hushyor
+Oyildi,Oʻziga keldi
+Oymoq,Adabini bermoq
 Oynonin,Oʻrgilay
-"Oyri, u oyri.",1) Shoxsimon yogʻoch. 2) Boshqa.
-Oyrit,"Yoʻlni boʻlingan joyi,charroha."
+Oyri,Shoxsimon yogʻoch
+Oyri,Boshqa
+Oyrit,Chorraha
 Oyro,Ayriliq
-Oyroti,Boshqaga tegishli kiyimni vaqtincha kiyish
-Oytvadim,"Aytgandim, aytuvdim"
-Oytdimov,"Bilgandima, aytgandima"
-"Oytmoso, oytqoncha","Aytgandek, aytgancha, aytganimdek"
-Olaposirdi,Odam koʻp joydagi tartibsizlik
 Olapoʻta,Oʻt
-Olvirama,"Dovdirama, shoshilmay gapir"
-Oldirib yubor,Sherikdan oldin ur
 Oli,Olxoʻri
 Olis,Uzoq
-Olishib getdi,"Oʻrganishib ketdi, bogʻchaga har yoqdan kelgan yot bolalar bir-biri bilan til topishib ketdi"
-Olmurut,Noshvoti (nok) ning Xorazm navi
-Ololi,Olaylik
-Olongliq,"Chekka, juda kichik toʻqayzorga oʻxshash joy."
-Olosi,Odamzot bor olasi bor degan ibora.
+Olmurut,Nok
+Olongliq,Kichik toqayzor
 Oloxomma,Qovun navi
-"Olchoq, olgʻir",Uddaburon
-Ongi chiqishmidi,Farasoti etmaydi
+Olchoq,Uddaburon
+Olgʻir,Uddaburon
 Ongirqi,Narigi
 Ongqildoq,Anqov
-Ongqiroq eshak,Tinmay qattiq baqiradigan eshak
-Ongroq suril,Nariroq suril (oʻtir)
 Ongsot,Oson
 Ongshirmoq,Fahmlamoq
-Ondimoq,Sezdirmasdan kuzatmoq.
-Opa,"Ona, oyi"
+Ondimoq,Kuzatmoq
+Opa,Ona
 Ogʻa,Aka
-Ogʻabey,Ziyofatni boshqaruvchi
+Ogʻabey,Ziyofatboshi
 Ogʻaya,Ogʻayni
 Ogʻzibirchilik,Ahillik
-Ogʻzingdan qoning gayay,"Soʻkish, ogʻzidan qoni kelsa oʻlishga yaqinlashgan boʻladi"
 Ogʻzolachilik,Kelishmovchilik
 Ogʻizlamoq,Eslamoq
-Ogʻizli,"Tili oʻtkir, etiborli"
-Ogʻmoq,"Oʻzgarmoq, soʻzida turmaslik."
+Ogʻizli,Tili oʻtkir
+Ogʻmoq,Oʻzgarmoq
 Ogʻromi yoʻq,Ogʻir emas
-Oq gurvak,Qovun navi
-"Oq darak, goʻk darak",Bolalar oʻyini
-Oq oyoq,"Pand beruvchi, koʻchadan beri kelmaydigan odam."
 Oq soʻvit,Oq tol
 Oqar suv,Daryo suvi
 Oqyogʻ,Paxta yogʻi
 Oqqin,Tez oqar suv
-Oqliq,Fotiha toʻyida dasturxonga tortilgan qatiq.
-Oqlovon,Aql oʻrgatuvchi odam
-Oqnovot,Qovun navi
+Oqliq,Qatiq
+Oqlovon,Aql oʻrgatuvchi
 Oqriq,Okrug
-Oqrovo,Haddan ziyod shoʻr ovqat
 Opabiyi,Opa
-Opka,Yosh bolaning talaffuzida opa.
 Opo,Ona
 Oppor,Olib bor
-Optirama,"Qoʻrkmasdan, shoshilmay oʻylab gapir, adashma"
 Opchiq,Olib chiq
-Opchin,"Xarom narsa, tashlab yuboriladigan"
 Orva,Arava
-Oryono tosho,Nariga tashla
 Orjo,Sandiq
 Orzoqli,Ardoqli
 Orqa,Elka
-Orqa toza bogʻ,Orqadagi (shimoldagi) yangi bogʻ
-Orqayin,"Xotirjam, bamaylixotir"
-Orqi dunyo,Narigi dunyo
-Orqindi sovun,Sovunning mayda qoldiqlari
-Orqindi suv,"Kir yuvgandan keyingi suv, magʻzava"
-Orli,Nomusli
-Orno,Katta kanal
+Orqayin,Xotirjam
+Orqi dunyo,Oxirat
+Orno,Kanal
 Oroq sovun,Atirsovun
 Orslon,Arslon
 Ort,Yukla
 Osi,Gunohkor
 Osiq,Osigʻliq
-Osil,"Eng yaxshi, asil"
-Osma shoʻrva,Qaynatma shoʻrva
-Osmoniy soʻllama,"Bilmasdan, asossiz gapirma"
+Osil,Asil
 Ostonroq,Sekinroq
 Ostordesh,Yupqa chopon
-Ostorlik,Toʻshak-koʻrpani ikkinchi tomoniga ishlatilgan mato
-Ot,Musulmon yotqiziladigan tobut
-Ot usti,"Yoʻl-yoʻlakay, shoshilinch kirib oʻtaman."
-Otamagayan,"Keraksiz gap, keraksiz narsa (kesatiq: otamga kelgan oʻlimdek keraksiz, manosida)"
-Otash,Oʻt olov
-Otyonoq (Gurlan tumani),"Choʻziq yuzli (asosan, ayollarga nisbatan ishlatiladi), goʻzallik nisbatlaridan biri."
+Ot,Tobut
+Otash,Olov
 Otil,Atir
-Otlamoq,Xatlab oʻtmoq
+Otlamoq,Xatlamoq
 Otlos,Atlas
-Otnoqda,U yoqda
-Otnoqda- putnoqda,U yoqda bu yoqda.
-Otov,"Orol, oʻtov, qora uy"
+Otov,Orol
 Otogʻiz,Ombur
-Otoshxona,Chilimni oʻt yoqadigan joyi
-Oxorli,"Yangi, yuvilmagan kuylak"
+Oxorli,Yangi
 Oxsirmoq,Aksirmoq
-"Oxtiqingni dum
-arkalatavarma",Nevarangni judayam erkalataverma
 Oxtixona,Molxona
 Oxshom,Kecha
-Oxshom goʻrinmading,Kecha koʻrinmading
-Oxshomqi,Kechagi
 Ohd,Qasam
-Ochilib getibsiz,"Chiroyliroq boʻlibsiz, ancha goʻzallashibsiz"
 Oshir,Koʻpaytir
-Oshqol-doshqol,"Mayda-chuyda, latta-putta, aralashib ketgan har xil narsalar"
 Oshoq,Past
-Oshoqa tush,Pastga tush
-"Palaj, palaj gap","Yomon, yomon gap"
-Palanch,Gʻoʻzapoya bogʻlami
-Paltik (til),Chuchuk (til)
-Pam-parosatsiz,Fahm-farosatsiz
-Pang,"Choʻp-chor, qoziq qoqib suv yoʻli koʻmiladi, pang beriladi"
-Paqirdi,Suvning paqirdab qaynashi
-Panis,Fonus lampa
+Palanch,Bogʻlam
+Paltik,Chuchuk
+Paqirdi,Qaynash
+Panis,Fonus
 Papa,Chaqaloq
-Paravoʻzing yoʻq,Ogʻzingni paravoʻzi yoʻq
-"Parch. Sumkani ichi parcha
-narsa.","Toʻla, boshqa sigʻmaydi. Sumkani ichi toʻla narsa."
-Parchik. Parchik non.,Shishmagan. Qalin boʻlsada shishmagan non.
-"Parchla. Xumni ogʻzini parchlab bakla, uni bir
-gap bilan parchla",Zich bekit.Xumning ogʻzini zich qilib yop
-Pasir-pusir,Birdan
-Pat,"Sochni pati, taroqda ilashib chiqadigan"
-Patik,Uyni shifti
-Patila,Patli soch
-Patingni engno,Soch patingni yigʻib ol.
-Patrak,Elat nomi
+Parchik,Shishmagan
+Patik,Shift
 Paxir,Nochor
-Paxtani soyib qoʻy (soy),"Koʻrpa, toʻshak tikishdan oldin toy paxtani maxsus ishlangan silliq tayoqchalar bilan urib soyish-yumshoqlantirish (paxta pufakchadek shishgan, ogʻromi kam holatga keladi)"
-Perak,Tovuq tuxumining yoʻgʻon dumba tomoni
-"Pes, maxoʻv",Axmoq soʻziga yaqin soʻkish turi
-Pechak oʻt,Atrofidagi oʻsimliklarga chirmashib oʻsadigan yovoyi oʻt
+Perak,Dumba
+Pechak oʻt,Yovoyi oʻt
 Pesh qildi,Koʻrsatdi
-"Pesh. Undan uzoq yur, peshing
-deysa, kasib tashla.",Etak
-Peshalab,"Titkilab, tovuqlar oʻziga emish axtarib hamma erni (tashlandiq uyumlarni ham) titkilab (peshalab) chiqadilar"
-Peshalama,Tovuqqa oʻxshab peshalama (chosh-posh qilma)
-"Peshini qoqib
-ketaveradigan odam",Gap kor etmaydi odam.
-Peshkir,Paxta teriladigan fartuk.
+Pesh,Etak
+Peshalab,Titkilab
+Peshalama,Chosh-posh qilma
+Peshkir,Fartuk
 Peshsha,Chivin
-Pzloʻviq,"Bolalar oʻyinchogʻi, qulogʻini burasangiz vizzilab aylana boshlaydi"
+Pzloʻviq,Vizzillovchi oʻyinchoq
 Piyova,Yovgʻon shoʻrva
 Piyonjiq,Piyanista
 Pilik,Pilta
-Pilis,mogʻor
-Pirxima pishdim,"Terlab pishib, kiyimim nam boʻldi."
+Pilis,Mogʻor
 Pista,Eryongʻoq
 Pitta,Biroz
-Pitta eb ol,"Hech boʻlmasa ozgina, bir qoshiq tatib ket, ozgina bir boʻlak eb ol, bir boʻlak non bilan bir piyola choy ichgin"
-Pishib turgan keksa odam,Oʻlimi yaqin juda keksa odam
-Pishik,"Oʻta aqlli, mugʻombir, hayot tajribasiga ega odam."
+Pitta,Ozgina
+Pishik,Aqlli
+Pishik,Mugʻombir
 Pishti,Qoʻshmachi
 Plis,Mogʻor
-Poyopul,Faqat piyodalar oʻtishi uchun moʻljallangan koʻprik
-Poy,"Ulush, haq"
+Poyopul,Piyodalar koʻprigi
+Poy,Ulush
+Poy,Haq
 Poyir,Xamirturish
-Poynak,Bosh kiyimning oldiga chiqib turadigan soyaboni
-Poytovo,Etik kiyganda oʻraydigan yumshoq mato
-Poki,"Soch-soqol oladigan oʻtkir tigʻli asbob, ustara"
-Poq-poqoloq,"Poqqilama yomgʻir yogʻdi, keyin selga aylandi"
-Poqloviq,Teri kuyganda paydo boʻladigan pufakcha
-Poqlovuq otdi,Kuygan terida pufakcha paydo boʻldi.
+Poynak,Soyabon
+Poytovo,Oʻrovchi mato
+Poki,Ustara
+Poq-poqoloq,Jala
+Poqloviq,Pufakcha
 Poqlomo,Paxlava
-Polvon yop,Katta polvon kanali
-Polvon pira borib galaman,Pahlavon Mahmudni maqbarasiga ziyoratga ketayotganini bildiradi
+Polvon yop,Kanal
 Polmin,Folbin
-Polpis,Ozodalikka etiborsiz odam
-Popoqchi,Telpak tikuvchi
-Porsong,Uzunlik oʻlchov birligi
+Polpis,Kir-chir
+Polpis,Ozodalikka eʼtiborsiz
+Popoqchi,Telpakchi
+Porsong,Uzunlik oʻlchovi
 Posirdi,Toʻs-toʻpolon
-Posmonda,Madaniyatsiz odam
+Posmonda,Madaniyatsiz
 Pot-pot,Traktor
-Potinka,"Qishki oyoq kiyimi, yarim etik"
-Potirdomo,Pitir-pitir(beodoblik) qilaverma.
-Potloq,Koʻzi kattaroq koʻrinadigan odam.
+Potinka,Yarim etik
+Potloq,Katta koʻzli
 Potrot,Chatoq
-Potti,"Harakatlari, kiyim boshi, gap-soʻzi boshqalarga yoqmaydigan, atrofdagilarga, oʻziga ham beparvo qaraydigan, tartibsiz odam."
-Potti–puttingni yigʻishtir,"Uyda kerak-kerakmaydigan kiyim-kechaklar, oʻyinchoqlar, oyoq kiyimlari tartibsiz boʻlib yotganda tanbex qilib aytiladi"
-Poxxa,Suvi qochgan meva
+Potti,Tartibsiz
+Poxxa,Suvi qochgan
 Poxxo,Poʻkak
 Poshsho,Podshoh
 Poshshob,Jallod
-Psmik,"Zimdan ish kiladigan, xamma joyga burnini tikib yuradigan"
-Ptroq,"Yovvoyi oʻt, mevasi tikanli boʻlib, kimdir tegib oʻtadigan boʻlsa kiyimiga yopishib oladi, ayniqsa paxtazorda"
-Poʻlqit,Ezilib suvi chiqib ketgan meva
-Pullasa boʻladi,"Pullamoq, biron narsani pulga sotib yuborish"
-Poʻrsang er,"Zahkash, ariq atroflaridagi ekilmay turgan yumshoq erlar"
-Poʻssiq,Yogʻda qovurilgan chalpak
-Poʻstakla,"Shunday urginki, qaytib bu ishlarni qilmasin"
-Poʻta,Ayollar roʻmoli
+Psmik,Zimdan ish qiluvchi
+Ptroq,Tikanli oʻt
+Poʻlqit,Ezilgan meva
+Poʻrsang er,Zahkash er
+Poʻssiq,Chalpak
+Poʻta,Roʻmol
 Poʻxxa,Zaif
-Pushta,Belkurakning orqa tomoni
-"Pushta,pushtala b",Poliz ekinlarini egatsiz oʻstirish usuli
-Qayiq lagan,"Bir vaqtlar, vannaxonalar yoʻq davrida qayiqqa oʻxshatib ishlangan lagan (tos) lar paydo boʻlgandi, bolalarni choʻmiltirish uchun"
+Pushta,Egatsiz oʻstirish
 Qayin,Mahkam
 Qayishtir,Eg
-Qala,"Toʻldirmoq, tiqmoq"
-Qibla toza bogʻ,Qibladagi yangi bogʻ
+Qala,Toʻldirmoq
+Qala,Tiqmoq
 Qidiqi bo,Qitigʻi bor
 Qidiqlomoq,Qitiqlamoq
-Qidirishma,Sayoxat
-Qidirishmagʻa getyotirman,Sayoxatga ketayotirman
+Qidirishma,Sayohat
 Qiyomat,Oxir zamon
 Qijimoq,Kichinmoq
-Qizgʻinladi,Ish qizidi
 Qizgʻonch,Qizgʻonchiq
 Qizil qurt,Chuvalchang
-Qiytor,Gʻilay koʻz
-Qil dapa,Baland tepalik
-Qildir,Begona oʻt turi
-Qildiriq,Juda oriq bola
+Qiytor,Gʻilay
+Qil dapa,Tepalik
+Qildir,Begona oʻt
+Qildiriq,Oriq bola
 Qiliq,Odat
 Qilchiq,Baliq suyagi
-Qirgʻiz yop,Urganch shahridan oʻtgan kanal
-Qiron galdi,Qirgʻin keldi
-Qirtish,"Erning yuzgi qismi, erni qirtishidan olingan tuproqdan Xudo odamni yaratgan"
-Qisliqish,Asabiylashib siqilish.
-Qisliqovarma,"Oʻzingni koyishni toʻxtat, ezilaverma."
-"Qisnoq (Gurlan
-tumani)",Daryoning toraygan joyi
+Qirgʻiz yop,Kanal
+Qiron,Qirgʻin
+Qirtish,Tuproq yuzi
+Qisnoq,Daryo torligi
 Qistonmang,Shoshmang
-Qit,"Kamyob, kam uchraydigan"
-Qovargʻon,"Ketmon chopib, kaftning u eri, bu eri shishib qotib qolgan holati"
+Qit,Kamyob
 Qoz,Kovla
-Qoznoq,Oziq-ovqat saqlanadigan omborxona
+Qoznoq,Omborxona
 Qozoqi qoʻy,Qoʻy zoti
-Qozoqi roʻmol,"Chit roʻmol, toʻylarda tarqatiladi"
-Qozolondi,"Olamdan oʻtdi, qazo qildi."
-Qozuv,Ariqlarni loyqadan tozalash
-Qoyiz,Daraxtning poʻstlogʻi
+Qozoqi roʻmol,Chit roʻmol
+Qozolondi,Vafot etdi
+Qozuv,Tozalash
+Qoyiz,Poʻstloq
 Qoyim,Mos
-Qoyish,Beshbarmoqqa oʻxshash taom
-Qoyish kurdik,Manparga oʻxshash taom
-Qoymoq (Burgut qayib uchdi),Qanot qoqmasdan uchmoq.
-Qoytish boʻldi,Odam vafot etdi.
-"Qoqa (bola
-tilidan)","Qand, konfeta"
-Qoqilgʻoysan,"Erga qoqilgʻaysan, qoziqqa oʻxshab qoqqayib turma"
-Qoqirdob gulish,Qattiq ovoz chiqarib kulish
-Qoqq atasan,"Bolaga yiqilib tushasan, urilib ketasan deyilgani"
-"Qoqqoyib
-durisha qoro",Gerdayib turishin koʻr
-Qoqqoymin oʻl,Kekkaymay oʻl
-Qoqqoymo (ot),Tabiatan kekkayma odam
-"Qoqqoymo (fel
-buyruq mayli)",Kekkayaverma
-Qoqrob qolgʻon er,"Suvsiz qolgan, choʻlga aylanayotgan er."
-Qoling,Kelinga mahr qilib beriladigan qalin puli
-Qolingini olish,Yagonalash
+Qoyish,Taom turi
+Qoq-qoq,Qand
+Qoq-qoq,Konfeta
+Qoling,Qalin puli
 Qollavoch,Qaldirgʻoch
 Qoloq,Kichik choʻmich
 Qongirib tasha,Agʻdarib tashla
 Qonjiq,Urgʻochi it
-Qonqoyma,Gerdayma
 Qopi,Eshik
 Qopil,Jim boʻl
-Qopini bakla,Eshikni yop.
 Qopoq,Koʻz qopogʻi
-Qoppoygʻon,"Shishgan, kattalashgan."
-Qopriq,Shamol aylanmaydigan joy.
+Qoppoygʻon,Shishgan
+Qopriq,Pana joy
 Qoptol,Yon taraf
-Qopchib ol,"Otilgan toʻpni ushlab ol, tutib ol."
-"Qopshiqdi, qopildi
-(kesatiq)",Bozorda qolmadi .
-Qopshirma,Goʻmmaning yogʻsiz qovurilgan turi
-Qor atib getdi,Arazlab ketdi
+Qopchib ol,Tutib ol
+Qopshirma,Goʻmma turi
 Qor atmak,Xafa boʻlmoq
-Qor uchqunladi,Qor sekin yogʻa boshladi.
-Qora kasak,Goʻshtning yogʻsiz joyi
-Qora poʻchoq,Ichida qurt oʻlib qolgan pilla
+Qor uchqunladi,Qor yogʻa boshladi
+Qora kasak,Yogʻsiz goʻsht
+Qora poʻchoq,Oʻlik pilla
 Qoravuloq,Dala
-Qoraqonni (zaqqim) ye,Koyishni bir turi
 Qorauloq,Qoraquloq
-Qorjong,Sal narsaga xafa boʻluvchi odam
-Qoriq,Egat (paxtazorni sugʻorishda olingan egat)
-Qoriq berish,Palovni qozonda qorishning bir usuli
+Qorjong,Arazchi
+Qoriq,Egat
 Qorinja,Chumoli
 Qorqi,Oshli
-Qormo,Shovlaning bir turi
+Qormo,Shovla turi
 Qormoq,Aralashtirmoq
-Qoromiq,Odam terisiga toshadigan toshma turi
-Qoromon gujum,Narvon daraxtining bir turi
-Qorotqi,Suniy soqchi
-Qorri,"Qari, keksa chol."
+Qoromiq,Toshma turi
+Qoromon gujum,Daraxt turi
+Qorotqi,Sunʼiy soqchi
+Qorri,Qari
 Qorri qiz,Qovun navi
-Qorriboy,Erkaklar ismi
-Qorsildop uchgʻoyson,Qattiq koyish turi
-Qosnoq,Kepkaning poynagi
-Qotirib qoʻy,Oʻxshatib qoʻy
-Qotirmoch,Yogʻsiz qovurilgan non
+Qosnoq,Poynak
+Qotirmoch,Qovurilgan non
 Qochor,Gʻunajin
 Qoʻvalamoq,Quvlamoq
-Qoʻvib yuvardim,Haydab yubordim
 Qoʻviz,Sholi poʻstlogʻi
 Qoʻviq,Poʻstloq
-Qoʻvip yuvar,Haydab yubor
-Qoʻvirdoq,Dimlab pishirilgan goʻsht
+Qoʻvirdoq,Qovurilgan goʻsht
 Quvla,Qibla
-Qoʻvlashmajaq,Quvlashmachoq oʻyini
+Qoʻvlashmajaq,Quvlashmachoq
 Qoʻvliq,Beshinchi avlod
 Qudirgʻon it,Quturgan it
-Quyonjiq,"Quyonchiq, tutqanoq."
-Qujoq ochib,Quchoq ochib
+Quyonjiq,Tutqanoq
 Qujoqlomoq,Quchoqlamoq
-Qoʻzvoq,"Qoʻzgʻoq, soch ostidagi kepak"
-Quyi,quduq
+Qoʻzvoq,Kepak
+Quyi,Quduq
 Qoʻysongo,Qoʻysangchi
-Qoʻqin oshi,Mayit chiqqan uyda pishirilgan osh.
-Qoʻqir,"Kibrli, manman, gerdaygan."
-"Qul, qulsumoq",Badani sertuk odam
+Qoʻqin oshi,Ehsan oshi
+Qoʻqir,Kibrli
+Qoʻqir,Manman
 Qoʻlliq,Qoʻlqop
 Qullop,Oshiq-moshiq
-Quloq,Ariqning qulogʻi
-Quloqchin (Popoq),Quloqni yopib turadigan telpak.
+Quloq,Ariq boshi
+Quloqchin,Telpak
 Qulp,Qulf
 Qumpishik,Yumronqoziq
 Qumri,Musicha
 Qoʻngishi,Qoʻshni
-Qundoq,"Yoʻrgak, yumshoq chit, matodan qilingan roʻmol"
-Qundoqlash,Yoʻrgaklash.
-Qoʻnoq,Soch ostidagi kepak
-Qoʻpdi. Suvoq qoʻpdi.,Biror yopishgan narsaning joyidan qoʻzgʻalishi.
-Qur,"Toʻylarda tomosha koʻrsatiladigan, kurash tushiladigan davra"
+Qundoq,Yoʻrgak
+Qundoqlash,Yoʻrgaklash
+Qoʻnoq,Kepak
+Qur,Davra
 Qurvoqqo,Qurbaqa
 Qurvonlik,Qurbonlik
 Qurgʻun,Badavlat
-Qurgʻun oila,Oʻziga toʻq oila
 Qurjoq,Qoʻgʻirchoq
-Qurjoqchi,"Qoʻgʻirchoq tuzatuvchi, oʻynatuvchi"
-Qoʻrq tovuq,Tuxum bosib yotgan tovuq
-Qurmish,Kichik toʻrtburchak shaklidagi goʻmma.
+Qurjoqchi,Qoʻgʻirchoqboz
+Qoʻrq tovuq,Kurk tovuq
+Qurmish,Goʻmma turi
 Qurmogʻoy,Qurmagur
-Quromish (quromish,Quroq
+Quromish,Quroq
 Qurot,Sihatgoh
 Qursoq,Qorin
-"Qoʻrchilash, qoʻrjilash.Ukan gni qoʻrchilab
-yur","Tarafini olmoq, avaylash, asrash."
 Qusuri chiqdi,Tinchlandi
 Qut,Jon
-Quti oʻchgan,Rang roʻyi bir holatda
 Qutli boʻlsin,Qutlugʻ boʻlsin
-Quuri,"Quruq, qurigan"
-Qoʻsh,"Makon, qarorgox, juft"
-Qoʻsh tashladik,Ulfatlar bilan maishat qilishga oʻtirdik.
-Qoʻshkoʻpir,Qoʻsh koʻpirik
-Qoʻshont,1Toʻyga yordam 2.Qoʻshimcha
-"Qoʻshontli (bu sigʻirning
-semental zotidan
-qoʻshonti bor)",Qoʻshimcha qoʻshilgan.
-Ragʻvarogʻ,Eshiklar toʻliq ochib tashlangan
-Rap,Tezda ket bu erdan
-Rapdi,Juftakni rostladi
-Raptor,"Yuz, bet"
+Quuri,Quruq
+Qoʻsh,Makon
+Qoʻsh,Juft
+Qoʻshkoʻpir,Qoʻsh koʻprik
+Qoʻshont,Yordam
+Qoʻshont,Qoʻshimcha
+Ragʻvarogʻ,Ochiq-sochiq
+Rapdi,Qochdi
+Raptor,Yuz
+Raptor,Bet
 Rasmchi,Suratkash
 Rengin,Rentgen
 Ribob,Rubob
-Roy,"Koʻngil, istak, xoxish"
+Roy,Koʻngil
+Roy,Xohish
 Ros,Toʻgʻri
-Rosh,"Yoplarni loyqadan tozalaganda, qaziganda qirgʻoqlara toʻplanib qurib qolgan mayda tuproq"
+Rosh,Tuproq uyumi
 Rujja,Koʻk sulton
-Roʻyi quvla,Qiblaga qarab
 Roʻray,Vaqti-vaqti bilan
 Sadaf,Tugma
-Sazo,"Jazo, tanbeh"
-Sazoyi,"Jazo bermoq, vatanidan judo qilib haydash"
-Sakdi,Harakat tartibi buzildi
-Saqildoq,Semiz odamning soqogʻi
+Sazo,Jazo
+Sazoyi,Badargʻa
 Salgina,Ozgina
-Salt yuradi (mashinada),Mashinada asosan bir oʻzi yuradi
 Samtiq,Bemaza
 Sang,Toʻlqin
-Sanggi,Koʻcha-koʻyda sangʻib yuradigan odam
+Sanggi,Sangʻi
 Sangoroq,Danak
-Sanduqcha- gulbuqcha,"Bolalar oʻyini, sandiqda turgan ochilmagan gul"
 Sani,Seni
-Sani olgʻoy,Oʻlay?! (koyishning eng yumshoq turi)
 Sanlama,Sensirama
-Sapala,Bilinar bilinmas suv sep
+Sapala,Suv sep
 Sapkil,Sepkil
-Sarang,Juda zoʻr
-Sarvalama,Paypaslama
-Sargʻimtir,Sariq rangga yaqin
-Sardava qolgʻonni tosho,Keraksiz narsani tashla
-Sardoʻz,Qop tikadigan baquvvat ip
-Sarjin,Taxlab qoʻyilgan oʻtin.
+Sarang,Zoʻr
+Sargʻimtir,Sargʻish
+Sardoʻz,Baquvvat ip
+Sarjin,Oʻtin taxlami
 Sarinjoq,Argʻimchoq
-Sarmak,"Yoyish, masalan, kirni oftobga yoyish"
+Sarmak,Yoyish
 Sas,Ovoz
-"Sas, Sasing chiqmadi","Ovoz, Ovozing chiqmadi, eshitilmadi"
 Sat,Soat
 Satari,Olifta
 Sattarosh,Sartarosh
-Seys,"Oʻta hushyor, ziyrak odam"
+Seys,Hushyor
 Seysxona,Otxona
 Serchali chalak,Sirlangan chelak
 Secha,Chumchuq
-Secha tut,"Oq, qizgʻish rangda boʻladi, tez pishib toʻkilib ketadi. Shu sabab qoʻnoq (mehmon) desalar kerak"
-"Sigir aydi, eydi",Sigir iydi
 Sizloq,Chipqon
-Sil,Juda yupqa goʻsht yopishgan suyak
-Silkillama choʻrma,Silkillaydigan choʻgirma
-Simtik,Qurumsoq odam
-Sin etib,Sinab
-Singdi,"Singib ketdi, xazm boʻldi."
-Singmadi,Ovqat xazm boʻlmadi.
-Singsila,"Juda koʻpmeva qilgan mevali daraxt, uzum"
-Siniqchi,Singan suyaklarni davolovchi tabib
-Siplik,"Choʻp-chor yigʻindisi, chiqindi"
+Sil,Yupqa goʻsht
+Simtik,Qurumsoq
+Singdi,Hazm boʻldi
+Singsila,Hosildor
+Siniqchi,Tabib
+Siplik,Chiqindi
 Sipsa,Supurgi
 Siptirib,Sirgʻanib
-Sirish,"Eski davrdagi kley, bir yogʻochni (reykani) yana biriga yopishtirish mumkin edi. Bodrak (varrak) larni tuzatishda ishlatardik. Yigʻilgan shilim qoʻchqorni shoxiga solinib qattiq chiviq (choʻp, qurigan daraxt novdasi) bilan aralashtirilardi"
-Sirishla,"Kleyla,Ilgarilari kley boʻlmas edi, daraxtlardan oqadigan shiralarni (shilim) yigʻib sirish (kley) qilardik"
-Sirp,"Sirli, tutqich bermas, mahkam, qattiq"
+Sirish,Elim
+Sirish,Kley
+Sirishla,Kleyla
+Sirp,Tutqich bermas
+Sirp,Mahkam
 Sitqa,Gʻalvir
 Sixak,Maydalagich
 Sichra,Sakra
-Sichradi,Chaqaloq vafot etsa shunday deyiladi
-"Sovildi (toʻy, arik)","Toʻy, maraka tugadi 2 Biror bir mevaning pishish davri tugab boʻldi"
+Sichradi,Vafot etdi
+Sovildi,Tugadi
 Sovin,Sovun
 Sogʻot,Yaramas
 Soda,Sodda
-Soz,"Garmon, akkordeon va bayanning umumiy nomlanishi."
+Soz,Garmon
+Soz,Akkordeon
 Sozoq,Saksavul
-Soyil (Bogʻot t.),Gadoy
+Soyil,Gadoy
 Soqa,Kanal boshi
-Soqor,Peshonasida oqi bor it
-"Sollonmin, tezroq yuri",Choʻzilavermasdan tez-tez qadam tashla
-Sollonmo,"Choʻzilib, sekin yuradigan odam"
+Soqor,Oq xolli it
+Sollonmo,Sekin yurish
 Solmo,Kichik ariqcha
-Solmoq (Oʻy soldim),Qurmoq (Uy qurdim)
+Solmoq,Qurmoq
 Solpi,Lapashang
-Sop,"Bolta, belkurak kabi dastali buyumlarning dastasiz qismi"
+Sop,Dasta
 Sorichoʻp,Zarpechak
-Sosi,"Badboʻy, sassiq"
+Sosi,Sassiq
+Sosi,Badboʻy
 Sotil,Boltacha
 Soxona,Keraksiz narsa
-Sochrob tushdi,Birdan jahli chiqib gap qaytara boshladi
-Sochoʻsar,Molning oyoq payi
+Sochoʻsar,Oyoq payi
 Srish,Elim
 Soʻbat,Suhbat
-Suv ochish,Erni isrofgarchilik bilan sugʻorish.
-Suv tutish,Erni meyorida sugʻorish.
-Suv oʻti,Yovvoyi oʻt turi
-Suva tushamiz,Choʻmilamiz
-Soʻvgʻa er,Serhosil zich tuproqli er
-Soʻvit,Majnuntollar oilasiga mansub daraxt
-"Soʻvmoq (marakani,
-toʻyni)",Tugatmoq
-Sudur,Odamning chetdan qaraganda koʻrinishi
+Suva tushish,Choʻmilish
+Soʻvgʻa er,Serhosil er
+Soʻvit,Majnuntol
+Sudur,Koʻrinish
 Suji,Chuchuk
 Suji jon,Shirin jon
-Soʻzilma,Tezlash (shoshmasdan xarakatlanib yuriganda ishlatiladi)
-"Suzilma(fel,
-buyruq mayli)",Jiddiy boʻl
-Soʻzish,Biror narsani choʻzish
-Suzma,Palovning turi
-"Suyish(fel
-buyruq mayli)",Suril
+Soʻzilma,Tezlash
+Suzilma,Jiddiy boʻl
+Soʻzish,Choʻzish
+Suzma,Palov turi
+Suyish,Suril
 Soʻk,Tariq
-Suqanoq,Boshqalar bilan tez til topishadigan odam
-Suqilishma,San gapga aralashma
-Soʻqishmoq soʻqishdim,"Sovuqqotmoq, sovuqqotdim."
-Soʻqmoq uzilmasin,"Begonalashib ketmaylik, bizdan keyin bolalar bir-birini taniydigan boʻlsin, bordi-keldi toʻxtamasin"
-Suqulmo,Aralashma
-Sulgi (sulyi),Sochiq
+Suqanoq,Kirishuvchan
+Soʻqishmoq,Sovuqqotmoq
+Sulgi,Sochiq
 Sulgun,Qirgʻovul
 Soʻlla,Gapir
 Soʻllama,Gapirma
-"soʻllasamam ham gap kor atmidi), Bir
-korni boshshini tutmading",Bir kasbni egallamading
-Soʻllashib oʻtirib qolibmiz,"Gap qizib ketib, uyga ketish esdan chiqgan"
-Sulloydi,"Holdan toydi, charchadi"
-Sullopcha,Qoʻl yuvishda ishlatiladigan lagancha
-Soʻm goʻsh (et),Lahm goʻsht
+Sulloydi,Holdan toydi
+Sullopcha,Lagancha
+Soʻm goʻsh,Lahm goʻsht
 Soʻm damir,Quyma temir
-Sumalanib yurish,Oʻralashib yurmoq
 Sumirib ich,Toʻyib ich
 Soʻmsa,Somsa
-Sumsik,Chaqirilmasada kelaveradigan odam
+Sumsik,Chaqirilmagan mehmon
 Sungak,Suyak
-Sunnikib yiqildim,"Yoʻlda, bilmasdan biron bir toshga yoki boshqa bir jismga turtilib, urilib yiqilib tushgan"
 Supsa,Supurgi
-Soʻsoy,"Besoʻnaqay, uzun boʻyli odam"
-Soʻt,"Soʻkib ber, tikilgan matoni tikinini soʻkish."
-Sut oshi,Sutda pishiriladigan guruchli osh
-Soʻoʻz,"Ipni tarangla, pulni choʻz, ipni choʻzib uzaytir"
+Soʻsoy,Besoʻnaqay
+Soʻt,Soʻkib ber
+Sut oshi,Shirguruch
+Soʻoʻz,Choʻz
 Schon,Sichqon
-Ses boʻl (ses boʻlmoq),"Ehtiyot boʻl, ehtiyot boʻlmoq, harbir ishda ehtiyotkorlik zarur"
-Tavallo,"Tavba qilmoq, uzr soʻrash"
-Tajan,"Uzoq, borib, etib boʻlmaydigan joy"
-Tazzak,"Mol tezagi, najas"
+Ses boʻl,Ehtiyot boʻl
+Tavallo,Tavba
+Tavallo,Uzr
+Tajan,Uzoq joy
+Tazzak,Tezak
 Taka,Yostiq
-Takallak,"Baliqchi qush, oʻz nomini aytib uchadi, takallak-takallak deb sayraydi"
-Takanamat,Echki yungidan qilingan polos. Kigiz
-Taqirdi,Gapga usta odam
-Tal (Urganch ),"Tekis, muvozanatda turgan"
+Takallak,Baliqchi qush
+Takanamat,Kigiz
+Taqirdi,Gapga usta
+Tal,Tekis
 Talatin,Charm
 Tam yoʻq,Mazasiz
 Taman,Katta nina
 Tamancha,Ninacha
 Tamomi,Hamma
-Tanga,Kumush pul (1 tanga 20 tiyin)
-Tanga (tiyin),Tanga
-Tandormisiz,"Tetikmisiz, taningiz sogʻmi"
+Tanga,Tiyin
+Tandor,Sogʻ-salomat
 Tap,Childirma
-Tappi (loʻppi),Semiz
-Tar,Yangi uzilgan (meva-sabzavot)
-"Tarnak, tannak",Eng ertapishar qovun navi.
-Tarozi bosmidi,"Engil, tarozida oʻlchashga arzimaydigan narsa."
+Tappi,Semiz
+Tar,Yangi uzilgan
+Tarnak,Ertapishar qovun
 Tars,Teskari
-Tarsaki,Teskari
-Tarsyoʻnqa,"Oʻjar, qaysar odam."
-Tarsoyoq,"Toʻgʻrini ham egri, deydigan odam."
-"Taxyo, teyxo",Doʻppi
-Taxlab qoʻy,"Boplab qoʻy, Bironta gerdayib yuradiganni aqlli gap bilan boplab qoʻy"
+Tarsyoʻnqa,Oʻjar
+Tarsoyoq,Qaysar
+Taxyo,Doʻppi
+Teyxo,Doʻppi
 Tashkil,Ziyofat
-Teyzamin,Oqova suv yigʻiladigan quduq
+Teyzamin,Oqova quduq
 Teyip,Tabib
 Tilgiramxona,Telegraf
-Tilla,Oltin pul (3 soʻm 60 tiyin)
-Timmitdin,Tuppa-tuzik
-Tirriq,Tirik jonzoddan chiqadigan ahlat
+Tilla,Oltin pul
+Timmitdin,Tuppa-tuzuk
+Tirriq,Ahlat
 Tirtim,Jim-jit
-Tishtirnoq,"Erni has-choʻpdan tozalash asbobi, grablya"
-Tovoxdosh,Bir idishda (tovoqda) ovqat eydigan sherik
-Toza,"Toza,ozoda"
+Tishtirnoq,Grablya
+Tovoxdosh,Sherik
+Toza,Ozoda
 Tozabogʻ,Yangi bogʻ
-Toyipi,Uzumning xorazm navi-qishda saqlanadigan
-Toyloq,Yalangʻoch odam
-Tomodo,"Toʻy, ziyofatni boshqarib boruvchi odam."
-Togʻma,Tomgʻa
-Toq,Isirgʻani taq
-Tonqo,Duralyuminiydan quyib ishlangan suv qaynatadigan qumgʻon.
+Toyloq,Yalangʻoch
+Tomodo,Boshqaruvchi
+Togʻma,Tamgʻa
+Toq,Taq
+Tonqo,Qumgʻon
 Top oʻzi,Xuddi oʻzi
-Tortanak (qirqoyoq),Oʻrgimchak
-"Tos, tosdon",Bir bahya qoldi.
-Tosir-tusir,"Birdan, jahl bilan harakat qilmoq"
-Tostorxon,Butkul buzilgan
+Tortanak,Oʻrgimchak
 Toshbosma,Litografiya
 Toshkanli,Toshkentlik
 Tosho,Tashla
-Traktr kursi,Mexanizatsiya bilim yurti
-Toʻzvoq,"Yakanning guli, toʻzgʻoq"
+Toʻzvoq,Toʻzgʻoq
 Toʻzgʻon,Eskirgan
 Tuy,Tuk
-Toʻqirdi,Qayerdandir toʻqirdagan ovoz chiqayotgani
-Toʻqitqa,Yoʻl tagidan oʻtadigan suv yoʻli
-Tulak odam,"Shaytonga dars beradigan, mugʻombir odam"
-Toʻlpi,Semizroq bola
+Toʻqitqa,Suv yoʻli
+Tulak,Mugʻombir
+Toʻlpi,Semiz
 Tulup,Turup
 Toʻmazon,Qora qoʻngʻiz
 Toʻmat,Tuhmat
 Tunka,Toʻnka
-Toʻnqayib dur,Bukilib tur
-Tunt,Soʻlgʻin rang
-Tuncha,Temir choynak yoki plastmassa oftoba.
-Toʻpiq,Oyoq panjasining yuqori qismi
-"Toʻrali (Gurlan
-tumani)",Yaxshi
-Toʻrsayish,Qovogʻini solish
-Toʻrsiq,Semiz bolakay
-Turshak,Shirinlik (Konfet) turi
-Tuta,Ip gʻaltagi
-Tutatki,Tutatgich giyoh (isiriq)
-Tutinilmogʻon,"Yangi, foydalanilmagan, ishlatilmagan"
+Tunt,Soʻlgʻin
+Tuncha,Choynak
+Toʻpiq,Oyoq panjasi
+Toʻrali,Yaxshi
+Toʻrsayish,Arazlash
+Toʻrsiq,Semiz bola
+Turshak,Konfet turi
+Tuta,Gʻaltak
+Tutatki,Isiriq
 Tutliq,Tutzor
-Tufak,Uzr soʻrab soʻzini qaytib olish
+Tufak,Uzr
 Tuflik,Tupuk
 Tuxum,Urugʻ
-Tuxumi- tajjing,Urugʻ-aymogʻing
-Tuxuminga qiron galgay,"Avlodingga, yurtinga qirgʻin kelgay deb dushmanga nisbatan aytilgan soʻkish turi"
-Toʻshshi,"Adan, oqova suv ketadigan chuqurlik"
-Uvvogʻo boromiz,"Uzoqlarga borib kelamiz, yosh bolalarga aytiladi"
-Ujji,"Uzum, bolalar tilidan"
-Uzik,"Bir qismi yoʻk, boʻlaklangan, uzilgan, kesilgan"
+Toʻshshi,Chuqurlik
+Uzik,Boʻlaklangan
 Uzin,Uzun
-Uzman,Manparga oʻxshash taom
-"Uzoy, choʻzin.",Naynov
-Uzol,Oyogʻingni choʻzib bemalol dam ol
-Uzotib qoʻy,Kuzatib qoʻy
-Uzotish,Kuzatib yuborish
-Uy,"Toʻpla, yigʻ"
-Uyindi,"Sut uyindi, qatiq boʻldi"
-Uyitmoq,Sutni achitib qatiq qilmoq.
-uymok,angishvona
-Ulyi (ulgi),Andoza
-Ulli,"Katta, yoshi ulugʻ, mansabi ulugʻ"
+Uzman,Taom turi
+Uzoy,Naynov
+Uzotish,Kuzatish
+Uy,Yigʻ
+Uyitmoq,Achitmoq
+Uymok,Angishvona
+Ulyi,Andoza
+Ulli,Katta
 Uloqqon,Telba
-Ulgʻori,"Uzum, gullarning bir tolini erga koʻmib koʻpaytirilgan naxal, 1-3 yildan keyin boshqa joyga koʻchirib ekiladi"
-Umak,Suyakni bir qismi
-Umma,"Suv, bola tilidan"
-Upildirik,"Paxtaning tolasining ipga aylanmaydigan qismi, chiqindisi."
-Urva,Xamir ustiga sepilgan un
-Urdi qochdi,Oʻyin turi
-Uri,Sabzini saqlash uchun kovlangan chuqur
+Umak,Suyak
+Umma,Suv
+Upildirik,Chiqindi
+Urva,Un
+Uri,Chuqur
 Ustar,Stol
 Ustina,Ustiga
-Ut,"Uz (ipni, arqonni)"
+Ut,Uz
 Utik,Dazmol
-Utish,Oʻyinda yutish.
-Utish. Tovuq patini utish.,"Yulmoq, tovuqning patini yulmoq."
+Utish,Yutish
+Utish,Yulmoq
 Uxi,Uyqu
-Uxichi,Xashoratning qishda daraxt tanasiga yopishgan pillasi
 Uchak,Tom
-Uchoyoq,Dalada tarozini osib qoʻyish uchun ishlatiladi.
+Uchoyoq,Tarozi osgich
 Uchor,Uchar baliq
-Uchuq,Husinbuzar
-"Ushat, nonni ushat","Maydala, nonni boʻlib qoʻy"
-Ushatib ber (pulni),Pulni maydalab ber
-Ushitdi,Sovuqdan tanasi sovuqqotib qaltirayapti
+Uchuq,Husnbuzar
+Ushat,Maydala
+Ushitdi,Sovuqqotdi
 Ushoq,Mayda
-Ushoq bola,"Yosh oʻgʻlon, oriq yigit"
-Festivalda Hind raqqosasi “yomon zoʻr” oʻynadi,“Yomon zoʻr” – juda zoʻr manosida
-Xamir qayzoqdi,Salqinda xamirning usti qota boshladi
 Xaris,Koreys
-Xiva langari,Paxlavon Mahmudni Xivaning langari deydilar.
-Xiyli,Oʻzicha mugʻombir odam
-Xilxa,"Aftoda, eskirib ketgan kiyim-kechak"
-"Xirmon,   xira- xirmon",Juda moʻl
-Xodiim,Mahallada toʻy-tomoshalarga aytuvchi ayol
-Xozoris (xozoros),Xozarasp tumani (man xozorisa getdim)
-Xolasa,Xoxlasa
-Xoloqut atib yurmang,Ovora boʻlib yurmang
-Xom,Hayvon terisi
-xom kalla,miyasini ishlatmagan
-Xomm atadi,"Eydi, tishlab oladi, bolalarga aytiladi"
-xomsemiz,semiz odam
-Xonang harob boʻlgʻoy.,Uying kuygay.
-Xonoʻgʻil,"Farzandni sevish, goʻyoki katta boʻlsang xon boʻlasan, deb sevish"
+Xiyli,Mugʻombir
+Xilxa,Eski kiyim
+Xodiim,Aytuvchi ayol
+Xolasa,Xohlasa
+Xom,Teri
+Xomsemiz,Semiz
 Xorvuz,Tarvuz
 Xorovotiy,Qoʻli ochiq
 Xoroz,Tegirmon
-Xtir,"Epchil, qoʻlidan kelmaydigan ish yoʻq."
-Xoʻkki,Bukrilik
-Xoʻkki goʻrda toʻgʻrilanadi,"Bukrilik, odam oʻlgandan keyin goʻrda toʻrgʻrilanadi, aniqrogʻi uni toʻgʻrilab boʻlmaydi deyilganidir"
-Xoʻlpi,"Mos emas, katta, salqi."
-Xumbuzchi,"Xom gʻisht, keramika idishlarni pishiruvchi usta"
-Xumorvoz,"Qoʻchqor, it, xoʻroz urishtirish kabilar bilan shugʻullanadigan odam"
-Xumpak,"Soʻkishni bir turi, aqlsiz manosida."
+Xtr,Epchil
+Xoʻkki,Bukri
+Xumbuzchi,Usta
+Xumorvoz,Ishqiboz
+Xumpak,Aqlsiz
 Xumso,Xunasa
 Xurujli,Gʻayratli
-Xoʻstor- hovondor,"Otalikka olgan, doimo xabar olib turuvchi, gʻamxoʻr shaxs"
 Xusur olish,Oʻch olish
 Xoʻshamat,Maqtov
-Ha oʻlmagaysan,"Ha seni, oʻlmagin bolam, koyishning eng yumshoq turi."
 Hajja,Ganch
-Haji uji,Qoʻlning nomsiz barmogʻi
-Haz,Kayf-safo
-Hazat,Mazza qil
+Haji uji,Nomsiz barmoq
+Haz,Mazza
 Hazatmak,Mazza qilmoq
-Halak boʻlib yurmang,"Avvora boʻlib yurmang, oʻtib ketadi, biron doʻsti kasallanib qolganda ahvoli engil boʻlsada xabar olmoqchi boʻlganga nisbat"
-Halla,"Shogirdlikdan keyin, usta boʻlishdan oldin ishlab beriladigan vazifalarni bajaruvchi. Keyin usta boʻlar ekan."
-Halol,Kurashda halol yutish
-Hammasi bir goʻr,Bir-biridan battar
-Hammol,Biror shaxsni uyida xizmatchi
-Hamola,Goʻyoki unga yoqmasmish
+Halol,Toza yutish
+Hammol,Xizmatchi
 Hanggi,Xotinboz
-Hansirab galdi,Zoʻrgʻa nafas olib keldi
-Hardamxiyol,Hayolparast
-Harrot,"Yogʻochdan beshik, joʻva, oʻqlov va boshqa buyumlarni yasovchi usta"
-"Haftani birinchi, ikkinchi, uchinchi, toʻrtinchi, beshinchi,
-oltinchi, bozor gunlari","Dushanba, seshanba, chorshanba, payshanba, juma, shanba, yakshanba kunlari."
+Hardamxiyol,Xayolparast
+Harrot,Duradgor
 Hiqilloviq,Hiqichoq
 Hovo,Ha
 Hovondor,Gʻamxoʻr
-Holi qol,"Yakka, oʻzing qol"
 Holqo,Sirgʻa
-Hondak,"Chuqurcha, tagidan suv chiqib turadigan ochiq quduq"
+Hondak,Quduq
 Horidim,Charchadim
 Hoso,Hassa
 Hoʻviz,Hovuz
-Hudargan,Xudoybergan
-Hoʻpiqib,Suvdan havo etmay zoʻrgʻa chiqdi
-Hoʻpirdi,"Maqtanchoq, kibrli odam"
-Hoʻppaygan,"Shishgan, toʻlishgan"
-Hoʻppish tovuq,"Qurka, qirgʻovullar oilasiga mansub yirik qush"
-Hoʻsh,"Xayrlashuv, xayr"
-Hoʻshroʻy,"Yoqimli qiyofa, xushroʻy, chiroyli"
-Chaym (yutim),Bir qultum suv
+Hoʻpirdi,Maqtanchoq
+Hoʻppaygan,Shishgan
+Hoʻppish tovuq,Qurka
+Hoʻsh,Xayr
+Hoʻshroʻy,Chiroyli
+Chaym,Yutim
 Chak,Tort
-Chakar,Quduqdan chelakni koʻtarish uchun qoʻyilgan xoda
+Chakar,Xoda
 Chakida,Chakki
-Chakilib oʻtirma,"Mehmonga borganda, uy egasi: mehmon oling oʻz uyingizday his qilib oʻtiring, bemalol, tortinmay olavering."
-Chakish,"Sigareta, papiros chekish"
-Chakmon,"Kurash tushganda kiyiladigan engsiz chakmon, toʻn"
-Chandir,Goʻshtning chaynalmaydigan qismi
+Chakish,Chekish
+Chakmon,Toʻn
+Chandir,Chaynalmaydigan goʻsht
 Chanlab goʻr,Moʻljallab koʻr
 Chapak,Qarsak
 Chapakay,Chapaqay
 Chartak,Bostirma
 Chatildi,Aldandi
-"Chatildi, chatdi","Aldandi, aldanib qoldi, aldadi"
-Chatishtirib yubor,"Aldab yubor, adashtirib qoʻy, chalkashtir"
 Chaya,Qum
 Cheyil,Ajriq
 Cheyna,Chayna
-Chel,Surishdan oldin dalani sugʻorishda olinadigan egat
-"Chesh, chech
-(giyim-ni, duyunni)","Ech (kiyimni, tugunni)"
-Cheshma,"Vaqtinchalik ishlatiladigan, suv chiqquncha kovlangan chuqurcha, ochiq quduq"
-Chiviq,"Choʻp, qurigan daraxt novdasi"
+Chel,Egat
+Chesh,Ech
+Chech,Ech
+Cheshma,Ochiq quduq
+Chiviq,Choʻp
 Chivin,Pashsha
 Chigʻ,Shabnam
 Chigʻi,Mato turi
 Chigʻinish,Kuchanish
-Chiyon,Yomgʻir chuvalchang
-Chizim,"Nozik arqon, chilvir"
-Chizmalama,"Bekorga chizmalama, biron narsaga oʻxshatib chizishni oʻrgan."
+Chiyon,Yomgʻir chuvalchangi
+Chizim,Chilvir
+Chizmalama,Chizma
 Chiyin,Kurmak
 Chiyit,Chigit
-Chiqar (vaqt oʻtib chiqir boʻlgan),"Chigʻiriq, aslida suvni yuqoriga chiqarish manosidan kelib chiqib, chiqar deyilgan"
 Chiqir,Charxpalak
-Chiqqinji,"Chiqim, xarajat"
+Chiqqinji,Xarajat
 Chiqon,Dugona
-Chilib   yubor,Chalib yubor
-Chilib yuvar,Kurashda oyogʻidan ol
-Chilpimoq,Gʻoʻzani chekanka qilmoq
-Chilpoq,Suv ichadigan krujka
+Chilib yubor,Chalib yubor
+Chilpimoq,Chekanka qilmoq
+Chilpoq,Krujka
 Chimitladi,Chimchiladi
-Chimishka,pista
-Chimrilma,Hafa boʻlib betini mujmaytirganga aytiladi
-Chin gʻalaba,Kurashda qabul qilingan halol gʻalaba
-Chingizni qiri,"Rivoyat qilishlaricha, Chingizxon Xorazmga bostirib kelganida hozirgi Pitnak qishlogʻida daryo boʻyida toʻxtab dam oladilar. Askarlarga har biring bir hovuch tuproq keltirib tashlanglar, deb qirni koʻrsatadi. Katta balandlik paydo boʻladi, shu tartibda askarlar soniga baho bergan. Qaytishda ham shu erda toʻxtab askarlarga oldingiday buyruq beradi. Bu galgi tepalik oldingining yarmisidan ham kam boʻladi. Bu juda koʻp askar yoʻqotganidan dalolat. Shu qirlar haligacha mavjud. Ibora piyoda uchun uzoqlik qiluvchi manzilni ifodalaydi."
+Chimishka,Pista
+Chimrilma,Mujmaytirma
+Chin gʻalaba,Halol gʻalaba
 Chingirik,Shakarqamish
 Chiploq,Kambagʻal
-Chirillomo,Boʻlsa-boʻlmasa chinqirama.
+Chirillomo,Chinqirama
 Chirkay,Oqpashsha
-Chirmashgan,Bir-biriga oʻralib ketgan
-Chirmoviq,Begona oʻt turi
-Chitlosh,Chigitni paxtadan ajratish
+Chirmashgan,Oʻralgan
+Chirmoviq,Begona oʻt
+Chitlosh,Chigit ajratish
 Chitmak,Kamon
 Chitnamoq,Chertmoq
 Chitoyi,Nozik tabiat
-Chish atmak,"Kichkina xojatga chikish, bola tilidan"
+Chish atmak,Hojatga chiqish
 Chishdi,Shishdi
-Chishib oʻla,"Balandparvoz boʻlib oʻl, osmondan kelib oʻl"
-"Chishshi atdim (yosh bola
-tilidan)",Siyib qoʻydim
-"Chishshim galdi
-(yosh bola tilidan)",Siygim keldi
+Chishshi atdim,Siyib qoʻydim
 Chiya,Olcha
 Choy,Qirgʻiy
-Choy qoʻyib yubor,Choy ichaylik
-Choqqi,"Pakki, yigʻma pichoq."
+Choqqi,Pakki
 Cholvur,Shim
-Choliqqon,Biron narsadan qoʻrqib kasallangan
-"Cholim beradi. U falonkasga
-cholim beradi.",Oʻxshab ketadi. U falonchiga oʻxshab ketadi.
-"Cholishtirmo
-(fel buyruq m.)",Oyoqni chalishtirib oʻtirma
-Cholov,Palovning bir turi
-Chongoloq,Paxtasi terilgandan keyin qurib qolgan koʻsak.
-Chopishtirish,Ikki suyuqlikni aralashtirish
+Choliqqon,Qoʻrqqan
+Cholov,Palov turi
+Chongoloq,Qurigan koʻsak
+Chopishtirish,Aralashtirish
 Chor,Durang
-Chorvoyi,Baqir-chaqir qiladigan janjalkash odam.
-Chorqot,Sochoqli roʻmol
+Chorvoyi,Janjalkash
+Chorqot,Roʻmol
 Chors,Oʻjar
 Chotloq,Darz ketgan
-Choton,Ikki oyoq orasi
+Choton,Oyoq orasi
 Chosh-posh,Sochib tashlangan
-Choshma,"Oʻylab gapir, jinnilik qilma, valdirama"
-Choʻv,"Chop, maydala, yor, kes"
-Choʻvgʻon,Tutning xom mevasi
-Choʻvit,Eski koʻrpa-toʻshakdan chiqqan paxta
+Choshma,Valdirama
+Choʻv,Chop
+Choʻv,Yor
+Choʻvgʻon,Tutning xomi
+Choʻvit,Eski paxta
 Chuvon,Chipqon
-Choʻkar (choʻngkar),Agʻdar
-Choʻkdi,"Suvda choʻkib ketdi, suv tagidan chiqaolmadi"
-Choʻkitka,"Chigirtka, zararkunanda."
+Choʻkar,Agʻdar
+Choʻkitka,Chigirtka
 Choʻkish,Bolgʻa
-Chuklik,Beshikda ishlatiladigan sumak
-Choʻktirib yuvar,Suvga bosib azobla
+Chuklik,Sumak
 Choʻqqoymo,Gerdayma
-Choʻqmoq,Podachini choʻqmor tayogʻi
+Choʻqmoq,Tayoq
 Chuqoloq,Chuqurcha
-Chullik,Chillak (oʻyin turi)
-Choʻlontoy,"Epsiz, qoʻlidan ish kelmaydigan"
-Choʻloshtirmo,"Bir-biriga aralashtirmay bajar, bahona topma, bajar."
-Choʻlpi,"Suvda qaynagan lagʻmon, chuchvara yoki boshqa bir ovqatni suvdan suzib olish uchun simdan toʻqilgan choʻmich"
-Choʻm,Mashala
-Chumib chiq,Shoʻngʻib chiq
+Chullik,Chillak
+Choʻlontoy,Epsiz
+Choʻlpi,Suzgich
+Choʻm,Mashʼala
 Chumirib sugʻor,Bostirib sugʻor
-Chumirma,Suvga choʻktirib qoʻyma
-Choʻmmiq,Oyoq yoki qoʻlning akashak boʻlishi
+Choʻmmiq,Akashak
 Chummoq,Shoʻngʻimoq
 Choʻngqir,Chuqur
-Chungul,Koʻlni chuqur joyi
-Choʻntiq,"Gapga chechan emas, mutahassislik darajasi past"
-Choʻp-chor,Xas-choʻp chiqindilari
+Chungul,Koʻlning chuquri
+Choʻntiq,Besoʻnaqay
+Choʻp-chor,Chiqindi
 Choʻpla,Terib ol
-Choʻplamak,Terib olmoq
-Choʻppilomo,Choʻppilamay e
-Churik,"Buzilgan, chirigan"
-churri kulok,kulok suprasining juda kichiki
-Churtik,Juda mayda
-Chuta,Sugʻorilmagan ekin maydoni
-Chush pasa (ashaqa tush),Pastga tush
+Choʻppilomo,Shovqin qilma
+Churik,Buzilgan
+Churtik,Mayda
+Chuta,Sugʻorilmagan yer
+Chush pasa,Pastga tush
 Shayton,Iblis
 Shayton arava,Velosiped
-Shakasha,Koʻzaning turi
-Shaqiqa boʻlibdi,Chakkasi uchadigan kasallik
-Shamollab kelaman,Kichik xojat chiqarib kelaman
-Shappik,Har qanday yopishqoq modda (mas. konfet).
-Shappikdin odam,"Oʻta kirishuvchan, uddaburon odam"
+Shakasha,Koʻza turi
+Shappik,Yopishqoq
 Sharava,Namakob
-Shivirgʻoni uzum,Qora kishmish qilinadigan uzum navi
-Shivirdadi,Qulogʻiga pichirladi
-Shivirdap soʻlla,Past ovozda gapir
+Shivirdadi,Pichirladi
 Shigʻir,Arava izi
 Shikirdak,Kekirdak
 Shilta suv,Jiqqa suv
-Shim...,"Bolchingirikni shimib, shirasini hazm qilish"
-Shipirmo,Foyda uchun birovni aldaydigan odam.
-Shirgʻa kal,Boshida ochiq joy qolmagan kal
+Shim,Soʻr
+Shipirmo,Aldoqchi
 Shqop,Shkaf
-Shovot,Tuman va kanalning nomi
-Shoqqillomo,Ogʻzi tinmay gapiradiganlarni toʻxtatish
-Shoqqillosh,Oʻyinda barmoqlarni shaqqillatish
-Shoqoqlomo,"Tinchiysanmi, yoʻqmi"
-Shommirot,"Tirband, bir joyga juda koʻp odam yigʻilgani."
-"Shomollatib qoʻyma, giyimini giyiz","Bolani kiyintirib ol, shamollab qolishi mumkin, koʻcha salqin"
+Shoqqillomo,Koʻp gapirma
+Shommirot,Tirbandlik
+Shomol,Shamal
 Shoppot,Shapoloq
-"Shoppotdin (bola, non)",Yosh bola
 Shorlovuq,Sharshara
-Shoturshutir,"Darrov, tezda."
 Shullik,Zuluk
-Shundin,Xuddi shunday
-Shundinlay borib kelaman,"Boramanu-kelaman, bormasa ham boʻladigan holat, quruq borib, quriq qaytish"
+Shundin,Shunday
 Evon,Ayvon
-Egninga issiroq narsa giy,Koʻcha salqin issiq kiyim kiyib ol
-Eyyom bitdi,Qachon edi bajarilganiga
 Eyin,Egni
-Eyinbosh,Kiyim kechak
+Eyinbosh,Kiyim-kechak
 Eyip,Ayb
 Eylamak,Kechiktirmoq
 Eylanmak,Kechikmoq
-Eypingni yopgʻoy,Aybingni yashirgay (Xudoni oʻzi aybingni kechirsin)
 Elanmak,Yalinmoq
-Elot,Mahallani bir qismi
 Endar,Agʻdar
-Enmak,Bir tarafga ogʻmoq
-Erilma,"Erkalanma, oʻzingdan ketma, suyulma."
+Enmak,Ogʻmoq
+Erilma,Erkalanma
 Eron,Ayron
-Ertang,"Ertanggi kun, ertaga."
-Et (goʻsh),Goʻsht
+Et,Goʻsht
 Etyoji,Mabodo
 Echkamar,Echkemar
-Esh,Ipni eshib ber
-Eshak ori,Qovogʻori
-Eshik,"Uy, hovli oldidagi er, tashqari, koʻchani bir qismi, eshikni supirib qoʻy"
-Eshika chiqib galaman,Xojatga chiqib kelaman
-Eshikochar,Qizning uyida oʻtkaziladigan fotiha toʻyi
-Eshkan,Teriga chiqadigan toshma
-Eshmak,Eshkak bilan suvni eshmoq
-Eshonravot,"Eshonrabot koʻli, ipak yoʻlidagi eshonlar yashaydigan xududdagi rabot koʻli."
+Eshak ori,Qovogʻari
+Eshik,Tashqari
+Eshkan,Toshma
+Eshmak,Eshkak
 Eya,Ega
 Eyalik,Egalik
 Yuvarma,Yuborma
-Yuvoliq,Nishonlaylik
-Yuzi tulumdin boʻldi,Jahli chiqqanidan yuzi qizarib ketdi
-Yuzib bilimman,Suzishni bilmayman
 Yuzik,Uzuk
-Yuziqorachilik,Kimdandir tili qisiq boʻlish
+Yuziqorachilik,Tili qisiqlik
 Yuzum,Uzum
 Yulik,Ilik
-Yumoq,Qizchalarning taroqi saqlanadigan berk idish
+Yumoq,Idish
 Yumuriq,Musht
-Yumurta,Qush tuxumi
-Yurak domor,"Yurak tomiri, koʻk tomir, vena"
-Yurakni qurtini oʻldir,Talab darajasida bajar.
-Yuri,"Yur, ketdik."
-Yuring asa,Yuring (ketdik) boʻlmasam
+Yumurta,Tuxum
+Yurak domor,Vena
+Yuri,Yur
 Yangoriq,Yangiariq
-Yarim oxshom,"Tun, yarim kecha"
-Yarim oʻddiq,"Oltinchi kun, shanba"
-Yasomo gap,"Boʻlmagʻir, oʻylab topilgan gap."
+Yarim oxshom,Tun
+Yarim oʻddiq,Shanba
 Yaxshi,Mayli
-Yaxshidin,Yaxshiga oʻxshaydi
-Yaxshom san bo akansan,Yaxshiyam sen bor ekansan
 Oʻva boramiz,Ovga boramiz
-Oʻvaliq,"Posyolka, odamlar yashaydigan kichik hudud"
-"Oʻvjik(Urganch) (oʻvjik pechene, oʻvjik tarvuz
-magʻzi)",Quruq va tez uviluvchan.
 Oʻvilgan,Maydalangan
 Oʻvich,Hovuch
-"Oʻvishdi, oyoq oʻvishdi.",Uyushdi (oyoq uyushdi)
-"Oʻvli, bu oʻvliroq","Yaxshi, bu yaxshiroq"
-Oʻdin ayrib qoʻy,"Oʻtin maydalab qoʻy, qurigan daraxt novdalarini maydalab qoʻy"
-Oʻdin boʻlgaysan,"Soʻkish turi, oʻtin boʻlsa yoqishga yaraydi"
-Oʻdin qola,Oʻchoqqa oʻtin yoq
-Oʻdin oyir,Oʻtin yor
-Oʻdin supsa,"Oʻtin supirgi, koʻchalarni supirishda ishlatiladigan qoʻpol supirgi"
+Oʻvishdi,Uyushdi
+Oʻdin,Oʻtin
 Oʻjak,Buzoq
 Oʻjoq,Oʻchoq
-Oʻzak domor,"Oʻsimlikning oʻzagi, katta tomiri"
-Oʻzina oniqmi,Turmushga chiqayotgan qizni shunday surishtirishlari mumkin
-Oʻzli oʻzimiz,Begonalar yoʻq
+Oʻzak domor,Tomir
 Oʻy,Uy
 Oʻydaloq,Chuqurcha
-Oʻyilon,"Beozor, uylarda yashaydigan zaharsiz ilon."
+Oʻyilon,Zaharsiz ilon
 Oʻymoq,Angishvona
-Oʻymonmin tez chiq,"Koʻp oʻtirma, tezroq chiq"
-Oʻypanma,Tezroq kel
-Oʻksindi,"Hasrat chekdi, xafa boʻldi."
-"Oʻksirik, oʻskirik",Yoʻtal
+Oʻksindi,Xafa boʻldi
+Oʻksirik,Yoʻtal
 Oʻksirmak,Yoʻtalmoq
 Oʻkcha,Tovon
-Oʻlatizino,Otasi nomalum
 Oʻlyo,Qabriston
-Oʻli-diring yoʻq,"Bormisan, qayerlarda yuribsan?"
-Oʻlimsik ( utik),Ziqna odam
-Oʻlimtik,"Nimjon, koʻrimsiz"
+Oʻlimsik,Ziqna
+Oʻlimtik,Nimjon
 Oʻliyuvgʻichi,Gʻassol
-Oʻltang,Dalaning suv ichmagan joyi
-Oʻgʻlini kasibdi,Oʻgʻlini sunnat qilibdi
+Oʻltang,Sugʻorilmagan yer
 Oʻql uraman,Ukol qilaman
-Oʻma-toʻma,"Butunlay, butkul."
-Oʻmma,Doʻppini tepa qoʻyib kiyish
+Oʻma-toʻma,Butunlay
 Oʻmcha,Qattiq oʻtin
-Oʻngishiq,"Oʻrtacha, qoniqarli holat"
-Oʻngishtir,Qoʻllab yubor (fel buyuruq mayli)
-Oʻngording,"Bajarding, eplading, boplading."
-Oʻp,"Oʻpgin, boʻsa ol"
+Oʻngordi,Bajardi
+Oʻp,Boʻsa ol
 Oʻra,Ustun
-Oʻrmak,"Asosan, gʻisht terishga nisbatan ishlatiladi."
-Oʻroq,"Bugʻdoy, sholi oʻrimi"
-Oʻrpong,Qumloq tuproq
-Oʻrta darak,Qoʻlning oʻrta barmogʻi
-Oʻrtik,Beshik ustiga yopiladigan yopinchiq
-Oʻrtim,Ogʻizini bir marta toʻldirishga etadigan suv
-Oʻrtoq,"Oʻqituvchi, muallim."
+Oʻrmak,Gʻisht terish
+Oʻroq,Oʻrim
+Oʻrpong,Qumloq
+Oʻrta darak,Oʻrta barmoq
+Oʻrtik,Yopinchiq
+Oʻrtoq,Oʻqituvchi
 Oʻsin,Soʻngra
-Oʻsmoq,"Tozalamoq, poʻstini olmoq. Asosan baliq tozalash manosida ishlatilsada, tilib yoki tirnab qonatmoq manosida ham ishlatiladi"
-Oʻsmoqlamin soʻlla,Gapni chaynamay gapir
-Oʻssi vaxda,"Boshqa vaqtda, kerakmas vaqtda qilingan harakat, ish haqida."
-Oʻstirma,Paxtani boʻyiga koʻp oʻstirma
+Oʻsmoq,Tozalamoq
 Oʻt,Oʻtgin
-Oʻt-yuk,"Dazmol, yoshlik chogʻimizdagi dozmollarning ustki qopqogʻi ochilib choʻgʻ (koʻmir yoki oʻtinni choʻgʻi) bilan pastki qismi toʻldirilardi. Choʻgʻning issigʻida dazmolning choʻyandan quyilgan qismi qiziydi, keyin kiyimlar dazmollanadi. Dazmolni, oʻt-yuk deyilishining sababi ham shunda-oʻtni yukla degani. Balki ruschasiga “utyug” shundan kelib chiqqandir."
-Oʻtiribmisan,Oʻtiribsanmi
-Oʻtirishma,"Gap, doʻstlar yigʻini"
-Oʻtistirib qoʻy,Kimligingni koʻrsatib qoʻy
-Oʻtlashdi,"Zoʻraydi, haddidan oshdi"
-Oʻtlashtirmak,"Haddan oshirib yubormoq, yomonlashtirmoq"
-Oʻtogʻ,Dalani begona oʻtdan tozalash
-Oʻxshatip yuvar,Oʻrniga qoʻyib qoʻy. Bir boplab qoʻy
-Oʻch,Ovozingni oʻchir jim boʻl
+Oʻt-yuk,Dazmol
+Oʻtirishma,Gap
+Oʻtlashdi,Zoʻraydi
+Oʻtogʻ,Tozalash
 Oʻchirik,Oʻchirgich
 Oʻchirit,Navbat
-uzbek,xorazm
-jag',angak
-erka,arka
-etik,adik
-o'rik,arik
-qo'l,al
-maqtanchoq,asirak
-1.kelinoyi: 2.behi,biyi
-chuchvara,barak
-choyxo'r,bangi
-xonim,go'zal,bika
-bu yon,bon
-to'ng'illamoq,bidirdamoq
-aloqa,bordi-galdi
-kuchli,botli
-tish,dish
-tepa,dapa
-lab,do'doq
-tomir,domar
-tashqari,deshon
-tirik,diri
-semiz,dobbi
-1.ahmoq; 2.tingan,dingan
-laganbardor,dosmol
-teshik,do'shik
-to'shak,do'shak
-zal,dolon
-tik,dik
-1.go'sht; 2.teri; 3.bajar,et
-mahalla,elot
-suv stakan,sorhum
-qo'ziqorin,zomoriq
-ahmoq,guduk
-kuch,guch
-kelishmoq,galishmoq
-kerak,garak
-kelin,galin
-sabzi,gashir
-kel,gal
-kuyov,guyav
-to'n,guppi
-ket,get
-ko'z,go'z
-ko'rpa,go'rpa
-ko'r,go'r
-chimildiq,go'shanga
-suhbat,gurung
-qo'shiqchi ayol,halpa
-tarvuz,horvuz
-xabar,hovor
-qo'rqoq,hurkak
-yosh bolalar,hakka-jukka
-qiyma,ijjon
-ilmak,ilgak
-yopiq,ilik
-mana,ino
-igna,ina
-mana shu,ishu
-endi,indi
-ichkari,ichon
-paypoq,jo'rrop
-do'st,jo'ro
-lo'li,jo'gi
-maqtanchoq,jo'nqi
-yaxshi,jolli
-mayda jiyda,jigildak
-ketmon,katman
-ko'prik,ko'pir
-kichkina,kichchi
-tipratikan,kirpi
-semiz,lo'ppi
-ochko'z,loqqa
-chiroyli,mo'chchi
-o'rgimchak,mo'jak
-xasis,mita
-danak,mijana
-nima,novvi
-nima qilay,nishatin
-qayerga,nera
-qanday,nichik
-tirgak,ocha
-achchiq,ojji
-sekin,oston
-arava,orva
-qasos,ochuv
-mushuk,pishik
-duo,potya
-gilam,polos
-kichik ko'prik,poyapil
-xafa,po'm
-chumoli,qorinja
-katta qop,qonor
-qovoq,qopoq
-tuxum,yumurta
-aybga buyurma,alashtirma
-to'siq panjara,arganak
-gilos,chiya
-shim,cholvur
-juda,dim
-hazillashmoq,ejashmoq
-eshik,qopi
-gilam,g'o'li
-zerikmoq,zerikish
-qovoq,kadi
-karavot,kat
-baxtiqaro,monloyi qoro
-ho'kizz bolasi,o'jak
-dala,otiz
-ozgina,pitta
-yostiq,taka
-bazm,ziyofat
-tom,uchak
-narsa,vaj
-narvon,zangi
-ariq,zekash
+angak,jagʻ
+arka,erka
+adik,etik
+arik,oʻrik
+al,qoʻl
+asirak,maqtanchoq
+biyi,kelinoyi
+biyi,behi
+barak,chuchvara
+bangi,choyxoʻr
+bika,xonim
+bon,bu yon
+bidirdamoq,toʻngʻillamoq
+bordi-galdi,aloqa
+botli,kuchli
+dish,tish
+dapa,tepa
+doʻdoq,lab
+domar,tomir
+deshon,tashqari
+diri,tirik
+dobbi,semiz
+dingan,ahmoq
+dingan,tingan
+dosmol,laganbardor
+doʻshik,teshik
+doʻshak,toʻshak
+dolon,zal
+dik,tik
+et,goʻsht
+et,bajar
+elot,mahalla
+sorhum,stakan
+zomoriq,qoʻziqorin
+guduk,ahmoq
+guch,kuch
+galishmoq,kelishmoq
+garak,kerak
+galin,kelin
+gashir,sabzi
+gal,kel
+guyav,kuyov
+guppi,toʻn
+get,ket
+goʻz,koʻz
+goʻrpa,koʻrpa
+goʻr,koʻr
+goʻshanga,chimildiq
+gurung,suhbat
+halpa,qoʻshiqchi
+horvuz,tarvuz
+hovor,xabar
+hurkak,qoʻrqoq
+hakka-jukka,yosh bolalar
+ijjon,qiyma
+ilgak,ilmak
+ilik,yopiq
+ino,mana
+ina,igna
+ishu,mana shu
+indi,endi
+ichon,ichkari
+joʻrrop,paypoq
+joʻro,doʻst
+joʻgi,loʻli
+joʻnqi,maqtanchoq
+jolli,yaxshi
+jigildak,jiyda
+katman,ketmon
+koʻpir,koʻprik
+kichchi,kichkina
+kirpi,tipratikan
+loʻppi,semiz
+loqqa,ochkoʻz
+moʻchchi,chiroyli
+moʻjak,oʻrgimchak
+mita,xasis
+mijana,danak
+novvi,nima
+nishatin,nima qilay
+nera,qayerga
+nichik,qanday
+ocha,tirgak
+ojji,achchiq
+oston,sekin
+orva,arava
+ochuv,qasos
+pishik,mushuk
+potya,duo
+polos,gilam
+poyapil,koʻprik
+poʻm,xafa
+qorinja,chumoli
+qonor,qop
+qopoq,qovoq
+yumurta,tuxum
+alashtirma,ayblama
+arganak,toʻsiq
+chiya,gilos
+cholvur,shim
+dim,juda
+ejashmoq,hazillashmoq
+qopi,eshik
+gʻoʻli,gilam
+ich qismoq,zerikmoq
+kadi,qovoq
+kat,karavot
+monloyi qoro,baxtiqaro
+oʻjak,buzoq
+otiz,dala
+pitta,ozgina
+taka,yostiq
+tashkil,bazm
+uchak,tom
+vaj,narsa
+zangi,narvon
+zekash,ariq

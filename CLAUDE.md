@@ -17,7 +17,7 @@ static/
   script.js         – Frontend: debounced fetch to /api/translate, copy/clear buttons
   style.css         – Responsive CSS (mobile breakpoint at 640px)
 data/
-  output.csv        – Birlashtirilgan lug'at (~3486 yozuv, Title/Meaning ustunlari)
+  output.csv        – Birlashtirilgan lugʻat (~3486 yozuv, Title/Meaning ustunlari)
 deploy/
   deploy.sh                     – Server setup script (Gunicorn + Nginx)
   server-info.md                – Server credentials (gitignored)
@@ -30,7 +30,7 @@ deploy/
 
 ## Dictionary
 
-`data/output.csv` — birlashtirilgan lug'at (scraper + Excel manbalardan). `Title` va `Meaning` ustunlari. Kirill va Lotin aralash — `translator.py` yuklaganda hammasini Lotinga o'giradi.
+`data/output.csv` — birlashtirilgan lugʻat (scraper + Excel manbalardan). `Title` va `Meaning` ustunlari. Kirill va Lotin aralash — `translator.py` yuklaganda hammasini Lotinga oʻgiradi.
 
 ## Translation Engine (translator.py)
 

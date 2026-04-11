@@ -1,5 +1,5 @@
 """
-data/output.csv lug'atini tozalash va standartlashtirish skripti.
+data/output.csv lugʻatini tozalash va standartlashtirish skripti.
 Natija: data/output_clean.csv
 """
 
@@ -14,7 +14,7 @@ from translator import translit_map
 
 
 
-# translit_map da yo'q, lekin CSV da uchraydigan qo'shimcha Kirill harflari
+# translit_map da yoʻq, lekin CSV da uchraydigan qoʻshimcha Kirill harflari
 extra_translit = {
     "ы": "i",
     "Ы": "I",
@@ -26,7 +26,7 @@ _full_map = {**translit_map, **extra_translit}
 
 
 def transliterate(text: str) -> str:
-    """Kirill → Lotin transliteratsiya. Allaqachon Lotinda bo'lgan belgilar o'zgarmaydi."""
+    """Kirill → Lotin transliteratsiya. Allaqachon Lotinda boʻlgan belgilar oʻzgarmaydi."""
     return "".join(_full_map.get(ch, ch) for ch in text)
 
 
@@ -35,7 +35,7 @@ def has_cyrillic(text: str) -> bool:
     return bool(re.search(r"[А-Яа-яЁёЎўҚқҒғҲҳыЫңҢ]", text))
 
 
-# Geografik izohlar — o'chirilishi kerak
+# Geografik izohlar — oʻchirilishi kerak
 GEO_PATTERNS = [
     r"\bmahalla\s+nomi\b",
     r"\bqishloq\s+nomi\b",
@@ -66,7 +66,7 @@ def is_geo_annotation(text: str) -> bool:
 def clean_numbered(text: str) -> str:
     """
     Raqam bilan boshlangan matndan faqat birinchi qismni oladi.
-    "1. Chiqindi suv ketadigan chuqurcha. 2. O'tgan davr..." → "Chiqindi suv ketadigan chuqurcha"
+    "1. Chiqindi suv ketadigan chuqurcha. 2. Oʻtgan davr..." → "Chiqindi suv ketadigan chuqurcha"
     "1. buzuq. Fohisha" → "buzuq"
     """
     # "1. matn" shaklini tekshirish
@@ -86,7 +86,7 @@ def clean_numbered(text: str) -> str:
 
 def should_filter_long(text: str) -> bool:
     """
-    6 so'zdan uzun VA verguldan oldingi qism ham 3 so'zdan uzun — o'chirish.
+    6 soʻzdan uzun VA verguldan oldingi qism ham 3 soʻzdan uzun — oʻchirish.
     """
     words = text.split()
     if len(words) <= 6:
@@ -105,7 +105,7 @@ def should_filter_long(text: str) -> bool:
 def extract_short_meaning(text: str) -> str | None:
     """
     Uzun izohdan qisqa tarjimani ajratib oladi.
-    Agar matn 6 so'zdan uzun bo'lsa, verguldan/nuqtadan oldingi <=3 so'zlik qismni oladi.
+    Agar matn 6 soʻzdan uzun boʻlsa, verguldan/nuqtadan oldingi <=3 soʻzlik qismni oladi.
     """
     words = text.split()
     if len(words) <= 6:
@@ -134,15 +134,15 @@ def clean_row(title: str, meaning: str) -> tuple[str | None, str | None, str]:
     if has_cyrillic(meaning):
         meaning = transliterate(meaning)
 
-    # Bo'sh joy tozalash
+    # Boʻsh joy tozalash
     title = title.strip()
     meaning = meaning.strip()
 
-    # 2. "Mavjud emas", "nan" kabi qiymatlarni o'chirish
+    # 2. "Mavjud emas", "nan" kabi qiymatlarni oʻchirish
     if meaning.lower().strip() in SKIP_VALUES:
         return None, None, "deleted"
 
-    # 3. Geografik izohlarni o'chirish
+    # 3. Geografik izohlarni oʻchirish
     if is_geo_annotation(meaning):
         return None, None, "deleted"
 
@@ -159,7 +159,7 @@ def clean_row(title: str, meaning: str) -> tuple[str | None, str | None, str]:
         else:
             return None, None, "deleted"
 
-    # 6. Tozalangan ma'no bo'sh bo'lsa — o'chirish
+    # 6. Tozalangan ma'no boʻsh boʻlsa — oʻchirish
     if not meaning.strip():
         return None, None, "deleted"
 
@@ -190,7 +190,7 @@ def main():
                 deleted += 1
                 continue
 
-            # Transliteratsiya sodir bo'lganini aniqlash
+            # Transliteratsiya sodir boʻlganini aniqlash
             had_cyrillic = has_cyrillic(raw_title) or has_cyrillic(raw_meaning)
 
             clean_title, clean_meaning, action = clean_row(raw_title, raw_meaning)
@@ -202,7 +202,7 @@ def main():
             if had_cyrillic:
                 transliterated += 1
                 if action == "kept":
-                    action = "modified"  # transliteratsiya ham o'zgarish
+                    action = "modified"  # transliteratsiya ham oʻzgarish
 
             if action == "modified":
                 modified += 1
@@ -219,13 +219,13 @@ def main():
 
     # Hisobot
     print("=" * 50)
-    print("Lug'at tozalash hisoboti")
+    print("Lugʻat tozalash hisoboti")
     print("=" * 50)
     print(f"Jami qatorlar:          {total}")
-    print(f"Saqlangan (o'zgarmagan): {kept}")
-    print(f"O'zgartirilgan:         {modified}")
+    print(f"Saqlangan (oʻzgarmagan): {kept}")
+    print(f"Oʻzgartirilgan:         {modified}")
     print(f"  - Transliteratsiya:   {transliterated}")
-    print(f"O'chirilgan:            {deleted}")
+    print(f"Oʻchirilgan:            {deleted}")
     print(f"Natija fayl:            {len(rows_out)} qator")
     print(f"Saqlangan joy:          {output_path}")
     print("=" * 50)
