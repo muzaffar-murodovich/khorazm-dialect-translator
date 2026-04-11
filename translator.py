@@ -491,7 +491,7 @@ def translate(
 # 8. Lugʻatni bir marta yuklash
 # ---------------------------------------------------------------------------
 _BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-_CSV_PATH = os.path.join(_BASE_DIR, "data", "output.csv")
+_CSV_PATH = os.path.join(_BASE_DIR, "data", "output_clean.csv")
 
 single_dict, phrase_dict = load_dictionary(_CSV_PATH)
 DICT_SIZE = len(single_dict) + len(phrase_dict)
