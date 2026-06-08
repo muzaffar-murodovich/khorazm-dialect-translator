@@ -58,12 +58,12 @@ VERB_SUFFIX_MAP: dict[str, str] = {
     # Hozirgi-kelasi zamon
     "avdir":    "yotir",     # kelayotir (davomiy)
     "adir":     "yotir",
-    "aman":     "moqman",    # 1-shaxs birlik
-    "asan":     "moqsan",    # 2-shaxs birlik
-    "amiz":     "moqmiz",    # 1-shaxs koʻplik
-    "asiz":     "moqsiz",    # 2-shaxs koʻplik
-    "alar":     "moqdalar",  # 3-shaxs koʻplik
-    "adi":      "moqda",     # 3-shaxs birlik
+    "aman":     "aman",    # 1-shaxs birlik
+    "asan":     "asan",    # 2-shaxs birlik
+    "amiz":     "amiz",    # 1-shaxs koʻplik
+    "asiz":     "asiz",    # 2-shaxs koʻplik
+    "alar":     "adalar",  # 3-shaxs koʻplik
+    "adi":      "ada",     # 3-shaxs birlik
     # Oʻtgan zamon
     "dilar":    "dilar",
     "ding":     "ding",
