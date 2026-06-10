@@ -124,9 +124,6 @@ VERB_ROOT_MAP: dict[str, str] = {
     "dushiq":   "duch kel",  # dushiqmaq → duch kelmoq
     "dөn":      "ayni",      # donmak → aynimoq
     "dөrәt":    "yarat",     # doratmak → yaratmoq
-    "dөv":      "tuy",       # dovmak → tuymoq
-    "gүdүrlә":  "guldira",   # gudurlamak → guldiramoq
-    "gүlisha":  "kulish",    # gulishamak → kulishmoq
     "gөy":      "kuy",       # goymak → kuymoq
     "kәp":      "quri",      # kapmak → qurimoq
     "kәvi":     "qaqra",     # kavimak → qaqramoq
@@ -140,13 +137,6 @@ VERB_ROOT_MAP: dict[str, str] = {
     "say":      "sava",      # saymaq → savamoq
     "saz":      "oz",        # sazmaq → ozmoq
     "suvar":    "sugor",     # suvarmaq → sugʻormoq
-    "sүmür":    "shimir",    # sumurмак → shimirmoq
-    "sүndik":   "kokil",     # sundikmak → koʻkilmoq
-    "sүrrә":    "sudra",     # surramak → sudramoq
-    "sүy":      "sev",       # suymak → sevmoq
-    "sүyrә":    "sudra",     # suyrамак → sudramoq
-    "sөv":      "sev",       # sovmak → sevmoq
-    "sөvүn":    "suyun",     # sovunmak → suyunmoq
     "sөylә":    "sozla",     # soylamas → sozlamoq
     "yagla":    "yigla",     # yaglamaq → yigʻlamoq
     "yagna":    "yig",       # yagnamaq → yigʻmoq
@@ -176,10 +166,6 @@ VERB_ROOT_MAP: dict[str, str] = {
     "yili":     "jil",       # yilimak → jilmoq
     "yiq":      "yiqit",     # yiqmaq → yiqitmoq
     "yuvan":    "yupan",     # yuvanmaq → yupanmoq
-    "yүqlә":    "rivojlan",  # yuqlamas → rivojlanmoq
-    "yүri":     "yur",       # yurimas → yurmoq
-    "yүyir":    "yugur",     # yuyirmas → yugurmoq
-    "yүzikish": "uchrash",   # yuzikishmak → uchrashmoq
 }
 
 
