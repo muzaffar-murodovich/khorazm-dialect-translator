@@ -197,6 +197,14 @@ def _normalize(word: str) -> str:
     return word.translate(table)
 
 
+def _normalize_apostrophe(text: str) -> str:
+    """
+    Barcha apostrof variantlarini standart ʻ (U+02BB) ga oʻgiradi.
+    ' (U+0027), ʼ (U+02BC) → ʻ (U+02BB)
+    """
+    return text.replace("'", "ʻ").replace("ʼ", "ʻ")
+
+
 def strip_verb_suffix(word: str) -> tuple[str, str] | tuple[None, None]:
     """
     Soʻzdan sheva fe'l suffiksini ajratadi.
@@ -315,7 +323,7 @@ def load_dictionary(csv_path: str) -> tuple[dict, dict]:
             if not short:
                 continue
 
-            key = title_lat.lower().strip()
+            key = _normalize_apostrophe(title_lat.lower().strip())
             _insert_into_dicts(key, short, single_dict, phrase_dict)
 
     return single_dict, phrase_dict
@@ -346,7 +354,7 @@ def load_fromexcel(csv_path: str, single_dict: dict, phrase_dict: dict) -> int:
             if not short:
                 continue
 
-            key = re.sub(r"\s+", " ", dialect.lower().strip())
+            key = _normalize_apostrophe(re.sub(r"\s+", " ", dialect.lower().strip()))
             _insert_into_dicts(key, short, single_dict, phrase_dict)
             added += 1
 
@@ -374,7 +382,7 @@ def _strip_suffix(word: str) -> list[tuple[str, str]]:
     Qaytaradi: [(ildiz, qoʻshimcha), ...]
     """
     candidates = []
-    lower = word.lower()
+    lower = _normalize_apostrophe(word.lower())
     for suffix in SUFFIXES:
         if lower.endswith(suffix) and len(lower) > len(suffix) + 2:
             root = lower[: -len(suffix)]
@@ -429,7 +437,7 @@ def translate(
             continue
 
         total_words += 1
-        token_lower = token.lower()
+        token_lower = _normalize_apostrophe(token.lower())
 
         # --- 1. Koʻp soʻzli iboralar (3 va 2 soʻz) ---
         found_phrase = False
@@ -439,7 +447,7 @@ def translate(
                 phrase_tokens = tokens[i:end_idx]
                 phrase_words = [t for t in phrase_tokens if re.search(r"\w", t)]
                 if len(phrase_words) == phrase_len:
-                    phrase_key = " ".join(w.lower() for w in phrase_words)
+                    phrase_key = _normalize_apostrophe(" ".join(w.lower() for w in phrase_words))
                     if phrase_key in phrase_dict:
                         replacement = _match_case(phrase_words[0], phrase_dict[phrase_key])
                         result.append(replacement)
